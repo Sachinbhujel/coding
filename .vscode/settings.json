@@ -1,5 +1,7 @@
 {
     "workbench.colorTheme": "Dracula",
-    "editor.fontSize": 17,
-    "terminal.integrated.fontSize": 14
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 14,
+    "liveServer.settings.port": 5500,
+    "editor.wordWrap": "on"
 }
