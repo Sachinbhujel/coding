@@ -1,47 +1,83 @@
-.upper{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .upper img{
-    width: 50px;
-  }
-  
-  .both p{
-    margin-top: -20px;
-    margin-left: :-30px;
-  }
+.upper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
 
-  .upper input{
-    font-size: 23px;
-    border: 2px solid;
-    margin-left: -20px;
-  }
+.upper img {
+	width: 50px;
+}
 
-  h1{
-    font-size: 40px;
-    margin-top: -2px;
-    margin-left: :-20px;
-  }
+.both p {
+	margin-top: -20px;
+	margin-left: :-30px;
+}
 
-  .upper a{
-    font-size: 20px;
-    text-decoration: none;
-  }
-  
-  .middle{
-    background-color: silver;
+.upper input {
+	font-size: 23px;
+	border: 2px solid;
+	margin-left: -20px;
+}
+
+h1 {
+	font-size: 40px;
+	margin-top: -2px;
+	margin-left: :-20px;
+}
+
+.upper a {
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.first-middle {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: -30px;
+	margin-top: 60px;
+}
+
+.first-middle h3 {
+	font-size: 18px;
+}
+
+.first {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 15px;
+}
+
+.first h3 {
+	padding: 10px;
+}
+
+.second {
+	display: flex;
+	align-items: center;
+	margin-right: 15px;
+	justify-content: space-between;
+}
+
+.second h3 {
+	padding: 10px;
+}
+
+hr {
+	margin-top: -10px;
+}
+
+.middle {
+    background-color: seashell;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.middle h1 {
     text-align: center;
-    margin-top: 100px;
-    border-radius: 20px;
-    padding: 20px 30px;
-  }
+}
 
-  .middle h1{
-    font-size: 25px;
-  }
-
-  .middle p{
-    font-size: 16px;
-  }
+.middle p {
+    text-align: center;
+}
