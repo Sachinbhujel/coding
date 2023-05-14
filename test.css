@@ -1,3 +1,7 @@
+.container {
+    margin: 10px;
+}
+
 .upper {
 	display: flex;
 	align-items: center;
@@ -72,6 +76,7 @@ hr {
     background-color: seashell;
     margin-top: 30px;
     border-radius: 4px;
+    padding: : 10px 30px;
 }
 
 .middle h1 {
@@ -80,4 +85,43 @@ hr {
 
 .middle p {
     text-align: center;
+}
+
+.left h1 {
+    font-size: 28px;
+}
+
+.pic img {
+    width: 120px;
+    height: 180px;
+}
+
+.pic p {
+    margin-top: -4px;
+}
+
+.bio p {
+    max-width: 300px;
+    min-width: 200px;
+    margin-left: 150px;
+    margin-top: -240px;
+}
+
+.right h1 {
+    font-size: 28px;
+}
+
+.pic2 img {
+    width: 120px;
+    height: 180px;
+}
+
+.pic p {
+    margin-top: ;
+}
+
+.both-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
