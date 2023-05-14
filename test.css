@@ -19,7 +19,7 @@
 
 .upper input {
 	font-size: 23px;
-	border: 2px solid;
+	border: 1px solid;
 	margin-left: -20px;
 }
 
@@ -89,6 +89,8 @@ hr {
 
 .left h1 {
     font-size: 28px;
+    background-color: lightgreen;
+    padding-left: 10px;
 }
 
 .pic img {
@@ -109,6 +111,8 @@ hr {
 
 .right h1 {
     font-size: 28px;
+    background-color: coral;
+    padding-left: 10px;
 }
 
 .pic2 img {
