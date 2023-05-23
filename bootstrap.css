@@ -34,3 +34,28 @@
 p {
 	color: black;
 }
+
+.container{
+	margin-top: -50px;
+}
+
+.lead2 {
+	color: black;
+}
+
+.profile-img {
+	border-radius: 50%;
+	height: 100px;
+}
+
+.container2 {
+	margin-top: -70px;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	position: relative;
+}
+
+.middle {
+	margin-top: -200px;
+}

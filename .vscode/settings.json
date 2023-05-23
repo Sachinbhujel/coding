@@ -2,6 +2,6 @@
     "workbench.colorTheme": "Dracula",
     "editor.fontSize": 16,
     "terminal.integrated.fontSize": 14,
-    "liveServer.settings.port": 5500,
+    "liveServer.settings.port": 5501,
     "editor.wordWrap": "on"
 }
