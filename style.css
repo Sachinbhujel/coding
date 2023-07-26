@@ -28,3 +28,25 @@
     font-size: 20px;
     color: black;
 }
+
+.signup_links{
+    display: flex;
+}
+
+.sign_in{
+    display: flex;
+}
+
+.sign_in img{
+    width: 40px;
+    height: 40px;
+}
+
+.rewards_in{
+    display: flex;
+}
+
+.rewards_in img{
+    width: 40px;
+    height: 40px;
+}
