@@ -96,3 +96,15 @@ body{
     position: relative;
     top: -9px;
 }
+
+.search_engine{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_engine input{
+    font-size: 50px;
+    border-radius: 30px;
+}
