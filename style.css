@@ -105,6 +105,16 @@ body{
 }
 
 .search_engine input{
-    font-size: 50px;
+    font-size: 30px;
+    width: 60%;
+    text-align: left;
+    height: 30%;
     border-radius: 30px;
 }
+
+.search_engine span{
+    position: relative;
+    left: -42px;
+    font-size: 34px;
+}
+
