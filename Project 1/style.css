@@ -190,7 +190,9 @@ body{
 }
 
 .box_div2 p{
+    padding: 20px;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .btn2 button{
@@ -201,5 +203,5 @@ body{
   text-align: center;
   font-size: 16px;
   border-radius: 3px;
-  margin: 20px 2px;
+  margin: 5px 2px;
 }
