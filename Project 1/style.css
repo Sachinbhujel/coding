@@ -4,7 +4,7 @@
 }
 
 body{
-    background-image: url("https://www.bing.com/th?id=OHR.SanBlasIslands_EN-IN1833598197_UHD.jpg&w=3840&h=2160&c=8&rs=1&o=3&r=0");
+    background-image: url("https://images.pexels.com/photos/281260/pexels-photo-281260.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
     width: 100%;
     height: 100vh;
     background-position: center;
@@ -51,7 +51,6 @@ body{
     font-size: 19px;
     color: black;
     margin-left: 30px;
-    color: white;
 }
 
 .dot{
@@ -72,7 +71,7 @@ body{
 .sign_in img{
     width: 40px;
     height: 40px;
-    margin-left: 5px;
+    margin-left: 14px;
     position: relative;
     top: -5px;
 }
@@ -82,10 +81,16 @@ body{
     margin-left: 20px;
 }
 
+.signup_links h2{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
 .signUp_in img{
     width: 40px;
     height: 40px;
-    margin-left: 5px;
+    border-radius: 30px;
+    margin-left: 14px;
     position: relative;
     top: -5px;
 }
@@ -105,11 +110,11 @@ body{
 }
 
 .search_engine input{
-    font-size: 30px;
-    width: 60%;
+    font-size: 20px;
+    width: 59%;
     border: none;
     text-align: center;
-    height: 30%;
+    height: 28%;
     border-radius: 30px;
 }
 
@@ -192,7 +197,6 @@ body{
 .box_div2 p{
     padding: 20px;
     font-size: 20px;
-    font-weight: bold;
 }
 
 .btn2 button{
