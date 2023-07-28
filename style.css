@@ -118,3 +118,12 @@ body{
     left: 50px;
 }
 
+
+.box_detail{
+    height: 30vh;
+    width: 40%;
+    background-color: coral;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
