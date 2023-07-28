@@ -107,14 +107,14 @@ body{
 .search_engine input{
     font-size: 30px;
     width: 60%;
-    text-align: left;
+    text-align: center;
     height: 30%;
     border-radius: 30px;
 }
 
-.search_engine span{
-    position: relative;
-    left: -42px;
+.search_engine .material-icons{
     font-size: 34px;
+    position: relative;
+    left: 50px;
 }
 
