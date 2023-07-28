@@ -151,7 +151,7 @@ body{
 }
 
 .btn button{
-  background-color: #f4511e;
+  background-color: black;
   border: none;
   color: white;
   padding: 10px 28px;
@@ -162,8 +162,9 @@ body{
 }
 
 
-.box_detail{
+.box_detail2{
     height: 25vh;
+    display: none;
     width: 40%;
     text-align: center;
     border-radius: 20px;
@@ -193,7 +194,7 @@ body{
 }
 
 .btn2 button{
-  background-color: #f4511e;
+  background-color: black;
   border: none;
   color: white;
   padding: 10px 28px;
