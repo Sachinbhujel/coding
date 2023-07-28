@@ -48,7 +48,7 @@ body{
 .text_links li a{
     text-decoration: none;
     font-size: 19px;
-    color: black;
+    color: white;
     margin-left: 30px;
 }
 
@@ -95,7 +95,7 @@ body{
 }
 
 .home span{
-    margin-left: 40px;
+    margin-left: 30px;
     font-size: 50px;
     position: relative;
     top: -9px;
@@ -195,6 +195,7 @@ body{
 
 .box_div2 p{
     padding: 20px;
+    color: black;
     font-size: 20px;
 }
 
@@ -212,6 +213,7 @@ body{
 .lower{
     display: flex;
     align-items: center;
+    color: white;
     justify-content: center;
 }
 
