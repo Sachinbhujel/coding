@@ -209,3 +209,18 @@ body{
   border-radius: 3px;
   margin: 5px 2px;
 }
+
+.lower{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lan{
+    display: flex;
+}
+
+.lan h2, p{
+    font-size: 15px;
+    padding: 10px;
+}
