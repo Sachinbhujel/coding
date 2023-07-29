@@ -85,6 +85,11 @@ body{
     margin-left: 20px;
 }
 
+.signUp_in a{
+    text-decoration: none;
+    color: white;
+}
+
 .signup_links h2{
     font-size: 18px;
     margin-top: 5px;
