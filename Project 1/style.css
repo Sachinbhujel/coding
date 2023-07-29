@@ -70,9 +70,14 @@ body{
 .sign_in img{
     width: 40px;
     height: 40px;
+    border-radius: 30px;
     margin-left: 14px;
     position: relative;
     top: -5px;
+}
+
+.sign_in img:hover{
+    border: 1px solid black;
 }
 
 .signUp_in{
@@ -92,6 +97,10 @@ body{
     margin-left: 14px;
     position: relative;
     top: -5px;
+}
+
+.signUp_in img:hover{
+    border: 1px solid black;
 }
 
 .home span{
@@ -169,7 +178,6 @@ body{
     color: white;
     text-decoration: none;
 }
-
 
 .box_detail2{
     height: 25vh;
