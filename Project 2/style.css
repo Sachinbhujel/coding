@@ -32,34 +32,37 @@ body{
   
   .middle img{
     width: 100%;
-    background-position: cover;
+  }
+
+  .middle img:hover{
+    border: 1px solid white;
   }
   
   .top .title{
-    margin-top: -150px;
-    color: white;
-    margin-left: 20px;
-    font-size: 29px;
+    margin-top: -30%;
+    color: black;
+    margin-left: 70%;
+    font-size: 39px;
   }
   
   .middle button{
     color: black;
     background-color: white;
     list-style: none;
-    font-size: 26px;
+    font-size: 30px;
     border-radius: 4px;
-    margin-left: 12px;
-    margin-top: -40px;
+    margin-left: 74%;
+    margin-top: -10px;
     width: 180px;
   }
   
   .watch img{
-    width: 20px;
-    margin-left: -142px;
+    width: 23px;
+    margin-left: -148px;
   }
   
   .header{
-    margin-top: 40px;
+    margin-top: 18%;
     color: white;
   }
   
@@ -69,6 +72,10 @@ body{
     width: 140px;
     border-radius: 4px;
     margin-top: 5px;
+  }
+
+  .lower img:hover{
+    border: 1px solid white;
   }
   
   .lower h1{
