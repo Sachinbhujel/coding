@@ -33,6 +33,11 @@ body{
     margin-left: 7px;
 }
 
+.logo a{
+    text-decoration: none;
+    color: white;
+}
+
 .text_links{
     display: flex;
     margin-left: 32px;
@@ -252,5 +257,10 @@ body{
 .left_sign{
     margin-left: -90%;
     margin-top: -8%;
+}
+
+.btn2 a{
+    color: white;
+    text-decoration: none;
 }
 
