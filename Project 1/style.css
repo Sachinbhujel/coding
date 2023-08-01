@@ -245,5 +245,12 @@ body{
 }
 
 .sign{
-    display: inline-flex;
+    margin-left: 93%;
+    margin-top: -6.7%;
+}
+
+.left_sign{
+    margin-left: -90%;
+    margin-top: -8%;
+
 }
