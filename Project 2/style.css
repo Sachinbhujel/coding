@@ -1,85 +1,79 @@
-body{
-    background-color: black;
-  }
-  
-  .navbar{
-    display: flex;
-    position: fixed;
-    width: 100%;
-    background-color: black;
-    margin-top: -10px; 
-    align-items: center;
-  }
-  
-  .navbar img{
-    width: 80px;
-    padding: 0px;
-    background-color: black;
-  }
-  
-  .navbar ul{ 
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    width: 400px;
-  }
-  
-  .navbar ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-  }
-  
-  .middle img{
-    width: 100%;
-  }
+*{
+  margin: 0;
+}
 
-  .middle img:hover{
-    border: 1px solid white;
-  }
-  
-  .top .title{
-    margin-top: -30%;
-    color: black;
-    margin-left: 70%;
-    font-size: 39px;
-  }
-  
-  .middle button{
-    color: black;
-    background-color: white;
-    list-style: none;
-    font-size: 30px;
-    border-radius: 4px;
-    margin-left: 74%;
-    margin-top: -10px;
-    width: 180px;
-  }
-  
-  .watch img{
-    width: 23px;
-    margin-left: -148px;
-  }
-  
-  .header{
-    margin-top: 18%;
-    color: white;
-  }
-  
-  .lower img{
-    height: 210px;
-    margin-left: 7px;
-    width: 140px;
-    border-radius: 4px;
-    margin-top: 5px;
-  }
+.navBar{
+  background-color: black;
+}
 
-  .lower img:hover{
-    border: 1px solid white;
-  }
-  
-  .lower h1{
-    Color: white;
-  }
+.navBar img{
+  width: 40px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 6px;
+}
 
-  
+.navBar li{
+  list-style: none;
+  font-size: 30px;
+  padding-left: 30px;
+  color: white;
+  margin-top: -49px;
+}
+
+.title{
+  display: flex;
+  margin-left: 60px;
+}
+
+.middle{
+  display: flex;
+  margin: 20px;
+}
+
+.middle div{
+  margin: 5px;
+  width: 160px;
+  height: 230px;
+  border: 2px solid black;
+}
+
+.bigOne{
+  margin: 20px;
+  text-align: center;
+}
+
+.lightblue{
+  height: 500px;
+  border: solid 1px black;
+  background-color: lightblue;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.red{
+  background-color: red;
+}
+
+.pink{
+  background-color: pink;
+}
+
+.blue{
+  background-color: blue;
+}
+
+.black{
+  background-color: black;
+}
+
+.purple{
+  background-color: purple;
+}
+
+.coral{
+  background-color: coral;
+}
+
