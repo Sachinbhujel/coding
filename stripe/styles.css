@@ -5,7 +5,7 @@
 }
 
 .fPage{
-    background: linear-gradient(45deg, red, yellow);
+    background-color: coral;
     height: 600px;
 }
 
@@ -43,6 +43,7 @@ ul li a{
 .nav-right{
     display: flex;
 }
+
 
 .nav-right h2{
     padding: 13px;
