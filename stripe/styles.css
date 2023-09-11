@@ -4,8 +4,8 @@
     font-family: sans-serif;
 }
 
-.fPage{
-    background: linear-gradient(45deg, red, yellow);
+body{
+    background: linear-gradient(120deg, Violet, Tomato);
 }
 
 .nav{
@@ -59,6 +59,22 @@ ul li a{
     color: white;
     font-size: 14px;
     width: 100px;
-    height: 30px;
+    height: 36px;
     border-radius: 99px;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-left h1{
+    font-size: 5rem;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.middle img{
+    width: 30%;
+    height: 50vw;
 }
