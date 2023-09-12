@@ -4,7 +4,7 @@ var colors = document.getElementsByClassName("colors");
 
 
 function changeColor(){
-    var randomNumber = randomColor();
+    var randomNumber = randomColor();console.log(randomNumber);
     document.body.style.background = color[randomNumber];
     colors.innerHTML = color[number];
 }
