@@ -1,7 +1,14 @@
 var color = ["red", "blue", "green", "coral", "pink", "purple"]
 var btn = document.getElementById("btn");
-var color = document.getElementsByClassName("colors");
+var colors = document.getElementsByClassName("colors");
 
 
-function click(){
+function changeColor(){
+    var randomNumber = randomColor();
+    document.body.style.background = color[randomNumber];
+    colors.innerHTML = color[number];
+}
+
+function randomColor(){
+    return Math.floor(Math.random() * color.length);
 }
