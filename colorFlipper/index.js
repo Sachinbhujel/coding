@@ -1,3 +1,5 @@
+console.log(1)
+
 var color = ["red", "blue", "green", "coral", "pink", "purple"]
 var btn = document.getElementById("btn");
 var colors = document.getElementsByClassName("colors");
