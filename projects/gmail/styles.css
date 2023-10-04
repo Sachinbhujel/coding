@@ -19,7 +19,7 @@ body {
   align-items: center;
   display: flex;
   background: #303030;
-  height: 8vw;
+  height: 7vw;
 }
 
 .search-input input {
@@ -28,7 +28,7 @@ body {
   font-size: 15px;
   background: #303030;
   outline: none;
-  height: 8vw;
+  height: 7vw;
 }
 
 .header {
@@ -61,15 +61,15 @@ body {
 }
 
 .section p {
-  font-size: 12px;
+  font-size: 15px;
   margin-top: 20px;
-  margin-left: 8px;
+  margin-left: 10px;
   color: white;
 }
 
 .email-body {
   color: grey;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .logo img {
@@ -82,16 +82,16 @@ body {
 }
 
 .email-date h3 {
-  font-size: 12px;
+  font-size: 16px;
 }
 
-@media(min-width:450px){
+@media(min-width:480px){
   body{
     background: black;
   }
 
   .search-input{
-    width: 60%;
+    width: 50%;
     height: 3vw;
   }
 
@@ -106,7 +106,7 @@ body {
   }
 
   .email-body {
-  font-size: 18px;
+  font-size: 17px;
   }
 
   .email-date h3 {
@@ -118,8 +118,8 @@ body {
   }
 
   .emailAll{
-    padding-left: 202px;
-    padding-right: 202px;
+    padding-left: 252px;
+    padding-right: 252px;
   }
   
 }
