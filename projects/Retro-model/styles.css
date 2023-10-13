@@ -1,0 +1,67 @@
+body{
+  background-image: linear-gradient(to left, grey, lightblue);
+}
+
+.main{
+  border-radius: 10px;
+  background: white;
+  width: 90%;
+  height: 60vh;
+  margin: 110px auto;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  color: grey;
+}
+
+hr{
+  width: 95%;
+  margin-top: -15px;
+}
+
+.body{
+  text-align: center;
+}
+
+.message .seen-message{
+  font-size: 60px;
+}
+
+.info{
+  margin-top: -14px;
+}
+
+.info p{
+  color: dodgerblue;
+  font-size: 19px;
+}
+
+.about p{
+  color: silver;
+  font-size: 17px;
+}
+
+.lower{
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  color: white;
+  background: deepskyblue;
+  width: 100px;
+  font-size: 17px;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0.3px 0.3px 0.3px 0.3px silver;
+}
+
+.btn2{
+  color: royalblue;
+  background: powderblue;
+}
