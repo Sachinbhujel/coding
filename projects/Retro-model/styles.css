@@ -25,6 +25,7 @@ hr{
 
 .body{
   text-align: center;
+  margin-top: 40px;
 }
 
 .message .seen-message{
@@ -64,4 +65,10 @@ hr{
 .btn2{
   color: royalblue;
   background: powderblue;
+}
+
+@media(min-width: 500px){
+  .main{
+    width: 50%;
+  }
 }
