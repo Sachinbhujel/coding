@@ -71,7 +71,7 @@ hr{
 
 @media only screen and (width < 480px){
   .main{
-    width: 80%;
+    width: 85%;
     height: 100vw;
   }
   .btn{
