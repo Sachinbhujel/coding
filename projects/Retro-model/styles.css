@@ -67,8 +67,8 @@ hr{
   background: powderblue;
 }
 
-@media(min-width: 500px){
+@media only screen and (width < 480px){
   .main{
-    width: 50%;
+    width: 80%;
   }
 }
