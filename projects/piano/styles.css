@@ -50,3 +50,15 @@
   left: -17px;
   position: absolute;
 }
+
+@media(width<400px){
+  .container{
+    width: 90%;
+    height: 70vw;
+  }
+  .keys{
+    margin-top: -20px;
+    width: 88%;
+  }
+  
+}
