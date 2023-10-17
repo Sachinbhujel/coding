@@ -67,6 +67,8 @@ hr{
   background: powderblue;
 }
 
+
+
 @media only screen and (width < 480px){
   .main{
     width: 80%;
@@ -76,9 +78,13 @@ hr{
     font-size: 11px;
     width: 70px;
     background-color: #303030;
+    margin-top: 20px;
+  }
+  .info{
+    margin-top: 11px;
   }
   .info p{
-    font-size: 17px;
+    font-size: 19px;
   }
   
   .about p{
