@@ -71,4 +71,20 @@ hr{
   .main{
     width: 80%;
   }
+  .btn{
+    font-size: 11px;
+    width: 70px;
+    background-color: #303030;
+  }
+  .info p{
+    font-size: 17px;
+  }
+  
+  .about p{
+    font-size: 15px;
+  }
+  .btn2{
+    color: white;
+    background-color: #162b52;
+  }
 }
