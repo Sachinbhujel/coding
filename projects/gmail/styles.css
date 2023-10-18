@@ -84,3 +84,32 @@ body {
 .email-date h3 {
   font-size: 12px;
 }
+
+
+@media(width>410px){
+  .emailAll{
+    padding-left: 270px;
+    padding-right: 270px;
+  }
+  
+  .search-input{
+    height: 30px;
+    width: 50%;
+  }
+  .search-input input{
+    height: 20px;
+  }
+  
+  .email-body h2{
+    font-size: 24px;
+  }
+  .email-body p{
+    font-size: 18px;
+  }
+  .logo img{
+    width: 70px;
+  }
+  .email-date h3{
+    font-size: 18px;
+  }
+}
