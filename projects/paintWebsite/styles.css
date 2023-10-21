@@ -208,6 +208,8 @@ hr{
 
 
 
+
+
 @media(width<400px){
   .header-middle{
     display: flex;
@@ -281,16 +283,8 @@ hr{
    transform: translateY(-8px);
   }
   .box2{
-    background: black;
-    color: white;
-    width: 100%;
-    margin-left: -20px;
   }
-  .box2 p{
-    color: silver;
 }
-
-
 
 @media(width>800px){
   .lower-lower{
@@ -300,11 +294,11 @@ hr{
     font-size: 12px;
   }
   .box1 p{
-    font-size: 14px;
+    font-size: 13px;
   }
   .box2 {
-    height: 28vw;
-    font-size: 20px;
+    height: 26vw;
+    font-size: 16px;
   }
   .box h1{
     font-size: 20px;
