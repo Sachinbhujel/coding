@@ -288,7 +288,7 @@ hr{
   }
 }
 
-@media(width>840px){
+@media(width>800px){
   .lower-lower{
     height: 35vw;
   }
