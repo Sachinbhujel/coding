@@ -263,7 +263,7 @@ hr{
   .lower-lower{
     height: 260vw;
     display: grid;
-    margin-top: 120px;
+    margin-top: 80px;
   }
   .box{
     transition: transform 0.4s;
