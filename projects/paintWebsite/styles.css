@@ -235,7 +235,7 @@ hr{
     height: 30px;
   }
   .middle{
-    margin-top: 70px;
+    margin-top: 50px;
     display: flex;
   }
   .middle-left h1{
@@ -254,6 +254,10 @@ hr{
   }
   .about p{
     font-size: 13px;
+  }
+  .photo img{
+    width: 100%;
+    height: 60vw;
   }
   .photo img:hover{
     transform: translateY(-4px);
