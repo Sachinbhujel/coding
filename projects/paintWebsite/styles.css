@@ -261,9 +261,9 @@ hr{
     width: 97%;
   }
   .lower-lower{
-    height: 240vw;
+    height: 260vw;
     display: grid;
-    margin-top: 40px;
+    margin-top: 120px;
   }
   .box{
     transition: transform 0.4s;
@@ -281,5 +281,28 @@ hr{
   .box:hover{
    background: #FBFCFC;
    transform: translateY(-8px);
+  }
+  .box2{
+    width: 100%;
+    margin-left: -20px;
+  }
+}
+
+@media(width>840px){
+  .lower-lower{
+    height: 35vw;
+  }
+  .box{
+    font-size: 10px;
+  }
+  .box1 p{
+    font-size: 13px;
+  }
+  .box2 {
+    height: 24vw;
+    font-size: 15px;
+  }
+  .box h1{
+    font-size: 18px;
   }
 }
