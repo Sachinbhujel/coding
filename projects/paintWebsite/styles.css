@@ -281,7 +281,8 @@ hr{
    transform: translateY(-8px);
   }
   .box2{
-    width: 120%;
+    background: #F7F9F9;
+    width: 100%;
     margin-left: -20px;
   }
 }
