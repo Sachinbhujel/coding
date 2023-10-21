@@ -281,10 +281,13 @@ hr{
    transform: translateY(-8px);
   }
   .box2{
-    background: #F7F9F9;
+    background: black;
+    color: white;
     width: 100%;
     margin-left: -20px;
   }
+  .box2 p{
+    color: silver;
 }
 
 
