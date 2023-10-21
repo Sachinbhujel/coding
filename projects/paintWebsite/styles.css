@@ -208,8 +208,6 @@ hr{
 
 
 
-
-
 @media(width<400px){
   .header-middle{
     display: flex;
@@ -283,7 +281,7 @@ hr{
    transform: translateY(-8px);
   }
   .box2{
-    width: 100%;
+    width: 120%;
     margin-left: -20px;
   }
 }
