@@ -222,7 +222,7 @@ hr{
     font-size: 13px;
   }
   .header-middle a{
-    font-weight: 200;
+    font-weight: 500;
     padding: 6.3px;
     font-size: 13px;
   }
@@ -261,17 +261,16 @@ hr{
   }
   .photo img:hover{
     transform: translateY(-4px);
-    height: 60vw;
-    width: 180%;
+    height: 70vw;
+    width: 220%;
   }
   .lower-lower{
     height: 260vw;
     display: grid;
-    margin-top: 80px;
+    margin-top: 60px;
   }
   .box{
     transition: transform 0.4s;
-    margin-left: -4px;
     width: 250px;
     margin: auto;
     height: 160px;
@@ -284,7 +283,7 @@ hr{
   }
   .box:hover{
    background: #FBFCFC;
-   transform: translateY(-8px);
+   transform: translateY(-12px);
   }
   .box2{
   }
