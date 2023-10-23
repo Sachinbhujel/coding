@@ -262,7 +262,7 @@ hr{
   .photo img:hover{
     transform: translateY(-4px);
     height: 64vw;
-    width: 174%;
+    width: 188%;
   }
   .lower-lower{
     height: 260vw;
@@ -285,7 +285,9 @@ hr{
    background: #FBFCFC;
    transform: translateY(-12px);
   }
-  .box2{
+  .btn4{
+    font-size: 11px;
+    width: 112px;
   }
 }
 
