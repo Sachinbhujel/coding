@@ -262,7 +262,7 @@ hr{
   .photo img:hover{
     transform: translateY(-4px);
     height: 64vw;
-    width: 180%;
+    width: 174%;
   }
   .lower-lower{
     height: 260vw;
