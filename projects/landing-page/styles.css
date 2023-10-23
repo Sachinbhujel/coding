@@ -13,7 +13,17 @@
   padding: 10px;
 }
 
+.header-right{
+  display: flex;
+  align-items: center;
+}
+
+.header-right img{
+  border-radius: 99px;
+}
+
 .logo{
+  margin-left: 10px;
   font-size: 30px;
 }
 
@@ -21,7 +31,12 @@
   color: grey;
   text-decoration: none;
   font-size: 17px;
-  padding-left: 20px;
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+.header-middle a:hover{
+  color: #000000;
 }
 
 .middle button{
@@ -72,6 +87,7 @@
 
 
 .box{
+  transition: transform 0.4s;
   text-align: center;
 }
 
@@ -88,6 +104,7 @@
 .btn3{
   background: moccasin;
   color: black;
+  margin-right: 8px;
   font-size: 11px;
   border-radius: 6px;
   width: 60px;
@@ -95,3 +112,69 @@
   border: none;
 }
 
+.btn3:hover{
+  background: white;
+  border: 1px solid black;
+  color: black;
+}
+
+.btn2:hover{
+  background: black;
+  color: white;
+}
+
+.btn:hover{
+  background-color: bisque;
+  color: black;
+  border: 1px solid white;
+}
+
+.box:hover{
+    transform: translateY(-18px);
+}
+
+.btn4{
+  border: 1px solid black;
+  background: black;
+  color: white;
+  margin-top: 10px;
+  margin-right: 8px;
+  font-size: 13px;
+  border-radius: 6px;
+  width: 120px;
+  height: 30px;
+}
+
+.btn4:hover{
+  background: white;
+  color: black;
+}
+
+@media(width<400px){
+  .header-right img{
+    width: 20px;
+  }
+  .header-right h3{
+    font-size: 17px;
+  }
+  .header-middle a{
+   font-size: 13px;
+    
+  }
+  .btn3{
+    font-size: 10px;
+    width: 48px;
+  }
+  .btn2{
+    display: none;
+  }
+  .lower{
+    display: grid;
+  }
+  .box{
+    margin-top: 30px;
+  }
+  .box:hover{
+    transform: translateX(18px);
+  }
+}
