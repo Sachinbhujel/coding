@@ -173,6 +173,8 @@
   .box{
     margin-top: 40px;
   }
+  .box4{
+    margin-bottom: 20px;
   .box:hover{
     transform: translateX(18px);
   }
