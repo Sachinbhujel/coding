@@ -1,0 +1,355 @@
+*{
+  margin: 0;
+}
+
+body{
+  background: black;
+}
+
+.container{
+  width: 100%;
+  height: 200vw;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  align-items: center;
+  padding-right: 40px;
+}
+
+.header-left img{
+  width: 100px;
+}
+
+.header-right .link{
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    position: relative;
+}
+
+.link:after{
+  content: " ";
+  position: absolute;
+  background: #ff004f;
+  height: 3px;
+  width: 50%;
+  left: 0;
+  bottom: -8px;
+  transition: 0.3s;
+}
+
+.link:hover{
+  color: #ffffff;
+}
+
+.link:hover:after{
+  width: 100%;
+}
+
+.middle{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.middle-left p{
+  color: white;
+  font-size: 24px;
+}
+
+.middle-left h1{
+  color: white;
+  font-size: 40px;
+}
+
+span{
+  color: coral;
+}
+
+.middle-right img{
+  width: 550px;
+  height: 62vw;
+}
+
+.about{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.about-left img{
+  width: 320px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.about-right{
+  margin-left: 50px;
+}
+
+.about-right h1{
+  color: white;
+  font-size: 50px;
+}
+
+.about-right p{
+  color: white;
+  font-size: 18px;
+}
+
+.resume{
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.resume h3{
+  color: white;
+  font-size: 22px;
+}
+
+.resume h3:after{
+  content: " ";
+  position: absolute;
+  background: #ff004f;
+  height: 3px;
+  width: 28%;
+  left: 0;
+  bottom: -8px;
+  transition: 0.3s;
+}
+
+.resume h3:hover{
+  color: #ffffff;
+}
+
+h3:hover:after{
+  width: 89%;
+}
+
+.exp-list{
+  display: flex;
+}
+
+.skills{
+  display: none;
+}
+
+.skills1{
+  margin: 10px 0;
+}
+
+.skills h3{
+  color: #ff004f;
+}
+
+.services{
+  margin: 100px 25px;
+}
+
+.services h1{
+  margin-left: 5px;
+  font-size: 50px;
+  color: white;
+}
+
+.service-list{
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.box{
+  border-radius: 10px;
+  background: #262626;
+  margin-left: 12px;
+  padding: 20px;
+  transition: background 0.5s, transform 0.5s;
+}
+
+.box h3{
+  color: white;
+  font-size: 21px;
+  margin-top: 25px;
+}
+
+.box p{
+  color: white;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.box h4{
+  color: white;
+  margin-top: 15px;
+}
+
+.fa-solid{
+  color: white;
+  font-size: 40px;
+}
+
+.box:hover{
+  background: #ff004f;
+  transform: translateY(-10px);
+}
+
+.work{
+  margin: 30px 30px;
+}
+
+.work h1{
+  font-size: 50px;
+  margin-left: 10px;
+  color: white;
+}
+
+.images{
+  display: flex;
+  margin: 30px 10px;
+}
+
+.photo{
+  margin-left: 17px;
+}
+
+.photo img{
+  width: 320px;
+  transition: 0.3s;
+  border-radius: 10px;
+  height: 420px;
+}
+
+.photo:hover img{
+  transform: scale(1.1);
+}
+
+.layer{
+  text-align: center;
+  margin-top: -280px;
+}
+
+.layer h3{
+  color: white;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.fa-regular{
+  color: white;
+  font-size: 40px;
+}
+
+
+@media(width<400px){
+  .header{
+    display:flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+  .header-left img{
+    width: 50px;
+    height: 40px;
+  }
+  .header-right .link{
+    margin: 0 4px;
+    font-size: 16px;
+  }
+  .middle{
+    margin-top: 30px;
+  }
+  .middle-left p{
+    font-size: 15px;
+  }
+  .middle-left h1{
+    font-size: 25px;
+  }
+  .middle-right img{
+    width: 180px;
+  }
+  .about{
+    margin-left: 5px;
+    margin-right: 0px;
+    padding: 10px;
+    margin-top: 25px;
+    justify-content: space-around;
+  }
+  .about-left img{
+    width: 120px;
+    height: 210px;
+  }
+  .about-right{
+    margin-left: 5px;
+    margin-right: 0px;
+    width: 200px;
+  }
+  .about-right h1{
+    font-size: 26px;
+  }
+  .about-right p{
+    font-size: 15px;
+  }
+  .both{
+    margin-top: 45px;
+    margin-left: -140px;
+    position: relative;
+  }
+  .resume h3{
+    font-size: 18px;
+  }
+  .services{
+    margin-top: 40px;
+  }
+  .services h1{
+    font-size: 28px;
+  }
+  .service-list{
+    display: grid;
+  }
+  .box{
+    margin-top: 18px;
+  }
+  .box h3{
+    font-size: 20px;
+  }
+  .box p{
+    font-size: 14px;
+  }
+  .fa-solid{
+    font-size: 30px;
+  }
+  .images{
+    display: grid;
+  }
+  .photo{
+    margin-bottom: 110px;
+    margin-left: 0px;
+  }
+  .photo img{
+    height: 330px;
+    width: 310px;
+  }
+  .fa-regular{
+    font-size: 30px;
+  }
+  h1{
+    color: white;
+  }
+  .layer{
+    text-align: center;
+  }
+  .layer h3{
+    font-size: 22px;
+    margin-top: 120px;
+  }
+}
