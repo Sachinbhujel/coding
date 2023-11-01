@@ -163,7 +163,7 @@ hr{
   display: flex;
   align-items: center;
   background: #F1EEEE;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .box{
