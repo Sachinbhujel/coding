@@ -316,3 +316,23 @@ hr{
     height: 70%;
   }
 }
+
+@media(width<365px){
+  .btn{
+    font-size: 9px;
+    width: 58px;
+  } 
+  .header-middle a{
+    font-size: 12.4px;
+  }
+}
+
+@media(width<356px){
+  .btn{
+    font-size: 9px;
+    width: 56px;
+  }
+  .photo img:hover{
+    height: 70vw;
+  }
+}
