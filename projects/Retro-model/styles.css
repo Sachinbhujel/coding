@@ -52,10 +52,10 @@ hr{
 .btn{
   color: white;
   background: deepskyblue;
-  width: 100px;
+  width: 90px;
   font-size: 17px;
-  padding: 10px;
-  margin: 5px;
+  padding: 8px;
+  margin: 10px;
   border-radius: 5px;
   box-shadow: 0.3px 0.3px 0.3px 0.3px silver;
 }
@@ -90,5 +90,11 @@ hr{
   .btn2{
     color: white;
     background-color: #162b52;
+  }
+}
+
+@media(width<750px){
+  .main{
+    height: 105vw;
   }
 }
