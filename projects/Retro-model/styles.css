@@ -71,8 +71,6 @@ hr{
 
 @media(width < 400px){
   .main{
-    width: 85%;
-    height: 114vw;
     margin-top: 100px;
   }
   .btn{
