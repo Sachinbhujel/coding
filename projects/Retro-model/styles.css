@@ -94,9 +94,3 @@ hr{
     background-color: #162b52;
   }
 }
-
-@media(width<750px){
-  .main{
-    height: 105vw;
-  }
-}
