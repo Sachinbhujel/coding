@@ -69,16 +69,17 @@ hr{
 
 
 
-@media only screen and (width < 480px){
+@media(width < 400px){
   .main{
     width: 85%;
-    height: 120vw;
+    height: 114vw;
+    margin-top: 100px;
   }
   .btn{
     font-size: 11px;
     width: 80px;
     background-color: #303030;
-    margin-top: 20px;
+    margin-top: 15px;
   }
   .info{
     margin-top: 11px;
