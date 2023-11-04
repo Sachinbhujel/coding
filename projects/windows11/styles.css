@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("https://sachinbhujel.gitlab.io/assets/Win11SourceCode/bg.jpeg");
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.taskBar{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #f3f3f3;
+  z-index: 110;
+}
+
+.taskBar img{
+  width: 40px;
+  padding-left: 10px;
+}
+
+/*.right{
+  position: absolute;
+  right: 0;
+  margin: 2px 20px;
+  height: 85%;
+}*/
+
+.startmenu{
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in; 
+}
+
+.startmenu img{
+  width: 45%;
+  border-radius: 8px;
+}
+
+@media(width<400px){
+  body{
+  background-image: url("https://sachinbhujel.gitlab.io/assets/Win11SourceCode/bg.jpeg");
+    background-position: center;
+  }
+  .taskBar img{
+    width: 30px;
+  }
+  .startmenu img{
+    width: 68%;
+  }
+}
