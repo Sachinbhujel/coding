@@ -91,7 +91,7 @@ hr{
 
 @media(width < 400px){
   .main{
-    margin-top: 100px;
+    margin-top: 200px;
   }
   .btn{
     font-size: 11px;
