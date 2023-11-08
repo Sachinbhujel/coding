@@ -65,6 +65,27 @@ hr{
   background: powderblue;
 }
 
+.main2{
+  position: relative;
+  top: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: max-content;
+  margin: auto;
+}
+
+.btn3{
+  color: white;
+  background: deepskyblue;
+  width: 110px;
+  font-size: 18px;
+  padding: 8px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0.3px 0.3px 0.3px 0.3px silver;
+  cursor: pointer;
+}
 
 
 @media(width < 400px){
@@ -91,4 +112,13 @@ hr{
     color: white;
     background-color: #162b52;
   }
+  .btn3{
+  color: white;
+  background: black;
+  width: 110px;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: 0.3px 0.3px 0.3px 0.3px silver;
+  }
 }
+
