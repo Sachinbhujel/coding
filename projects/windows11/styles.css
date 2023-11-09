@@ -4,6 +4,7 @@
 }
 
 body{
+  color: white;
   background-image: url("https://sachinbhujel.gitlab.io/assets/Win11SourceCode/bg.jpeg");
   background-size: cover;
   overflow: hidden;
@@ -37,6 +38,7 @@ body{
   bottom: 60px;
   width: 100%;
   text-align: center;
+  display: none;
   transition: all 0.3s ease-in; 
 }
 
@@ -45,15 +47,36 @@ body{
   border-radius: 8px;
 }
 
+.apps{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.app img{
+  width: 42px;
+}
+
 @media(width<400px){
   body{
   background-image: url("https://sachinbhujel.gitlab.io/assets/Win11SourceCode/bg.jpeg");
     background-position: center;
   }
   .taskBar img{
+    padding-top: 5px;
+    padding-bottom: 5px;
     width: 30px;
   }
   .startmenu img{
     width: 68%;
+  }
+  .app img{
+    width: 30px;
+  }
+  .app h5{
+    font-size: 9px;
+  }
+  .moreApp{
+    display: none;
   }
 }
