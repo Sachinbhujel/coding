@@ -5,4 +5,5 @@ function hide(){
 
 function show(){
    document.getElementById("main").style.display = "block"; 
+   document.getElementById("main2").style.display = "none";
 }
