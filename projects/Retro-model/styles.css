@@ -2,11 +2,21 @@ body{
   background-image: linear-gradient(to left, grey, lightblue);
 }
 
+.box{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
 .main{
   border-radius: 10px;
   background: white;
-  margin: 150px auto;
   height: 380px;
+}
+
+.app{
+  
 }
 
 .header{
@@ -67,8 +77,6 @@ hr{
 }
 
 .main2{
-  position: relative;
-  top: 250px;
   display: flex;
   text-align: center;
   justify-content: center;
