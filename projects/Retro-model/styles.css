@@ -99,9 +99,6 @@ hr{
 
 
 @media(width < 400px){
-  .main{
-    margin-top: 100px;
-  }
   .btn{
     font-size: 11px;
     width: 80px;
