@@ -102,6 +102,8 @@ body{
 }
 
 @media(width<400px){
+  body{
+    overflow: hidden;
   .car{
     left: 0;
     width: 250px;
