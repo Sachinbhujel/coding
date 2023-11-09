@@ -1,6 +1,6 @@
 function hide(){
   document.getElementById("main").style.display = "none";
-  document.getElementById("button").style.display = "block";
+  document.getElementById("main2").style.display = "block";
 }
 
 function show(){
