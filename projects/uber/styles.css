@@ -58,20 +58,33 @@
 
 .middleNav{
     display: flex;
+    padding: 30px;
+}
+
+.middle-top{
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.switch{
+    padding-left: 50px;
 }
 
 .middle-top img{
-    width: 20px;
+    width: 17px;
+    padding-bottom: 20px;
 }
 
-.middle-top h4{
-    width: 70px;
+.middle-top h5{
+    width: 100%;
 }
 
 .search-input{
     border: 1px solid black;
-    width: 75vw;
-    background-color: grey;
+    width: 90vw;
+    background-color: #F8F8F8;
     justify-content: space-between;
     border-radius: 4px;
     padding: 10px;
@@ -81,11 +94,24 @@
   }
   
   .search-input input{
-    width: 70vw;
+    width: 100vw;
     height: 4vw;
     border: none;
     font-size: 20px;
     outline: none;
-    background-color: grey;
+    background-color: #F8F8F8;
   }
-  
+
+  #input1{
+    padding-top: 10px;
+  }
+
+  .destiny{
+    margin-top: 20px;
+    padding-left: 39px;
+  }
+
+  .destiny h1{
+    font-size: 47px;
+    padding-bottom: 28px;
+  }
