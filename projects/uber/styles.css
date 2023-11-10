@@ -67,3 +67,25 @@
 .middle-top h4{
     width: 70px;
 }
+
+.search-input{
+    border: 1px solid black;
+    width: 75vw;
+    background-color: grey;
+    justify-content: space-between;
+    border-radius: 4px;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    height: 4vw;
+  }
+  
+  .search-input input{
+    width: 70vw;
+    height: 4vw;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    background-color: grey;
+  }
+  
