@@ -92,6 +92,14 @@
     display: flex;
     height: 4vw;
   }
+
+  .search-input img{
+    width: 20px;
+  }
+
+  #input2{
+    margin-top: 8px;
+  }
   
   .search-input input{
     width: 100vw;
@@ -102,10 +110,6 @@
     background-color: #F8F8F8;
   }
 
-  #input1{
-    padding-top: 10px;
-  }
-
   .destiny{
     margin-top: 20px;
     padding-left: 39px;
@@ -114,4 +118,21 @@
   .destiny h1{
     font-size: 47px;
     padding-bottom: 28px;
+  }
+
+  .middle-button{
+    margin-top: 40px;
+    font-size: 20px;
+    padding: 17px;
+    border-radius: 8px;
+  }
+
+  .button1{
+    color: white;
+    background-color: black;
+  }
+
+  .button2{
+    color: black;
+    margin-left: 20px;
   }
