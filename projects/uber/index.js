@@ -10,7 +10,7 @@ function driver(){
     document.getElementById("destiny3").style.display = "none";
 }
 
-function carkey(){
+function carKey(){
     document.getElementById("destiny3").style.display = "block";
     document.getElementById("destiny2").style.display = "none";
     document.getElementById("destiny1").style.display = "none";
