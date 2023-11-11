@@ -158,6 +158,10 @@
     display: none;
   }
 
+  .destiny3{
+    display: none;
+  }
+
   .learnMore{
     color: grey;
     font-size: 17px;
@@ -187,4 +191,8 @@
 
   .img-info p{
     font-size: 18px;
+  }
+
+  .destiny3 p{
+    font-size: 20px;
   }
