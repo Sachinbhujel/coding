@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navBar{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.navLeft{
+    display: flex;
+    padding-left: 15px;
+}
+
+.navRight{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    align-items: center;
+    height: 70px;
+}
+
+.sideBar{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.signUpBtn{
+    border: 1px solid;
+    border-radius: 33px;
+    background: white;
+    color: black
+}
+
+.icon{
+    border-radius: 33px;
+    background: grey;
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 16px !important;
+}
+
+.allFilters{
+    display: flex;
+    padding-left: 10px;
+    border-bottom: 1px solid #B8B8B8;
+}
+
+.choosefilter{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+.showFilters{
+    padding-left: 10px;
+}
+
+.allInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -10px;
+}
+
+.filter h1{
+    font-size: 40px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.inputDiv{
+    background: #B8B8B8;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.inputDiv input{
+    width: 100%;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    background: #B8B8B8;
+    color: white;
+}
+
+.inputDiv input::placeholder{
+    color: white;
+}
+
+
+
+
+
