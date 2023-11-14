@@ -226,15 +226,17 @@ a{
 }
 
 .destiny-div-flex img{
-    width: 470px;
+    width: 95%;
     height: 45vh;
 }
 
 .destiny-div-flex h3{
     font-size: 25px;
+    font-weight: 500;
 }
 
 .destiny-div-flex p{
+    width: 95%;
     font-size: 18px;
     font-weight: 500;
     color: grey;
@@ -243,7 +245,7 @@ a{
 }
 
 .destiny-div-link hr{
-    width: 62%;
+    width: 55%;
     margin-top: 10px;
 }
 
@@ -254,8 +256,10 @@ a{
 
 .external-links{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-top: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .external-links-flex{
@@ -324,10 +328,11 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 0.7px solid black;
+    border: 0.5px solid black;
     margin-left: 20px;
     margin-right: 20px;
     padding: 20px;
+    margin-top: 32px;
 }
 
 .download-div-link{
@@ -343,4 +348,38 @@ a{
 
 .download-div-icons h3{
     font-size: 35px;
+}
+
+.destiny-div2{
+    margin-top: 55px;
+}
+
+.destiny-div2 img{
+    width: 32px;
+    height: 4vh;
+    margin-bottom: 15px;
+}
+
+.destiny-div-flex2 {
+    width: 90%;
+}
+
+.signUp{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 70px;
+}
+
+.signUp-div-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: max-content;
+}
+
+.signUp-div-flex p{
+    font-size: 25px;
 }
