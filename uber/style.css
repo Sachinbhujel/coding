@@ -369,17 +369,17 @@ a{
     justify-content: space-between;
     align-items: center;
     padding-left: 30px;
-    padding-right: 30px;
     margin-top: 70px;
 }
 
-.signUp-div-flex{
+.signUp-div{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: max-content;
+    width: 95%;
+    justify-content: space-between;
+    padding-right: 60px;
 }
 
-.signUp-div-flex p{
-    font-size: 25px;
+.signUp-div p{
+    font-size: 40px;
 }
