@@ -223,9 +223,6 @@ a{
     padding-left: 30px;
 }
 
-.destiny-div-flex{
-}
-
 .destiny-div-flex img{
     width: 460px;
     height: 55vh;
@@ -285,4 +282,62 @@ a{
     color: black;
     font-size: 20px;
     font-weight: 700;
+}
+
+.ride h2{
+    font-size: 35px;
+    padding-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.ride-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.ride-div-vehicle p{
+    font-size: 18px;
+}
+
+.ride-div-icons h3{
+    font-size: 35px;
+}
+
+.ride-div-img img{
+    width: 90px;
+}
+
+.download h1{
+    font-size: 35px;
+    padding-left: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.download-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.7px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.download-div-link{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.download-div-img img{
+    width: 90px;
+}
+
+.download-div-icons h3{
+    font-size: 35px;
 }
