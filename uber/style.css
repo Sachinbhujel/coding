@@ -212,9 +212,11 @@ a{
 
 .destiny-div{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .destiny h1{
