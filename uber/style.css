@@ -293,9 +293,11 @@ a{
 
 .ride-div{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .ride-div-vehicle p{
