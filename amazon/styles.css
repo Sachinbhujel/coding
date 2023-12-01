@@ -7,6 +7,7 @@
     display: flex;
     justify-content: space-between;
     /*align-items: center;*/
+    background-color: #030510;
 }
 
 .navBar-left-img{
@@ -26,7 +27,7 @@
 
 .navBar-left{
     display: flex;
-    background-color: coral;
+    /*background-color: coral;*/
     align-items: center;
     gap: 13px;
 }
@@ -47,14 +48,13 @@
 
 .navBar-left-address h5{
     font-size: 13px;
-    color: grey;
+    color: #D2D2C6;
     padding-left: 18px;
-    font-weight: 300;
 }
 
 .navBar-middle{
     display: flex;
-    background-color: tomato;
+    /*background-color: tomato;*/
 }
 
 .navBar-middle-all{
@@ -63,8 +63,8 @@
 
 .navBar-right{
     display: flex;
-    gap: 14px;
-    background-color: aqua;
+    gap: 12px;
+    /*background-color: aqua;*/
     align-items: center;
 }
 
@@ -95,7 +95,7 @@
 
 .navBar-right-country img{
     width: 20px;
-    height: 20px;
+    height: 15px;
 }
 
 .navBar-right-country span{
@@ -113,7 +113,7 @@
     font-weight: 700;
 }
 
-.navBar-right-exchange{
+.navBar-right-exchange, .return{
     color: white;
     font-weight: 200;
 }
