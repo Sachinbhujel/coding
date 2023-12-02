@@ -8,7 +8,7 @@
     justify-content: space-between;
     /*align-items: center;*/
     background-color: #030510;
-    padding: 5px;
+    padding: 4px;
     padding-left: 5px;
     padding-right: 5px;
 }
@@ -58,6 +58,8 @@
 .navBar-middle{
     display: flex;
     /*background-color: tomato;*/
+    height: 40px;
+    margin-top: 5px;
 }
 
 .navBar-middle-all{
@@ -92,8 +94,9 @@
 
 .navBar-right-cart h5{
     padding-left: 5px;
-    font-size: 18px;
+    font-size: 16px;
     color: white;
+    margin-top: 15px;
 }
 
 .navBar-right-country img{
@@ -140,22 +143,41 @@
 .navBar-middle{
     background-color: white;
     gap: 20px;
-    padding: 10px;
     align-items: center;
     border-radius: 8px;
 }
 
 .navBar-middle-all{
-    width: 20%;
+    background-color: #EDEDE9;
+    width: 60px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    padding-left: 10px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+.navBar-middle-all span{
+    margin: 7.5px;
+    margin-left: -1px;
 }
 
 .navBar-middle-search{
+    background-color: #F2D492;
+    width: 60px;
+    display: flex;
+    justify-content: center; 
+    border-radius: 0px 8px 8px 0px;
+}
+
+.search-icon{
+    margin: 7.5px;
 }
 
 .navBar-middle-input input{
-    font-size: 15px;
+    font-size: 13px;
     border: none;
+    outline: none;
 }
 
 ::placeholder{
@@ -172,6 +194,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #202C39;
+    color: white;
+    font-weight: 200;
+    padding-left: 10px;
 }
 
 .list-div{
@@ -182,4 +208,31 @@
 .list-div2{
     display: flex;
     gap: 20px;
+}
+
+.list-div2 h5{
+    font-size: 13.5px;
+}
+
+.backGd-img{
+    background-image: url("https://m.media-amazon.com/images/G/31/img21/OHL/Deals/Rec/Hero/PC_slider._SX3000_QL85_.jpg");
+    width: 100%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+}
+
+.backGd-img-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+}
+
+.backGd-img-icon span{
+    font-size: 50px;
+    font-weight: 100;
+    color: #ADB5BD;
+    padding-left: 30px;
+    padding-right: 15px;
 }
