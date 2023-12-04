@@ -217,7 +217,7 @@
 .backGd-img{
     background-image: url("https://m.media-amazon.com/images/G/31/img21/OHL/Deals/Rec/Hero/PC_slider._SX3000_QL85_.jpg");
     width: 100%;
-    height: 350px;
+    height: 360px;
     background-size: cover;
     background-position: center;
 }
@@ -238,6 +238,49 @@
 }
 
 .product-flex{
+    background-color: white;
     display: flex;
+    width: max-content;
+    padding: 15px;
+    padding-bottom: 0;
+    margin-top: -20px;
 
+}
+
+.product{
+    background-color: white;
+    width: max-content;
+    margin-top: -20px;
+    box-shadow: 20rgba(50, 2050, 2093, 200.25)200px 206px 2012px 20-2px, 20rgba(0, 200, 200, 200.3) 200px 203px 207px 20-3px;
+}
+
+.all-product{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #EDEDE9;
+}
+
+.product-list img{
+    width: 145px;
+}
+
+.product-list{
+    margin: 6px;
+    margin-top: 20px;
+}
+
+figcaption{
+    font-size: 15px;
+    margin-top: -2px;
+    margin-bottom: 22px;
+}
+
+.product h3{
+    padding-left: 22px;
+    font-size: 24px;
+    padding-top: 26px;
+}
+
+.list2{
+    margin-bottom: 30px;
 }
