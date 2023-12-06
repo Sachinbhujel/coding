@@ -3,9 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Codepen</title>
+    <title>Codepen</title><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="main">
+        <div class="main-left">
+            <h4>CODEPEN</h4>
+            <div class="main-left-top">
+                <h5>CREATE</h5>
+                <div class="box box1">
+                    <div class="pen">
+                        <span class="material-symbols-outlined new-pen">
+                            open_in_new
+                        </span>
+                        <p>Pen</p>
+                    </div>
+                    <div class="arrow">
+                        <span class="material-symbols-outlined arrow">
+                            expand_more
+                        </span>
+                    </div>
+                </div>
+                <div class="box box2">
+                    <div class="pen">
+                        <span class="material-symbols-outlined cozy">
+                            view_cozy
+                        </span>
+                        <p>Collection</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-left-middle">
+                <h4>Your Work</h4>
+                <div class="activity">
+                    <h4>Activity</h4>
+                    <span class="material-symbols-outlined activity">
+                        counter_1
+                    </span>
+                </div>
+                <h4>Assets</h4>
+                <h4 class="pin">Pinned Items</h4>
+                <h4>Following</h4>
+                <h4>Trending</h4>
+                <h4>Challenges</h4>
+                <h4 class="spark">Spark</h4>
+            </div>
+            <div class="main-left-lower">
+                <div class="pro">
+                    <h4>CodePen <span class="yellow">Pen</span></h4>
+                </div>
+                <div class="codepen-img">
+                    <img src="https://images.pexels.com/photos/300857/pexels-photo-300857.jpeg?auto=compress&cs=tinysrgb&w=800">
+                    <figcaption>Design and Development tips in your inbox. Every weekday.</figcaption>
+                    <p class="ads"><a href="#">(ads via carbon)</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="main-right">
+        </div>
+    </div>
+    <script>
+        ;(function () {
+    var src = '//cdn.jsdelivr.net/npm/eruda';
+    if (!/eruda=true/.test(window.location) && localStorage.getItem('active-eruda') != 'true') return;
+    document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+    document.write('<scr' + 'ipt>eruda.init();</scr' + 'ipt>');
+})();
+    </script>
 </body>
 </html>
