@@ -52,7 +52,7 @@ function buttonClick(){
 
 
 function checkWindowWidth() {
-      // Get the current window width
+      // Get the current https://codepen.io/Sachinbhujel/pen/jOdeNqa?editors=0010window width
       var windowWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
 
       // Check if the window width is less than 400 pixels
@@ -66,7 +66,7 @@ function checkWindowWidth() {
     }
 
     // Attach the function to the window resize event
-    window.addEventListener('resize', checkWindowWidth);
+    //window.addEventListener('resize', checkWindowWidth);
 
     // Check the window width initially
     checkWindowWidth();
