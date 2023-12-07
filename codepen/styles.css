@@ -125,9 +125,16 @@ a {
   text-decoration: none;
 }
 
+.main-right{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
 .main-right-top {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   gap: 10px;
 }
 
@@ -154,7 +161,7 @@ a {
 }
 
 .search {
-  color: white;
+  color: #ADB5BD;
   font-size: 30px;
 }
 
@@ -168,7 +175,7 @@ a {
 }
 
 ::placeholder {
-  color: white;
+  color: #ADB5BD;
   font-size: 20px;
 }
 
@@ -181,7 +188,7 @@ a {
 }
 
 .main-right-top-icons .download {
-  font-size: 28px;
+  font-size: 29px;
 }
 
 .main-right-top-div {
@@ -192,7 +199,6 @@ a {
 }
 
 .allWork {
-
   margin-top: 30px;
   margin-left: 30px;
 }
@@ -200,13 +206,87 @@ a {
 .work {
   display: flex;
   gap: 30px;
+  margin-left: 30px;
 }
 
 .work h3 {
-  color: #3d405b;
+  color: #ADB5BD;
   font-size: 27px;
 }
 
 hr{
     margin-top: 10px;
+    margin-right: 20px;
 }
+
+.allFilters{
+    margin-top: 26px;
+    margin-left: 30px;
+}
+
+.filter{
+    display: flex;
+    gap: 15px;
+}
+
+.filter h3{
+    color: #ADB5BD;
+}
+
+.filter-hr{
+    margin-top: 0;
+    border: 1.5px solid #168AAD;
+}
+
+.searchAndView{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 20px;
+    background-color: #463F3A;
+}
+
+.miniSearch{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.miniSearch div input{
+    width: 180px;
+    padding: 3px;
+    background-color: #1D2D44;
+    border: none;
+}
+
+.miniSearch div input::placeholder{
+    font-size: 14px;
+}
+
+.miniSearch div button {
+    padding: 3px;
+    color: white;
+    background-color: #463F3A;
+    margin-left: -20px;
+    border: none;
+    padding: 3px;
+}
+
+.view{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.choose-category{
+    border: 1px solid blue;
+    border-radius: 0;
+    width: 100px;
+    color: white;
+    font-size: 15px;
+    background-color: #1D2D44;
+}
+
