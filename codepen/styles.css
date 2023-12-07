@@ -1,124 +1,212 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.main{
-    display: flex;
+.main {
+  display: flex;
 }
 
-.codepen-img img{
-    width: 167px;
+.codepen-img img {
+  width: 167px;
 }
 
-.main-left{
-    background-color: #0C1821;
-    padding-left: 10px;
+.main-left {
+  background-color: #0c1821;
+  padding-left: 10px;
 }
 
-.main-left-top{
-    margin-bottom: 30px;
+.main-left-top {
+  margin-bottom: 30px;
 }
 
-.main-left h4{
-    margin-top: 20px;
-    font-size: 30px;
-    color: white;
-    margin-bottom: 20px;
+.main-left h4 {
+  margin-top: 20px;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
 }
 
-.main-left-top h5{
-    font-size: 13px;
-    color: grey;
+.main-left-top h5 {
+  font-size: 13px;
+  color: grey;
 }
 
-.pen{
-    display: flex;
-    align-items: center;
-    gap: 4px;
+.pen {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
 
-.pen p{
-    color: white;
-    font-size: 20px;
-    font-weight: 300;
+.pen p {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
 }
 
-.arrow{
-    color: white;
-    font-weight: 400;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
+.arrow {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
 }
 
-.box{
-    display: flex;
-    gap: 10px;
-    background-color: #495057;
-    padding: 10px;
-    margin-right: 10px;
+.box {
+  display: flex;
+  gap: 10px;
+  background-color: #495057;
+  padding: 10px;
+  margin-right: 10px;
 }
 
-.box1{
+.box1 {
+  margin-top: 10px;
+  gap: 30px;
+  border-radius: 5px 5px 0px 0px;
+  border-top: white 5px solid;
+}
+
+.box2 {
+  border-radius: 0px 0px 5px 5px;
+  margin-top: 1px;
+}
+
+.new-pen {
+  font-size: 28px;
+  color: grey;
+}
+
+.cozy {
+  font-size: 28px;
+  color: grey;
+}
+
+.main-left-middle h4 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.activity {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #0081a7;
+}
+
+.pin {
+  padding-bottom: 16px;
+}
+
+.spark {
+  padding-bottom: 23px;
+}
+
+.yellow {
+  color: yellow;
+}
+
+figcaption {
+  width: 180px;
+  font-size: 13px;
+  color: grey;
+  margin-bottom: 8px;
+}
+
+.ads,
+a {
+  color: grey;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.codepen-img p,
+a {
+  text-decoration: none;
+}
+
+.main-right-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-right-top-img{
+    height: 50px;
+    border-radius: 8px;
+}
+
+.main-right-top-img img{
+    height: 50px;
+    border-radius: 8px;
+}
+
+.main-right-top-left {
+  display: flex;
+  align-items: center;
+  background-color: #3a4454;
+  margin-left: 10px;
+  margin-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 8px;
+  height: 50px;
+}
+
+.search {
+  color: white;
+  font-size: 30px;
+}
+
+.main-right-top-left input {
+  width: 61vw;
+  background-color: #3a4454;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+::placeholder {
+  color: white;
+  font-size: 20px;
+}
+
+.main-right-top-icons {
+  display: flex;
+  align-items: center;
+  background-color: grey;
+  border-radius: 8px;
+  height: 50px;
+}
+
+.main-right-top-icons .download {
+  font-size: 28px;
+}
+
+.main-right-top-div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.allWork {
+
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.work {
+  display: flex;
+  gap: 30px;
+}
+
+.work h3 {
+  color: #3d405b;
+  font-size: 27px;
+}
+
+hr{
     margin-top: 10px;
-    gap: 30px;
-    border-radius: 5px 5px 0px 0px;
-    border-top: white 5px solid;
-}
-
-.box2{
-    border-radius: 0px 0px 5px 5px;
-    margin-top: 1px;
-}
-
-.new-pen{
-    font-size: 28px;
-    color: grey;
-}
-
-.cozy{
-    font-size: 28px;
-    color: grey;
-}
-
-.main-left-middle h4{
-    font-size: 18px;
-    font-weight: 300;
-}
-
-.activity{
-    display: flex;
-    align-items: center;
-    gap: 4px;
-    color: #0081A7;
-}
-
-.pin{
-    padding-bottom: 16px;
-}
-
-.spark{
-    padding-bottom: 23px;
-}
-
-.yellow{
-    color: yellow;
-}
-
-figcaption{
-    width: 180px;
-    font-size: 13px;
-    color: grey;
-    margin-bottom: 8px;
-}
-
-.ads, a{
-    color: grey;
-    font-size: 16px;
-    margin-bottom: 20px;
-}
-
-.codepen-img p, a{
-    text-decoration: none;
 }
