@@ -6,7 +6,7 @@
 .navBar{
     display: flex;
     justify-content: space-between;
-    margin-left: 30px;
+    margin-left: 25px;
     margin-right: 20px;
 }
 
@@ -79,4 +79,84 @@
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.middle{
+    margin-left: 25px;
+}
+
+.middle-left-info{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 20px;
+}
+
+.middle-left-info p{
+    font-size: 16px;
+}
+
+.middle-left-info span{
+    font-size: 26px;    
+}
+
+.middle-left-middle-You{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.middle-left-middle-You p{
+   font-size: 20px;
+   font-weight: 600; 
+}
+
+hr{
+    margin-bottom: 20px;
+}
+
+.watch-later{
+    padding: 10px 45px 10px 20px;
+    background-color: silver;
+    border-radius: 8px;
+    width: max-content;
+    margin-left: -20px;
+    margin-top: -5px;
+    margin-bottom: 7px;
+}
+
+.watch-later p{
+    font-weight: 600;
+}
+
+.middle-left-lower-channel{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.middle-left-lower-channel img{
+    border-radius: 99px;
+}
+
+.middle-left-lower h4{
+    font-size: 19px;
+}
+
+.middle-left-lower img{
+    width: 20px;
+    height: 24px;
+}
+
+.channel-info{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.channel-info span{
+    font-size: 8px;
+    color: blue;
 }
