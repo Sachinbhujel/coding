@@ -83,6 +83,9 @@
 
 .middle{
     margin-left: 25px;
+    display: flex;
+    gap: 41px;
+    margin-top: 10px;
 }
 
 .middle-left-info{
@@ -159,4 +162,91 @@ hr{
 .channel-info span{
     font-size: 8px;
     color: blue;
+}
+
+.middle-middle{
+    display: flex;
+    gap: 15px;
+}
+
+.middle-middle-left{
+    background-color: #669BBC;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOgwCwyT932BRuu5Ph_F4esbTErHXn2rDgAg&usqp=CAU");
+    background-size: cover;
+}
+
+.middle-middle-left img{
+    border-radius: 20px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+
+.middle-middle-left h3{
+    font-size: 23.4px;
+    color: white;
+    margin-bottom: 16px;
+}
+
+.middle-middle-left strong{
+    color: white;
+    font-weight: 800;
+}
+
+.middle-middle-left-info{
+    display: flex;
+    color: white;
+    gap: 10px;
+    font-size: 13px;
+    margin-bottom: 14px;
+}
+
+.middle-middle-left-info p{
+    font-family: 200;
+    margin-top: 6px;
+    color: #E9ECEF;
+}
+
+.arrow{
+    font-size: 14px !important;
+    padding: 9px;
+    color: black !important;
+}
+
+.vert{
+    font-size: 14px !important;
+    padding: 9px;
+    color: black !important;
+}
+
+.middle-middle-left-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.middle-middle-left-buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    background-color: #E9ECEF;
+    padding: 8px;
+    border-radius: 25px;
+    width: 41%;
+}
+
+.a strong{
+    color: black;
+}
+
+.b{
+    opacity: 0.5;
 }
