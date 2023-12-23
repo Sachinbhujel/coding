@@ -5,7 +5,7 @@ body{
 .box{
   display: flex;
   align-items: center;
-  height: 80vh;
+  height: 85vh;
   justify-content: center;
 }
 
