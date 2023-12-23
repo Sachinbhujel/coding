@@ -6,3 +6,8 @@ function hideSideBar(){
         middleleft.style.display = "block";
     }
 }
+
+function changeImg(link){
+    let imgChange = document.getElementById("imgChange");
+    imgChange.src = link;
+}
