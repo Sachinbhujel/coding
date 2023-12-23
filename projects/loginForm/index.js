@@ -18,5 +18,7 @@ function logIn() {
   let email = document.getElementById("email");
   if (email.value == "" || password.value == "") {
     document.getElementById("warning").innerHTML = "Fill out this field";
+  } else{
+    alert("Your password is saved in our server!");
   }
 }
