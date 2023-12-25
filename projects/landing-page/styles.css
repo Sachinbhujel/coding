@@ -85,6 +85,9 @@
   align-items: center;
 }
 
+.articles, .pricing, .contact, .help, .home, .about{
+    display: none;
+  }
 
 .box{
   transition: transform 0.4s;
@@ -95,6 +98,11 @@
   border-radius: 4px;
   width: 210px;
   height: 150px;
+}
+
+.open, .menu{
+  padding-left: 3px;
+  font-size: 30px;
 }
 
 .box h5{
@@ -158,7 +166,9 @@
     font-size: 17px;
   }
   .header-middle a{
-   font-size: 13px 
+   font-size: 13px;
+  }
+  .header-middle{
   }
   .btn3{
     font-size: 10px;
@@ -171,11 +181,62 @@
     display: grid;
   }
   .box{
-    margin-top: 40px;
+    margin-top: 30px;
   }
-  .box4{
-    margin-bottom: 20px;
   .box:hover{
     transform: translateX(18px);
   }
+  .articles, .pricing, .contact, .help, .home, .about{
+    display: none;
+  }
+  .middle{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 }
+
+.main2{
+  display: flex;
+  flex-direction
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+}
+
+.sidenavBar{
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+  width: 180px;
+  height: 100vh;
+  background: black;
+  padding: 25px;
+  overflow: hidden;
+  display: none;
+  transition: 0.3s; 
+  z-index: 1;
+}
+
+strong{
+  font-size: 27px;
+  color: grey;
+  font-weight: 200;
+  transition: 0.3s;
+}
+
+strong:hover{
+  color: #f1f1f1;
+}
+
+.cut-icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.close{
+  color: grey;
+  margin-top: 20px;
+}
+
