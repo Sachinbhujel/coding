@@ -17,7 +17,7 @@ body{
 .container{
   width: 375px;
   background: #fff;
-  height: 570px;
+  height: 580px;
   border-radius: 14px;
   box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
   padding: 20px;
@@ -128,6 +128,6 @@ img:hover{
     color: #E63946;
   }
   .container{
-    width: 315px;
+    width: 321px;
   }
 }
