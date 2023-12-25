@@ -193,6 +193,9 @@
     padding-left: 8px;
     padding-right: 8px;
   }
+  .box4{
+    margin-bottom: 20px;
+  }
 }
 
 .main2{
@@ -239,4 +242,3 @@ strong:hover{
   color: grey;
   margin-top: 20px;
 }
-
