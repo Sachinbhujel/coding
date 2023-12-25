@@ -60,6 +60,7 @@ body{
 @media(width<400px){
   #total{
     font-size: 18px;
+    text-align: center;
     padding-left: 10px;
     padding-right: 10px;
   }
