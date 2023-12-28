@@ -2,7 +2,7 @@
 //let buttonWeight = 150;
  
 const b = document.querySelector("button.button--no")
-b.addEventListener("mouseover", hoverMouse)
+b.addEventListener("click", hoverMouse)
 
 function hoverMouse(){
   const w = Math.floor(Math.random() * 46) + 1;
