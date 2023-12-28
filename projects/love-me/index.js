@@ -5,8 +5,8 @@ const b = document.querySelector("button.button--no")
 b.addEventListener("mouseover", hoverMouse)
 
 function hoverMouse(){
-  const w = Math.floor(Math.random() * 22) + 1;
-  const h = Math.floor(Math.random() * 50) + 1;
+  const w = Math.floor(Math.random() * 46) + 1;
+  const h = Math.floor(Math.random() * 80) + 1;
   console.log(w);
   console.log(h);
   
