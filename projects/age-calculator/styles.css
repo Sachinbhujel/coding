@@ -43,7 +43,8 @@ body{
 .box_age input{
   margin-top: -10px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 18;
+  padding: 3px;
 }
 
 #total{
