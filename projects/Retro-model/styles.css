@@ -5,14 +5,14 @@ body{
 .box{
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 92vh;
   justify-content: center;
 }
 
 .main{
   border-radius: 10px;
   background: white;
-  height: 360px;
+  height: 380px;
 }
 
 .app{
