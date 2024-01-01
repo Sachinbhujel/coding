@@ -31,7 +31,7 @@ body{
 }
 
 .btnDiv{
-  padding-top: 15px;
+  margin-top: 29px;
 }
 
 .btnDiv button{
@@ -44,10 +44,10 @@ body{
 
 @media(width<400px){
   .child h1{
-    font-size: 30px;
+    font-size: 38px;
   }
   .btnDiv button{
-  font-size: 14px;
+  font-size: 16px;
   border-radius: 10px;
   padding: 6px 13px;
   }
@@ -62,4 +62,8 @@ body{
   border-radius: 10px;
   padding: 5px 9px;
   }
+}
+
+#num{
+  margin-top: 14px;
 }
