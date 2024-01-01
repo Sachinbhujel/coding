@@ -310,3 +310,54 @@ h3 {
   .footer{
   }
 }
+
+@media (width<260px) {
+  .footer-left h3 {
+    font-size: 15px;
+  }
+  .footer-left p {
+    font-size: 14px;
+  }
+  .footer-middle-div h3 {
+    font-size: 14px;
+  }
+  .footer-middle-div div {
+    font-size: 10px;
+  }
+  .footer-right h3 {
+    font-size: 15px;
+  }
+  .footer-right input {
+    font-size: 13px;
+    width: 80%;
+  }
+  .footer-right a {
+    text-decoration: none;
+    font-size: 13px;
+  }
+  .footer-right a{
+    width: 80%;
+  }
+}
+
+.list {
+  /*margin-top: 20px;
+  justify-content: space-between;
+  padding: 10px;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.list a {
+  text-decoration: none;
+  color: silver;
+  font-weight: 500;
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  width: 38%; /* Adjust the width as needed */
+  box-sizing: border-box;
+}
