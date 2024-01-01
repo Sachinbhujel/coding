@@ -4,21 +4,27 @@
 
 body{
   background: black;
+  background-image: url("https://images.pexels.com/photos/373394/pexels-photo-373394.jpeg?auto=compress&cs=tinysrgb&w=800");
+  background-size: cover;
+  background-position: center;
 }
 
 .main{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 500px;
+  height: 600px;
   color: black;
 }
 
 .child{
   text-align: center;
   background: white;
+  border-radius: 4px;
   width: 60%;
   padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  opacity: 0.78;
 }
 
 .child h1{
@@ -44,12 +50,19 @@ body{
 
 @media(width<400px){
   .child h1{
-    font-size: 38px;
+    font-size: 35px;
+    text-align: center;
   }
   .btnDiv button{
   font-size: 16px;
   border-radius: 10px;
   padding: 6px 13px;
+  }
+}
+
+@media(width<350px){
+  .child h1{
+    font-size: 30px;
   }
 }
 
