@@ -12,15 +12,15 @@ function age(){
   
   if(date.value > d2){
     d2 = d2 + months[m2 - 1]; 
-    console.log(d2)
     m2 = m2 - 1; 
   }
   
   if(month.value > m2){
     m2 = m2 + 12; 
+    y2 = y2 - 1;
   }
   //birth_date = d.getDate();
-  birth_year = d.getFullYear();
+  birth_year = y2;
   
   a = d2 - date.value;
   b = m2 - month.value;
