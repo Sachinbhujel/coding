@@ -5,7 +5,7 @@ body{
 .box{
   display: flex;
   align-items: center;
-  height: 85vh;
+  height: 100vh;
   justify-content: center;
 }
 
@@ -34,7 +34,7 @@ hr{
 
 .body{
   text-align: center;
-  margin-top: 30px;
+  margin-top: 40px;
 }
 
 .message .seen-message{
@@ -53,6 +53,8 @@ hr{
 .about p{
   color: silver;
   font-size: 17px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .lower{
