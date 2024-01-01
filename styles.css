@@ -8,7 +8,7 @@ body {
 }
 
 /*Css for Main content*/
-.project{
+.project {
   margin-top: 15px;
   margin-bottom: 30px;
   font-family: sans-serif;
@@ -18,11 +18,17 @@ body {
   /*background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;*/
-  background: linear-gradient(135deg, silver 0%, #FF7B00 25%,
-    #F4A261 50%, #eee 75%, #F3722C 100%);
+  background: linear-gradient(
+    135deg,
+    silver 0%,
+    #ff7b00 25%,
+    #f4a261 50%,
+    #eee 75%,
+    #f3722c 100%
+  );
   background-size: 400%;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   animation: animate 8s linear infinite;
 }
 
@@ -37,7 +43,7 @@ body {
 
 .main a {
   text-decoration: none;
-  color: #F4F3EE;
+  color: #f4f3ee;
   font-weight: 700;
   padding: 10px;
   margin: 5px;
@@ -53,7 +59,7 @@ body {
   font-size: 24px;
 }*/
 
-#challenge{
+#challenge {
   margin-top: 50px;
   margin-bottom: 30px;
   font-family: sans-serif;
@@ -63,22 +69,24 @@ body {
 }
 
 @keyframes neon {
-    0%,
-    100% {
-        text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
-        color: #f5efcb;
-    }
-    50% {
-        text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
-        color: #eda0d3;
-    }
+  0%,
+  100% {
+    text-shadow: 0 0 10px #ef00e3a8, 0 0 20px #ef00e3a8, 0 0 20px #ef00e3a8,
+      0 0 20px #ef00e3a8, 0 0 2px #fed128, 2px 2px 2px #806914;
+    color: #f5efcb;
+  }
+  50% {
+    text-shadow: 0 0 2px #800e0b, 0 0 5px #800e0b, 0 0 5px #800e0b,
+      0 0 5px #800e0b, 0 0 2px #800e0b, 4px 4px 2px #40340a;
+    color: #eda0d3;
+  }
 }
 
 @media (width<600px) {
   .project {
     font-size: 26px;
   }
-  #challenge{
+  #challenge {
     font-size: 26px;
   }
   .main a {
@@ -90,7 +98,7 @@ body {
   #challenge {
     font-size: 30px;
   }
-  .project{
+  .project {
     font-size: 30px;
   }
   .main a {
@@ -102,7 +110,7 @@ body {
   .project {
     font-size: 26px;
   }
-  #challenge{
+  #challenge {
     font-size: 26px;
   }
   .main a {
@@ -112,11 +120,10 @@ body {
 }
 
 @keyframes animate {
-  to{
+  to {
     background-position: 400%;
   }
 }
-
 
 /*Css for Footer*/
 
@@ -157,7 +164,7 @@ body {
   margin-top: 20px;
 }
 
-.footer-middle-div div p{
+.footer-middle-div div p {
   margin-top: 7px;
 }
 
@@ -307,7 +314,7 @@ h3 {
     text-decoration: none;
     font-size: 14px;
   }
-  .footer{
+  .footer {
   }
 }
 
@@ -335,7 +342,7 @@ h3 {
     text-decoration: none;
     font-size: 13px;
   }
-  .footer-right a{
+  .footer-right a {
     width: 80%;
   }
 }
@@ -351,13 +358,30 @@ h3 {
 
 .list a {
   text-decoration: none;
-  color: silver;
-  font-weight: 500;
-  padding: 8px;
+  background-color: #00a8e8;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px;
   margin: 5px;
-  border: 1px solid #ccc;
   border-radius: 5px;
   text-align: center;
-  width: 38%; /* Adjust the width as needed */
+  width: calc(33.33% - 10px);
   box-sizing: border-box;
+}
+
+.third-main {
+  margin-bottom: 20px;
+}
+
+.moreProjects {
+  margin-top: 20px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media (width<400px) {
+  .list a {
+    width: calc(50% - 10px);
+    font-size: 14px;
+  }
 }
