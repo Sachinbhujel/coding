@@ -15,7 +15,7 @@ body {
 
 .main {
   background: #e0e1dd;
-  padding: 20px;
+  padding: 22px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
@@ -27,17 +27,19 @@ body {
 
 h1 {
   margin-bottom: 10px;
-  font-size: 40px;
+  text-align: center;
+  font-size: 34px;
 }
 
 label {
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 input {
   font-size: 17px;
+  outline: none;
 }
 
 .buttons {
@@ -86,6 +88,12 @@ input {
 
   input {
     font-size: 14px;
+  }
+}
+
+@media(width<266){
+  h1{
+    font-size: 33px;
   }
 }
 
