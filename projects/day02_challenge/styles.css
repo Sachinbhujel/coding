@@ -1,0 +1,150 @@
+body {
+  background-color: #e9ecef;
+}
+
+* {
+  margin: 0;
+}
+
+.container {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  background: #e0e1dd;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+.main div {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+
+label {
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+input {
+  font-size: 17px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 6px;
+  background: black;
+  margin-top: 26px;
+  color: white;
+}
+
+#notMain {
+  display: none;
+  text-align: center;
+  margin: 20px;
+  margin-top: 60px;
+}
+
+#notMain h1 {
+  font-weight: 300;
+}
+
+#notMain h3 {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  color: grey;
+}
+
+@media (width<280px) {
+  h1 {
+    margin-bottom: 10px;
+    font-size: 37px;
+  }
+
+  label {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+}
+
+@media (width<250px) {
+  h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+
+  label {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    font-size: 13px;
+  }
+}
+
+@media (width<240px) {
+  h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+  }
+
+  label {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    font-size: 12px;
+  }
+  .btn {
+    font-size: 16px;
+    width: 80px;
+  }
+}
+
+@media (width<230px) {
+  h1 {
+    margin-bottom: 10px;
+    font-size: 33px;
+  }
+
+  label {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    font-size: 12px;
+  }
+}
+.warning {
+  color: red;
+  margin-top: 4px;
+  margin-left: 5px;
+}
