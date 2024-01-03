@@ -4,8 +4,7 @@
 }
 
 body {
-  /*background: #06070e;*/
-  background: coral;
+  background: #06070e;
 }
 
 /*Css for Main content*/
@@ -437,7 +436,8 @@ h3 {
 
 .count p {
   font-size: 15px;
-  background: #0096c7;
+  /*background: #0096c7;*/
+  background: white;
   color: white;
   padding: 8px;
 }
