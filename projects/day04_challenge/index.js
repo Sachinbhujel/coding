@@ -1,12 +1,24 @@
 let counterContainer = document.querySelector(".website-counter");
-let visitCount = localStorage.getItem("page_view");
 
-// Increment the visit count
-visitCount = Number(visitCount) + 1;
+// Fetch the serverless function endpoint to increment the count
+fetch("/.netlify/functions/incrementCounter")
+  .then(response => response.json())
+  .then(data => {
+    // Display the visit count on the page
+    counterContainer.innerHTML = data.visitCount;
+  })
+  .catch(error => console.error("Error:", error));
 
-// Update the localStorage with the new visit count
-localStorage.setItem("page_view", visitCount);
+// functions/incrementCounter.js
 
-// Display the visit count on the page
-//localStorage.removeItem("page_view")
-counterContainer.innerHTML = visitCount;
+exports.handler = async function (event, context) {
+  let visitCount = Number(localStorage.getItem("page_view")) || 0;
+
+  // Increment the visit count
+  visitCount++;
+
+  return {
+    statusCode: 200,
+    body: JSON.stringify({ visitCount }),
+  };
+};
