@@ -1,7 +1,34 @@
-<link rel="stylesheet" href="styles.css">
-<script src="index.js"></script>
-<div class="count">
-  <h3>Website visit count</h3>
-  <p class="website-counter"></p>
-</div>
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Counter</title>
+</head>
+<body>
+
+<div class="website-counter"></div>
+
+<script>
+    // Check if there is a previous visit count in localStorage
+    let visitCount = localStorage.getItem("page_view");
+
+    // If no previous count exists, initialize it to 0
+    if (visitCount === null) {
+        visitCount = 0;
+    }
+
+    // Increment the visit count
+    visitCount = Number(visitCount) + 1;
+
+    // Update the localStorage with the new visit count
+    localStorage.setItem("page_view", visitCount);
+
+    // Display the visit count on the page
+    let counterContainer = document.querySelector(".website-counter");
+    counterContainer.innerHTML = "Visit Count: " + visitCount;
+</script>
+
+</body>
+</html>
