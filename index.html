@@ -1,12 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <title>Hello, world!</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <link rel="stylesheet" href="styles.css">
-  <script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Counter</title>
+</head>
+<body>
+
+<div class="website-counter"></div>
+
+<script>
+    // Check if there is a previous visit count in localStorage
     let visitCount = localStorage.getItem("page_view");
 
     // If no previous count exists, initialize it to 0
@@ -23,84 +28,7 @@
     // Display the visit count on the page
     let counterContainer = document.querySelector(".website-counter");
     counterContainer.innerHTML = "Visit Count: " + visitCount;
-  </script>
-</head>
+</script>
 
-<body>
-  <div class="count">
-  <h3>Website visit count</h3>
-  <p class="website-counter"></p>
-</div>
-  <h1 class="project">My Projects</h1>
-  <div class="main">
-    <!--<a href="projects/sentMessage/index.html">Retro-Message</a>-->
-    <a href="projects/Retro-model/index.html">RetroModel</a>
-    <a href="projects/age-calculator/index.html">AgeCal.</a>
-    <a href="projects/sachin-haven/index.html">SachinHav.</a>
-    <!--<a href="projects/goodContent/index.html">Social-website</a>-->
-    <!--<a href="projects/group-chat/index.html">Group-Chat</a>-->
-  </div>
-  <div class="main">
-    <!--<a href="projects/google-clone/index.html">Google-clone</a>-->
-    <a href="projects/paintWebsite/index.html">PaintWebsite</a>
-    <a href="projects/landing-page/index.html">LandingPa.</a>
-    <a href="projects/loginForm/index.html">LoginForm</a>
-    <!--<a href="projects/piano/index.html">Piano-Model</a>-->
-    <!--<a href="projects/gmail/index.html">Gmail-Clone</a>-->
-  </div>
-  <div class="main third-main">
-    <!--<a href="projects/filterableGallery/index.html">Filterable-Img</a>-->
-    <a href="projects/coffee/index.html">CoffeePage</a>
-    <!--<a href="projects/love-me/index.html">Love-Me</a>-->
-    <a href="projects/remove-duplicate/index.html">RemoveDup.</a>
-    <!--<a href="projects/portfolioWebsite/index.html">portfolio</a>-->
-    <!--<a href="projects/carAnimations/index.html">Car-Animation</a>-->
-    <!--<a href="projects/windows11/index.html">Windows11</a>-->
-  </div>
-  <div class="moreProjects">
-    <h1 id="challenge">365 Days Challenge</h1>
-    <div class="list">
-      <a href="projects/day04_challenge/index.html">Day 01</a>
-    </div>
-  </div>
-  <section class="footer">
-    <footer class="footer-div">
-      <div class="footer-left">
-        <h3>Web Developer</h3>
-        <p>Hi there! 👋 I'm Sachin, a passionate Web developer. I thrive on challenges and am constantly seeking new ways to improve my coding skills.</p>
-        <div class="icons">
-          <a href="#"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-1024.png" width="34px"></a>
-          <a href="#"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-1024.png" width="34px"></a>
-          <a href="https://twitter.com/sachinbhujel909"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_twitter-1024.png" width="34px"></a>
-          <img src="https://cdn3.iconfinder.com/data/icons/social-icons-33/512/Telegram-1024.png" width="34px">
-        </div>
-      </div>
-      <div class="footer-middle">
-        <div class="footer-middle-div">
-          <h3>Links</h3>
-          <div>
-            <p>F.A.Q</p>
-            <p>Cookies policy</p>
-            <p>Terms of services</p>
-          </div>
-        </div>
-        <div class="footer-middle-div">
-          <h3>Skills</h3>
-          <div>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>JAVASCRIPT</p>
-          </div>
-        </div>
-      </div>
-      <div class="footer-right">
-        <h3>Subscriptions</h3>
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Your email id here">
-        <a href="#">Subscribe</a>
-      </div>
-    </footer>
-  </section>
 </body>
-
 </html>
