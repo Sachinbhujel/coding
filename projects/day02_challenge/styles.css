@@ -74,10 +74,30 @@ input {
   color: grey;
 }
 
+@media (width>580px) {
+  h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+
+  label {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  input {
+    font-size: 18px;
+  }
+  .main{
+    padding: 30px;
+  }
+}
+
 @media (width<280px) {
   h1 {
     margin-bottom: 10px;
-    font-size: 37px;
+    font-size: 32px;
   }
 
   label {
@@ -91,16 +111,16 @@ input {
   }
 }
 
-@media(width<266){
+@media(width<266px){
   h1{
-    font-size: 33px;
+    font-size: 28px;
   }
 }
 
 @media (width<250px) {
   h1 {
     margin-bottom: 10px;
-    font-size: 35px;
+    font-size: 26px;
   }
 
   label {
@@ -117,7 +137,7 @@ input {
 @media (width<240px) {
   h1 {
     margin-bottom: 10px;
-    font-size: 35px;
+    font-size: 24px;
   }
 
   label {
@@ -138,7 +158,7 @@ input {
 @media (width<230px) {
   h1 {
     margin-bottom: 10px;
-    font-size: 33px;
+    font-size: 23px;
   }
 
   label {
