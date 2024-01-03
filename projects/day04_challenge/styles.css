@@ -1,0 +1,85 @@
+
+
+/*Css for count*/
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.count{
+  display: flex;
+  align-items: center;
+  padding: 14px;
+  background: #06070e;
+}
+
+.count h3 {
+  background: grey;
+  padding: 8px;
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+
+.count p {
+  font-size: 15px;
+  background: #0096c7;
+  color: white;
+  padding: 8px;
+}
+
+@media (width<500px) {
+  .count h3 {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .count p {
+    font-size: 14px;
+  }
+}
+
+@media (width<400px) {
+  .count h3 {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .count p {
+    font-size: 12px;
+  }
+}
+
+@media (width<300px) {
+  .count h3 {
+    font-size: 11px;
+    padding: 8px;
+  }
+
+  .count p {
+    font-size: 11px;
+  }
+}
+
+@media (width<200px) {
+  .count h3 {
+    font-size: 9px;
+    padding: 8px;
+  }
+
+  .count p {
+    font-size: 9px;
+  }
+}
+
+@media (width<170px) {
+  .count h3 {
+    font-size: 6px;
+    padding: 8px;
+  }
+
+  .count p {
+    font-size: 6px;
+  }
+}
