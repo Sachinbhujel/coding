@@ -422,7 +422,7 @@ h3 {
   display: flex;
   align-items: center;
   padding: 14px;
-  background: #06070e;
+  background: white;
 }
 
 .count h3 {
@@ -436,8 +436,7 @@ h3 {
 
 .count p {
   font-size: 15px;
-  /*background: #0096c7;*/
-  background: white;
+  background: #0096c7;
   color: white;
   padding: 8px;
 }
