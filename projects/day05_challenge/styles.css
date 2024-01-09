@@ -12,6 +12,10 @@ body {
   place-items: center;
 }
 
+body{
+  background: #F4F3EE;
+}
+
 textarea {
   font-size: 17px;
   padding: 10px;
