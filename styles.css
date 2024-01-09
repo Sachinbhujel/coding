@@ -474,14 +474,32 @@ h3 {
   }
 }
 
-@media (width<200px) {
-  .count h3 {
+@media(width<230px){
+  .count h3{
+    font-size: 10px;
+  }
+  .count p{
+    font-size: 10px;
+  }
+}
+
+@media(width<230px){
+  .count h3{
     font-size: 9px;
+  }
+  .count p{
+    font-size: 9px;
+  }
+}
+
+@media (width<210px) {
+  .count h3 {
+    font-size: 8px;
     padding: 8px;
   }
 
   .count p {
-    font-size: 9px;
+    font-size: 8px;
   }
 }
 
@@ -493,5 +511,74 @@ h3 {
 
   .count p {
     font-size: 6px;
+  }
+}
+ /* CSS for navbar */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.topnav{
+  overflow: hidden;
+  background: #333;
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.icon span{
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.icon span:hover{
+  background: #ddd;
+  color: black;
+}
+
+.topnav a:hover{
+  background: #ddd;
+  color: black;
+}
+
+.active{
+  background: #202020;
+  color: white;
+}
+
+.icon, .menu{
+  display: none;
+}
+
+@media(width<700px){
+  .icon, .menu{
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navBar_hide{
+    display: none;
+  }
+  
+  .topnav{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .navBar_hide{
+    display: none;
+    flex-direction: column;
   }
 }
