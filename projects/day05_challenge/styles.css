@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: saturate;
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  place-items: center;
+}
+
+textarea {
+  font-size: 17px;
+  padding: 10px;
+  resize: none;
+  text-align: justify;
+  color: #202020;
+  background: #e9ecef;
+}
+
+button {
+  margin: 10px 5px 40px 0px;
+  background: silver;
+  padding: 9px 15px;
+}
+
+.btn button {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: black;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  color: #f2f2f2;
+  background: linear-gradient(#18b495, #16a085);
+}
+
+::placeholder {
+  color: grey;
+  font-weight: 400;
+}
+
+.btn .copied {
+  margin-left: 6px;
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  color: #f2f2f2;
+  border-radius: 4px;
+  background: linear-gradient(#18b495, #16a085);
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.copied:before {
+  content: " ";
+  background: linear-gradient(#18b495, #16a085);
+  position: absolute;
+  width: 12px;
+  height: 11px;
+  margin-left: -16px;
+  margin-top: 25px;
+  z-index: -1;
+  transform: translateY(-0%) rotate(45deg);
+}
+
+.btn .copied.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.container,
+.h2 {
+  margin-top: -20px;
+  font-size: 23px;
+  color: #18b495;
+}
+
+#copyText {
+  margin-top: 20px;
+}
+
+@media (width<500px) {
+  textarea {
+    font-size: 16px;
+  }
+  .btn button {
+    font-size: 17px;
+  }
+  .btn .copied {
+    font-size: 16px;
+  }
+  .container,
+  .h2 {
+    font-size: 21px;
+  }
+}
+
+@media (width<420px) {
+  textarea {
+    font-size: 16px;
+  }
+  .btn button {
+    font-size: 16px;
+  }
+  .btn .copied {
+    font-size: 15px;
+  }
+  .container,
+  .h2 {
+    font-size: 20px;
+  }
+}
+
+@media (width<400px) {
+  textarea {
+    width: 310px;
+    font-size: 17px;
+  }
+  .btn button {
+    font-size: 16px;
+  }
+  .btn .copied {
+    font-size: 15px;
+  }
+  .container,
+  .h2 {
+    font-size: 20px;
+  }
+}
+
+@media (width<330px) {
+  textarea {
+    width: 280px;
+    font-size: 17px;
+  }
+  .btn button {
+    font-size: 14px;
+  }
+  .btn .copied {
+    font-size: 13px;
+  }
+  .container,
+  .h2 {
+    font-size: 18px;
+  }
+  .copied:before {
+    margin-left: -16px;
+    margin-top: 23px;
+  }
+}
+
+@media (width<295px) {
+  textarea {
+    width: 260px;
+    font-size: 15px;
+  }
+  .btn button {
+    font-size: 12px;
+  }
+  .btn .copied {
+    font-size: 11px;
+  }
+  .container,
+  .h2 {
+    font-size: 16px;
+  }
+  .copied:before {
+    margin-left: -16px;
+    margin-top: 22px;
+  }
+}
+
+@media (width<270px) {
+  textarea {
+    width: 230px;
+    font-size: 13px;
+  }
+  .btn button {
+    font-size: 10px;
+  }
+  .btn .copied {
+    font-size: 9px;
+  }
+  .container,
+  .h2 {
+    font-size: 16px;
+  }
+  .copied:before {
+    width: 12px;
+    margin-left: -14px;
+    height: 12px;
+    margin-top: 19.3px;
+  }
+}
+
+@media (width<238px) {
+  textarea {
+    width: 210px;
+    font-size: 12px;
+  }
+  .btn button {
+    font-size: 9px;
+  }
+  .btn .copied {
+    font-size: 8px;
+  }
+  .container,
+  .h2 {
+    font-size: 14px;
+  }
+  .copied:before {
+    width: 12px;
+    margin-left: -14px;
+    height: 12px;
+    margin-top: 19.3px;
+  }
+}
+
+@media (width<225px) {
+  textarea {
+    width: 190px;
+    font-size: 12px;
+  }
+  .btn button {
+    font-size: 8px;
+  }
+  .btn .copied {
+    font-size: 7px;
+  }
+  .container,
+  .h2 {
+    font-size: 12px;
+  }
+  .copied:before {
+    width: 12px;
+    margin-left: -14px;
+    height: 12px;
+    margin-top: 19.3px;
+  }
+}
