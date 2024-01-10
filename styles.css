@@ -543,7 +543,7 @@ h3 {
 }
 
 .icon span:hover{
-  background: #ddd;
+  background: silver;
   color: black;
 }
 
@@ -553,7 +553,7 @@ h3 {
 }
 
 .active{
-  background: #202020;
+    background: #00B4D8;
   color: white;
 }
 
