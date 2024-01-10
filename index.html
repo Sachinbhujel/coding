@@ -101,7 +101,7 @@
       <div class="footer-right">
         <h3>Subscriptions</h3>
         <input type="text" placeholder="Full Name" id="textName">
-        <input type="email" placeholder="Your email id here">
+        <input type="email" placeholder="Your email id here" id="textEmail">
         <a href="#" onclick="subscribe()">Subscribe</a>
       </div>
     </footer>
@@ -111,6 +111,7 @@
   <script>
     function subscribe(){
       document.getElementById("textName").value = "";
+      document.getElementById("textEmail").value = "";
     }
     
     function myFunction(){
