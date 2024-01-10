@@ -118,7 +118,7 @@ button {
 
 #suppName {
   color: black;
-  font-size: 17px;
+  font-size: 15px;
   margin-top: 2px;
   margin-left: -20px;
 }
@@ -126,7 +126,8 @@ button {
 #suppMessage {
   color: brown;
   margin-left: 48px;
-  margin-top: -31px;
+  margin-top: -32px;
+  font-size: 18px;
 }
 
 .supporter h1{
@@ -165,6 +166,16 @@ button {
   font-family: sans-serif;
   font-size: 20px;
   color: grey;
+}
+
+@media(width>600px){
+  .container{
+    height: 140px;
+  }
+  .profile img {
+    width: 89px;
+    height: 90px;
+}
 }
 
 @media(width<323px){
@@ -233,5 +244,75 @@ button {
 }
 .bioData p{
   font-size: 16px;
+}
+}
+
+@media(width<300px){
+  .profile h3{
+  font-size: 19px;
+}
+.buyCoffee-div div {
+  font-size: 9px;
+}
+input {
+  font-size: 13px;
+}
+textarea{
+  font-size: 14px;
+}
+button {
+  font-size: 14px;
+}
+#suppName {
+  font-size: 13px;
+}
+.supporter h1{
+  font-size: 17px;
+}
+.supporter-div p {
+  font-size: 14px;
+}
+.supporter h4 {
+  padding: 5px;
+}
+.bioData p{
+  font-size: 14px;
+}
+}
+
+@media(width<283px){
+  .profile h3{
+  font-size: 18px;
+}
+  .buyCoffee-div img{
+    width: 28px;
+    height: 32px;
+  }
+.buyCoffee-div div {
+  font-size: 8px;
+}
+input {
+  font-size: 10px;
+}
+textarea{
+  font-size: 12px;
+}
+button {
+  font-size: 13px;
+}
+#suppName {
+  font-size: 12px;
+}
+.supporter h1{
+  font-size: 16px;
+}
+.supporter-div p {
+  font-size: 13px;
+}
+.supporter h4 {
+  padding: 5px;
+}
+.bioData p{
+  font-size: 13px;
 }
 }
