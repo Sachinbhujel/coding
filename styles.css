@@ -611,3 +611,17 @@ h3 {
     font-size: 28px;
   }
 }
+
+.rights{
+  margin-top: 10px;
+  text-align: center;
+}
+
+.rights h3{
+  font-size: 14px;
+  color: grey;
+}
+
+.rights h3 a{
+  color: white;
+}
