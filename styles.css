@@ -585,14 +585,14 @@ h3 {
 
 .webName h1{
   margin-top: 20px;
-  color: #CED4DA;
+  color: white;
       font-size: 36px;
   font-family: saturate;
   text-align: center;
 }
 
 .webName p{
-  color: #E9ECEF;
+  color: #CED4DA;
   text-align: center;
   margin-top: 10px;
   padding-left: 15px;
