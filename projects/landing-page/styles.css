@@ -79,7 +79,8 @@
 .lower{
   padding-left: 90px;
   padding-right: 90px;
-  margin-top: 70px;
+  margin-top: 56px;
+  gap: 15px;
   justify-content: space-around;
   display: flex;
   align-items: center;
@@ -158,46 +159,6 @@
   color: black;
 }
 
-@media(width<400px){
-  .header-right img{
-    width: 20px;
-  }
-  .header-right h3{
-    font-size: 17px;
-  }
-  .header-middle a{
-   font-size: 13px;
-  }
-  .header-middle{
-  }
-  .btn3{
-    font-size: 10px;
-    width: 48px;
-  }
-  .btn2{
-    display: none;
-  }
-  .lower{
-    display: grid;
-  }
-  .box{
-    margin-top: 30px;
-  }
-  .box:hover{
-    transform: translateX(18px);
-  }
-  .articles, .pricing, .contact, .help, .home, .about{
-    display: none;
-  }
-  .middle{
-    padding-left: 8px;
-    padding-right: 8px;
-  }
-  .box4{
-    margin-bottom: 20px;
-  }
-}
-
 .main2{
   display: flex;
   flex-direction
@@ -241,4 +202,128 @@ strong:hover{
 .close{
   color: grey;
   margin-top: 20px;
+}
+
+@media(width<900px){
+  .lower{
+    gap: 20px;
+  }
+ .box img{
+  border-radius: 4px;
+  width: 160px;
+  height: 140px;
+} 
+}
+
+@media(width<735px){
+  .lower{
+    gap: 15px;
+  }
+ .box img{
+  border-radius: 4px;
+  width: 140px;
+  height: 120px;
+} 
+}
+
+
+@media(width<640px){
+  .lower{
+    gap: 15px;
+  }
+ .box img{
+  border-radius: 4px;
+  width: 130px;
+  height: 110px;
+}
+  .btn4{
+    font-size: 12px;
+  }
+}
+
+@media(width<580px){
+  .lower{
+    gap: 20px;
+  }
+ .box img{
+  border-radius: 4px;
+  width: 150px;
+  height: 120px;
+}
+  .btn4{
+    font-size: 12px;
+  }
+  .box p{
+    font-size: 17px;
+  }
+  .box4{
+    display: none;
+  }
+}
+
+@media(width<510px){
+  .lower{
+    gap: 14px;
+  }
+ .box img{
+  border-radius: 4px;
+  width: 126px;
+  height: 97px;
+}
+  .btn4{
+    font-size: 12px;
+  }
+  .box p{
+    font-size: 14px;
+  }
+  .box4{
+    display: none;
+  }
+}
+
+@media(width<420px){
+  .box img{
+  border-radius: 4px;
+  width: 160px;
+  height: 120px;
+}
+  .header-right img{
+    width: 20px;
+  }
+  .header-right h3{
+    font-size: 17px;
+  }
+  .header-middle a{
+   font-size: 13px;
+  }
+  .header-middle{
+  }
+  .btn3{
+    font-size: 10px;
+    width: 48px;
+  }
+  .btn2{
+    display: none;
+  }
+  .lower{
+    margin-top: 27px;
+    display: grid;
+  }
+  .box{
+    margin-top: 30px;
+  }
+  .box:hover{
+    transform: translateX(18px);
+  }
+  .articles, .pricing, .contact, .help, .home, .about{
+    display: none;
+  }
+  .middle{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .box4{
+    display: block;
+    margin-bottom: 20px;
+  }
 }
