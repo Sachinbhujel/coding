@@ -134,6 +134,11 @@
       document.getElementById("body_div").style.display = "none";
     }
 
+    function goBack(){
+      document.getElementById("thank-you-container").style.display = "none";
+      document.getElementById("body_div").style.display = "block";
+    }
+    
     function myFunction() {
       /*let topNav = document.getElementById("myTopnav");
       if(topNav.style.display == "block"){
@@ -172,9 +177,6 @@
     let counterContainer = document.querySelector(".website-counter");
     counterContainer.innerHTML = visitCount;
 
-    function goBack() {
-      window.history.back();
-    }
   </script>
 
 </body>
