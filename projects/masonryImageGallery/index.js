@@ -10,5 +10,5 @@ function imgs(link){
 function close_img(){
   let img_show_div = document.getElementById("img_show_div");
     img_show_div.style.display = "none";
-    document.body.style.background = "white";
+    document.body.style.background = "#E7ECEF";
 }
