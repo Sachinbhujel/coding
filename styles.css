@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #06070e;
+  background: black;
 }
 
 /*Css for Main content*/
@@ -418,7 +418,7 @@ h3 {
   font-family: sans-serif;
 }
 
-.count{
+.count {
   display: flex;
   align-items: center;
   padding: 14px;
@@ -474,20 +474,20 @@ h3 {
   }
 }
 
-@media(width<230px){
-  .count h3{
+@media (width<230px) {
+  .count h3 {
     font-size: 10px;
   }
-  .count p{
+  .count p {
     font-size: 10px;
   }
 }
 
-@media(width<230px){
-  .count h3{
+@media (width<230px) {
+  .count h3 {
     font-size: 9px;
   }
-  .count p{
+  .count p {
     font-size: 9px;
   }
 }
@@ -513,18 +513,18 @@ h3 {
     font-size: 6px;
   }
 }
- /* CSS for navbar */
-*{
+/* CSS for navbar */
+* {
   margin: 0;
   padding: 0;
 }
 
-.topnav{
+.topnav {
   overflow: hidden;
   background: #333;
 }
 
-.topnav a{
+.topnav a {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -533,7 +533,7 @@ h3 {
   font-size: 17px;
 }
 
-.icon span{
+.icon span {
   float: left;
   display: block;
   color: #f2f2f2;
@@ -542,57 +542,59 @@ h3 {
   font-size: 21px;
 }
 
-.icon span:hover{
+.icon span:hover {
   background: silver;
   color: black;
 }
 
-.topnav a:hover{
+.topnav a:hover {
   background: #ddd;
   color: black;
 }
 
-.active{
-    background: #00B4D8;
+.active {
+  background: #00b4d8;
   color: white;
 }
 
-.icon, .menu{
+.icon,
+.menu {
   display: none;
 }
 
-@media(width<700px){
-  .icon, .menu{
+@media (width<700px) {
+  .icon,
+  .menu {
     display: block;
     position: absolute;
     right: 0;
     top: 0;
   }
-  .navBar_hide{
+  .navBar_hide {
     display: none;
   }
-  
-  .topnav{
+
+  .topnav {
     display: flex;
     flex-direction: column;
   }
-  
-  .navBar_hide{
+
+  .navBar_hide {
     display: none;
     flex-direction: column;
   }
 }
 
-.webName h1{
+.webName h1 {
   margin-top: 20px;
   color: white;
-      font-size: 36px;
+  font-size: 36px;
   font-family: saturate;
   text-align: center;
 }
 
-.webName p{
-  color: #CED4DA;
+.webName p {
+  color: #ced4da;
   text-align: center;
   margin-top: 10px;
   padding-left: 15px;
@@ -600,28 +602,106 @@ h3 {
   margin-bottom: 50px;
 }
 
-@media(width<600px){
-  .webName h1{
+@media (width<600px) {
+  .webName h1 {
     font-size: 36px;
   }
 }
 
-@media(width<270px){
-  .webName h1{
+@media (width<270px) {
+  .webName h1 {
     font-size: 28px;
   }
 }
 
-.rights{
+.rights {
   margin-top: 10px;
   text-align: center;
 }
 
-.rights h3{
+.rights h3 {
   font-size: 14px;
   color: grey;
 }
 
-.rights h3 a{
+.rights h3 a {
   color: white;
+}
+
+.thank-you-container {
+  display: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  min-height: 100vh;
+}
+
+.thank-you-container {
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    background: linear-gradient(to right, #536976, #292e49);
+  backdrop-filter: blur(10px);
+  width: 80%;
+  max-width: 600px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.thank-you-container h1 {
+  color: #f39c12;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.thank-you-container p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.back-button {
+  background-color: #f39c12;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.back-button:hover {
+  background-color: #e74c3c;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (width<600px) {
+  .thank-you-container h1 {
+    color: #f39c12;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+
+  .thank-you-container p {
+    font-size: 1em;
+    margin-bottom: 30px;
+  }
+  .back-button {
+    font-size: 0.8em;
+  }
 }
