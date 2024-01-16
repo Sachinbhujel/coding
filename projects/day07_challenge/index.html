@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello, world!</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js"></script>
+</head>
+<body>
+<div class="box">
+  <div class="main" id="main">
+    <div class="app">
+      <div class="header">
+        <h3>Confirm</h3>
+        <span class="material-symbols-outlined" onclick="hide()">
+          close
+        </span>
+      </div>
+      <hr>
+      <div class="body">
+        <div class="message">
+          <span class="material-symbols-outlined seen-message">
+            mark_chat_unread
+          </span>
+        </div>
+        <div class="info">
+          <p>Are you sure you want to <br>navigate away from this page?</p>
+        </div>
+        <div class="about">
+          <p>Press OK to continue, or Cancel to stay on the current page.</p>
+        </div>
+      </div>
+      <div class="lower">
+        <div class="buttons">
+          <button class="btn" onclick="warning()">OK</button>
+        </div>
+        <div class="buttons">
+          <button class="btn btn2">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main2" id="main2">
+      <h1>Tap to button</h1>
+      <button class="btn3" id="button" onclick="show()">Show</button>
+    </div>
+</div>
+</body>
+</html>
