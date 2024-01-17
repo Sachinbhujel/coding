@@ -9,26 +9,26 @@
   <script src="index.js"></script>
 </head>
 <body>
-  <div class="container">
-  <form>
+  <div class="container" id="container">
+  <form id="form">
     <h2>Registrations Form</h2>
     <div class="main">
       <div class="input-div">
         <label>Full Name</label>
-        <input type="text" placeholder="Enter Name" required>
+        <input type="text" placeholder="Enter Name" id="fullName" required>
       </div>
       <div class="input-div">
         <label>Username</label>
-        <input type="text" placeholder="Enter username" required>
+        <input type="text" placeholder="Enter username" id="userName" required>
       </div>
       <div class="input-div">
         <label>Email</label>
-        <input type="email" placeholder="Enter your email" required>
+        <input type="email" placeholder="Enter your email" id="emailId" required>
       </div>
 
       <div class="input-div">
         <label>Phone Number</label>
-        <input type="number" placeholder="Enter phone number" required>
+        <input type="number" placeholder="Enter phone number"  id ="phoneNum" required>
       </div>
 
       <div class="input-div">
@@ -46,7 +46,7 @@ visibility_off
 
       <div class="input-div">
         <label>Confirm Password</label>
-        <input type="text" placeholder="Confirm your password" required>
+        <input type="text" placeholder="Confirm your password"  id="confirmPass" required>
       </div>
     </div>
     <h1>Gender</h1>
@@ -70,10 +70,15 @@ visibility_off
       <p><i>By clicking Sign Up, you agree to our <span>Terms, Privacy Policy</span> and <span>Cookies Policy.</span>You may receive SMS notifications from us and can opt out at any time.</i></p>
     </div>
     <div class="button-div">
-      <button>Register</button>
+      <button onclick="submitForm()" type="button">Register</button>
     </div>
 </div>
 </form>
 </div>
+<div class="thank-you-container" id="thank-you-container">
+    <h1>Thank You for Your Registration!</h1>
+    <p>We're excited to have you on board. Get ready for exclusive content and updates.</p>
+    <button class="back-button" onclick="goBack()">Back to Homepage</button>
+  </div>
 </body>
 </html>
