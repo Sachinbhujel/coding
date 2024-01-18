@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello, world!</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js"></script>
+</head>
+<body>
+  <div id="para" class="container">
+  <h2>How satisfied are you with our customer support performance?</h2>
+  <div class="pic">
+    <img src="https://cdn4.iconfinder.com/data/icons/emoji-18/61/2-128.png" onclick="selectEmoji(this)">
+    <img src="https://cdn0.iconfinder.com/data/icons/social-reaction-and-emoji/519/happy-128.png" onclick="selectEmoji(this)">
+    <img src="https://cdn4.iconfinder.com/data/icons/smileys-for-fun/128/smiley__8-128.png" onclick="selectedEmoji(this)">
+    <div class="btn">
+      <button onclick="submit()">Submit</button>
+    </div>
+  </div>
+</div>
+
+<div id="para2" class="container2" style="display: none;">
+  <h2>Thank you</h2>
+  <p>We'll use your feedback to improve our customer support performance</p>
+  <div class="btn2">
+    <button onclick="done()">Done</button>
+  </div>
+</div>
+</body>
+</html>
