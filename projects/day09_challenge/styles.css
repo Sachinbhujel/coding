@@ -62,7 +62,8 @@ body{
 
 .box_top{
   display: flex;
-  gap: 70px;
+  justify-content: space-between;
+  /*gap: 70px;*/
 }
 
 .box_top h4{
