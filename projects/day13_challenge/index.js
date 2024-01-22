@@ -21,3 +21,7 @@ function exitBtn(){
  showCart_div.style.display = "none";
  mainDiv.style.display = "block";
 }
+
+window.addEventListener("orientationchange", function() {
+  alert("Phone rotated!");
+});
