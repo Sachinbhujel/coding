@@ -314,3 +314,10 @@ button.active{
     font-size: 13px;
   }
 }
+
+#errorShow{
+  text-shadow: 1px 1px;
+  color: white;
+  text-align: center;
+}
+  
