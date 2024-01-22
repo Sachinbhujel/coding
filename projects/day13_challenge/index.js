@@ -25,4 +25,5 @@ function exitBtn(){
 window.addEventListener("orientationchange", function() {
   let mainDiv = document.getElementById("mainDiv");
   mainDiv.style.display = "none";
+  document.getElementById("errorShow").style.display = "block";
 });
