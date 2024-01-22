@@ -12,7 +12,7 @@ function showCart(){
   let mainDiv = document.getElementById("mainDiv");
   let showCart_div = document.getElementById("showCart_div");
  showCart_div.style.display = "block";
- mainDiv.style.display = "none"
+ mainDiv.style.display = "none";
 }
 
 function exitBtn(){
@@ -23,5 +23,6 @@ function exitBtn(){
 }
 
 window.addEventListener("orientationchange", function() {
-  alert("Phone rotated!");
+  let mainDiv = document.getElementById("mainDiv");
+  mainDiv.style.display = "none";
 });
