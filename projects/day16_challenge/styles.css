@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: conic-gradient(
+    from 90deg at 25% -10%,
+    #ff4500,
+    #d3f340,
+    #7bee85,
+    #afeeee,
+    #7bee85
+  );
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  border: 1px solid black;
+  background: rgb(0, 0, 0, 0.2);
+  width: 90%;
+  height: 50vh;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main h4 {
+  font-size: 30px;
+  color: white;
+}
+
+.main p {
+  color: #fff;
+  font-size: 23px;
+}
