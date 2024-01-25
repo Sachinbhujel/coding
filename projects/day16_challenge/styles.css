@@ -5,15 +5,8 @@
   box-sizing: border-box;
 }
 
-body {
-  background: conic-gradient(
-    from 90deg at 25% -10%,
-    #ff4500,
-    #d3f340,
-    #7bee85,
-    #afeeee,
-    #7bee85
-  );
+body{
+  background: rgb(0, 0, 0, 0.2);
 }
 
 .container {
@@ -24,10 +17,18 @@ body {
 
 .main {
   border: 1px solid black;
-  background: rgb(0, 0, 0, 0.2);
+  background: conic-gradient(
+    from 90deg at 25% -10%,
+    #ff4500,
+    #d3f340,
+    #7bee85,
+    #afeeee,
+    #7bee85
+  );
   width: 90%;
-  height: 60%;
+  height: 50vh;
   gap: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   display: flex;
   flex-direction: column;
   justify-content: center;
