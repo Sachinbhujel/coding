@@ -26,7 +26,7 @@ body {
   border: 1px solid black;
   background: rgb(0, 0, 0, 0.2);
   width: 90%;
-  height: 50vh;
+  height: 60%;
   gap: 20px;
   display: flex;
   flex-direction: column;
