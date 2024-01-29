@@ -54,14 +54,15 @@
     seconds = "0" + seconds;
   }
 
-  hour.innerHTML = hours;
+  hour.innerHTML = hours + " hour";
   day.innerHTML = days[dayName];
-  minute.innerHTML = minutes;
-  second.innerHTML = seconds;
+  minute.innerHTML = minutes + " minutes";
+  second.innerHTML = seconds + " seconds";
 
   setTimeout(showClock, 1000);
 }
 
 showClock();
+
   </script>
 </html>
