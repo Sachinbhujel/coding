@@ -49,7 +49,7 @@ body {
   width: 100%;
 }
 
-@media (max-width: 600px) {
+/*@media (max-width: 600px) {
   .container {
     width: 100%;
     flex-direction: column;
@@ -69,6 +69,30 @@ body {
 @media (max-width: 360px) {
   .box {
     width: 110%;
+  }
+}*/
+
+/* Add this to the end of your CSS file */
+
+@media only screen and (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .box {
+    width: 95%;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .box {
+    width: 100%;
   }
 }
 
