@@ -38,14 +38,6 @@ body {
   padding-left: 10px;
 }
 
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-  text-align: center;
-}
-
 .web_details h2 {
   font-size: 40px;
   font-family: cursive;
