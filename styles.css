@@ -220,7 +220,7 @@ strong {
   width: 100%;
 }
 
-@media (width<600px) {
+@media (max-width<600px) {
   .container {
     width: 100%;
     flex-direction: column;
