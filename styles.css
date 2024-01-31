@@ -1,4 +1,4 @@
-body {
+/*body {
   background: white;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -25,9 +25,9 @@ body {
 }
 
 .container h2{
-}*/
+}
 
-/*.company_details{
+.company_details{
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -45,11 +45,12 @@ body {
   text-decoration: none;
   color: black;
   font-size: 17px;
-}*/
+}
 
-/*.companyDetails a:hover{
+.companyDetails a:hover{
   color: white;
-}*/
+}
+
 
 .companyDetails img {
 }
@@ -180,7 +181,7 @@ strong {
   align-items: center;
   justify-content: center;
   gap: 15px;
-}*/
+}
 
 .main {
   display: flex;
@@ -283,7 +284,7 @@ strong {
   .box{
     width: 114%;
   }
-}
+}*/
 
 #footer {
   margin-top: 40px;
