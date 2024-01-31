@@ -57,9 +57,6 @@ body {
 }
 
 @media (width<400px) {
-  .html_img:hover {
-    transform: scale(1.1);
-  }
   .html_img {
     height: 34vh;
   }
