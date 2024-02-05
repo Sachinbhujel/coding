@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.main_registration{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.container {
+  width: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*.title {
+  text-align: center;
+}*/
+
+.instructions {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #007bff;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 92%;
+  padding: 10px;
+  font-size: 15px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@media(width<400px){
+ .main_registration{
+  margin-top: 40px;
+} 
+}
+
+
+
+/* CSS FOR NAVBAR */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navBar {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 13px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.navBar h3 {
+  font-size: 22px;
+}
+
+.navBar_title {
+  margin: 0;
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.green_color {
+  border-right: 14px solid #80ed99;
+  height: 26px;
+}
+
+#menu_icon{
+  margin-top: -4px;
+  margin-right: -3px;
+  font-size: 36px;
+  color: #8D99AE;
+}
+
+.menu_icon,
+.cross_icon {
+  cursor: pointer;
+}
+
+.menu_icon,
+.cross_icon {
+  transition: transform 0.3s ease;
+}
