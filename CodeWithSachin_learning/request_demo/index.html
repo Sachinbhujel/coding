@@ -1,1 +1,78 @@
-c
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Request Demo</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <script src="index.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+<div class="navBar">
+  <div class="navBar_title" id="navBarTitle">
+    <h3 id="navBarTitle1">CodeWithSachin</h3>
+    <div class="green_color"></div>
+  </div>
+  <span class="material-symbols-outlined" width="30px" class="menu_icon" onclick="showMenu()" id="menu_icon">
+    menu
+  </span>
+</div>
+
+<!-- Request Demo -->
+<div class="main_body">
+  <div class="main_body_left">
+    <h1>See CodeWithSachin in action.</h1>
+    <p>Join our live demo led by an expert to discover how our solutions enable teams to hire tech talent crucial for innovation. Gain insights into:</p>
+    <div class="check_info checkl_info1">
+      <span class="material-symbols-outlined">
+        done
+      </span>
+      <p>Standardize your hiring process</p>
+    </div>
+
+    <div class="check_info checkl_info2">
+      <span class="material-symbols-outlined">
+        done
+      </span>
+      <p>Improve screening and interviewing fairly and effectively.</p>
+    </div>
+
+    <div class="check_info checkl_info3">
+      <span class="material-symbols-outlined">
+        done
+      </span>
+      <p>Make confident, skill-based hiring choices—consistently.</p>
+    </div>
+    <p id="love_supp">Show us your Love & Support</p>
+    <div class="main_body_left_img">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSsVVn_hHhkkFVFBqCeFVerkvIKp7ViDlDCg&usqp=CAU" width="65px">
+      <img src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" width="65px">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEBbNqsXiN6N5LS7tRZGtCJDhVmgKh9SaIdw&usqp=CAU" width="65px">
+    </div>
+  </div>
+  <div class="main_body_right">
+    <h3 id="request_title">Schedule a demo</h3>
+    <p id="request_para">Enter your email address, & please fill out the form below</p>
+    <div class="input_div" id="input_div">
+      <form>
+        <label>Email</label>
+        <input type="email" required id="email_div">
+        <div class="requestForm" id="requestForm">
+          <label>Name</label>
+          <input type="text" required>
+          <label>Phone No.</label>
+          <input type="number" required>
+        </div>
+        <button onclick="btnClick()" id="btn_click">Schedule a demo</button>
+        <button onclick="btn_2_Click()" id="btn_2_click">Schedule a demo</button>
+      </form>
+    </div>
+    <div class="thank_you" id="thank_you">
+      <div id="thankYouMessage" class="hidden">Thank you for scheduling your demo. We will contact you soon.</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
