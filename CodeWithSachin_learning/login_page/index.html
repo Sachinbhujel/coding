@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <script src="index.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+<div class="navBar">
+  <div class="navBar_title" id="navBarTitle">
+    <h3 id="navBarTitle1">CodeWithSachin</h3>
+    <div class="green_color"></div>
+  </div>
+  <span class="material-symbols-outlined" width="30px" class="menu_icon" onclick="showMenu()" id="menu_icon">
+    menu
+  </span>
+</div>
+
+<!-- Login Page -->
+<div class="main_loginPage">
+  <div class="container">
+    <!--<h1 class="title" id="author">CodeWithSachin</h1>-->
+    <form id="loginForm">
+      <h2>Login Form</h2>
+      <div class="input-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <div id="confirmation" class="confirmation hidden">
+      <h2>Thank you so much for logging in!</h2>
+      <p>Your email and password have been saved for 1 minutes.</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
