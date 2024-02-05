@@ -9,6 +9,7 @@
   border: 1px solid #ccc;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   width: 100%;
+  margin-top: 16px;
   z-index: 9999;
 }
 
@@ -42,7 +43,7 @@
 .popup-content p {
   font-weight: 600;
   font-family: sans-serif;
-
+  margin-top: 10px;
   padding-left: 5px;
   padding-right: 6px;
   margin-bottom: 29px;
@@ -56,4 +57,58 @@
 
 .popup button:hover {
   background-color: #0056b3;
+}
+
+
+
+
+/* CSS FOR NAVBAR */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.navBar {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 13px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.navBar h3 {
+  font-size: 22px;
+}
+
+.navBar_title {
+  margin: 0;
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+.green_color {
+  border-right: 14px solid #80ed99;
+  height: 26px;
+}
+
+#menu_icon {
+  margin-top: -4px;
+  margin-right: -3px;
+  font-size: 36px;
+  color: #8d99ae;
+}
+
+.menu_icon,
+.cross_icon {
+  cursor: pointer;
+}
+
+.menu_icon,
+.cross_icon {
+  transition: transform 0.3s ease;
 }
