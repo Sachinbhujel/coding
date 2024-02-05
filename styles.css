@@ -590,7 +590,7 @@ strong:hover{
 .popup-content p {
   font-weight: 600;
   font-family: sans-serif;
-
+  margin-top: 10px;
   padding-left: 5px;
   padding-right: 6px;
   margin-bottom: 29px;
