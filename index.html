@@ -1,140 +1,283 @@
-<!--<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
-<div class="main">
-  <h3>CodeWithSachin</h3>
-  <div class="login_menu">
-    <img src="https://cdn4.iconfinder.com/data/icons/hodgepodge-free/32/login_account_enter_door-1024.png" width="33px">
-    <img src="https://cdn4.iconfinder.com/data/icons/navigation-40/24/hamburger-menu-1024.png" width="50px">
-  </div>
-</div>
-<h3 id="main_website"><a href="projects/main_website/index.html">Main Website</a></h3>
-<div class="container">
-  <div class="box">
-    <img src="https://i.imgur.com/W3IMuyn.jpg">
-    <div class="date_readingTime">
-      <p>January 25</p>
-      <p>5 min read</p>
+  <div class="container">
+  <div class="main" id="main">
+    <div class="navBar">
+      <div class="navBar_title" id="navBarTitle">
+        <h3 id="navBarTitle1">CodeWithSachin</h3>
+        <div class="green_color"></div>
+      </div>
+      <span class="material-symbols-outlined" width="30px" class="menu_icon" onclick="showMenu()" id="menu_icon">
+        menu
+      </span>
+      <!--<img src="https://cdn3.iconfinder.com/data/icons/feather-5/24/menu-1024.png" width="30px" class="menu_icon" onclick="showMenu()" id="menu_icon">-->
+      <!--<span class="material-symbols-outlined" width="22px" class="cross_icon" id="cross_icon" onclick="hideCross()">
+        close
+      </span>-->
+      <!--<img src="https://cdn1.iconfinder.com/data/icons/website-library-part-1/48/Website-Close-1024.png" width="22px" class="cross_icon" id="cross_icon" onclick="hideCross()">-->
     </div>
-    <a href="/projects/codewithsachin_1/index.html">
-      <h3>How to Make a responsive Registrations Form</h3>
-    </a>
-    <p id="box_info">Let’s write CSS that looks good on code as well on browsers.</p>
-    <div class="content_author">
-      <p>CSS</p>
-      <p>Sachin</p>
-    </div>
-  </div>
-  <div class="box">
-    <img src="https://i.imgur.com/zWfROmO.jpg">
-    <div class="date_readingTime">
-      <p>January 26</p>
-      <p>3 min read</p>
-    </div>
-    <a href="#">
-      <h3>How to create a review carousel using JavaScript?</h3>
-    </a>
-    <p id="box_info">A Step-by-Step Guide to Building a JavaScript Carousel with User Reviews</p>
-    <div class="content_author">
-      <p>JS</p>
-      <p>Sachin</p>
-    </div>
-  </div>
-</div>
-<div class="container container2">
-  <div class="box">
-    <img src="https://i.imgur.com/BIoEphp.jpeg">
-    <div class="date_readingTime">
-      <p>January 27</p>
-      <p>6 min read</p>
-    </div>
-    <a href="#">
-      <h3>How to build a search Shopping List items</h3>
-    </a>
-    <p id="box_info">The ‘search box’ is probably the single most important component of any e-commerce site.</p>
-    <div class="content_author">
-      <p>JS</p>
-      <p>Sachin</p>
-    </div>
-  </div>
-  <div class="box">
-    <img src="https://i.imgur.com/pdkyqOK.jpg" class="img_4">
-    <div class="date_readingTime">
-      <p>January 29</p>
-      <p>5 min read</p>
-    </div>
-    <a href="#">
-      <h3>How do we send an email using HTML forms?</h3>
-    </a>
-    <p id="box_info">Creating an HTML email form is an effective way to resolve this issue.</p>
-    <div class="content_author">
-      <p>html</p>
-      <p>Sachin</p>
-    </div>
-  </div>
-</div>
-<div class="footer">
-  <h4 id="footer">Copyright © 2024 Sachin Bhujel<h4>
-</div>
-
-<!--<div class="alert_info">
-  <h3>50% off Pro & Plus annual plans.</h3>
-  <p>SACHIN565</p>
-</div>-->
-
-<!--<div class="row">
-  <div class="right">
-    <div class="container">
-    <h2>Create your account</h2>
-    <form>
-      <div class="input-div">
-        <div class="email-password-div">
-          <input typee="text" placeholder="Email" id="email"><br>
+    <div class="main_nav">
+      <div class="sidenavBar" id="sidenavBar">
+        <div class="cut-icons">
+          <div></div>
+          <span class="material-symbols-outlined close" onclick="closeSideNav()">
+            close
+          </span>
         </div>
-        <div class="email-password-div">
-          <input type="password" placeholder="Password" id="password">
-          <div class="strong-div">
-            <strong onclick="show()" id="show">SHOW</strong>
-            <strong onclick=hide() id="hide">HIDE</strong>
+        <div class="strong_div strong_div1">
+          <strong>Home</strong>
+          <span class="material-symbols-outlined arrow">
+            arrow_forward_ios
+          </span>
+        </div>
+        <div class="strong_div">
+          <strong>Blog</strong>
+          <span class="material-symbols-outlined arrow">
+            arrow_forward_ios
+          </span>
+        </div>
+        <div class="strong_div">
+          <strong>Clients</strong>
+          <span class="material-symbols-outlined arrow">
+            arrow_forward_ios
+          </span>
+        </div>
+        <div class="strong_div">
+          <strong>About Us</strong>
+          <span class="material-symbols-outlined arrow">
+            arrow_forward_ios
+          </span>
+        </div>
+        <div class="strong_div">
+          <strong>Services</strong>
+          <span class="material-symbols-outlined arrow">
+            arrow_forward_ios
+          </span>
+        </div>
+        <div class="strong_div">
+          <strong>Contacts</strong>
+          <span class="material-symbols-outlined arrow">
+            arrow_forward_ios
+          </span>
+        </div>
+        <!--<div class="sideNavBar_links">
+        <a href="#"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_twitter-1024.png" width="30px"></a>
+        <a href="#"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_youtube-1024.png" width="30px"></a>
+        <a href="#"><img src="https://cdn3.iconfinder.com/data/icons/social-icons-33/512/Telegram-1024.png" width="30px"></a>
+        <a href="#"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-1024.png" width="30px"></a>
+      </div>-->
+        <div class="login_signup">
+          <div class="login_div">
+            <h3>Login in</h3>
+            <span class="material-symbols-outlined arrow_left">
+              arrow_forward
+            </span>
+          </div>
+          <hr class="login_below_hr">
+          <div class="request_btn">
+            <a href="#">Request demo</a>
+          </div>
+          <div class="signup_btn">
+            <a href="#">Sign up</a>
           </div>
         </div>
-        <h3 id="warning"></h3>
       </div>
-      <div class="logIn" onclick="logIn()">
-        <button onclick="logIn" type="submit">Sign Up &#8594;</button>
+    </div>
+    <div class="mode_changes">
+      <span class="material-symbols-outlined" width="40px" onclick="darkMode()" id="darkMode" width="30px">
+        light_mode
+      </span>
+      <!--<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqjZAojGwara3anzi7GWdjHlPEt5XNnqIvag&usqp=CAU">-->
+      <!--<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCazVoosXrhKM00S1ThMKizQIraoiNIYHgbg&usqp=CAU" width="30px" onclick="darkMode()" id="darkMode">-->
+      <span class="material-symbols-outlined" onclick="lightMode()" id="lightMode" class="lightMode">
+        dark_mode
+      </span>
+    </div>
+    <div class="navBar_2">
+      <div class="navBar_left">
+        <h3>CodeWithSachin</h3>
+        <div class="green_color"></div>
       </div>
-      <div class="forgot">
-        <p>Already have an account?</p>
+      <div class="navBar_middle">
+        <h4>Products</h4>
+        <h4>Solutions</h4>
+        <h4>Resources</h4>
+        <h4>Pricing</h4>
       </div>
-    </form>
-    <div class="links-div">
-      <div class="links">
-        <img src="https://cdn.pixabay.com/photo/2015/12/11/11/43/google-1088004_1280.png" width="30px">
-        <p>Continue with Google</p>
+      <div class="navBar_right">
+        <h4>For developers</h4>
+        <div class="cols_hr"></div>
+        <div class="buttons">
+          <a href="#" id="request"><b>Request demo</b></a>
+          <a href="#" id="sign_up"><b>Sign up</b></a>
+        </div>
       </div>
-
-      <div class="links">
-        <img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" width="30px" class="github">
-        <p>Continue with Github</p>
+    </div>
+    <div class="below_navbar" id="below_navbar">
+      <h2 id="navbar_title_name">Ignite Your Passion for Web Dev</h2>
+      <p>Explore limitless web development possibilities. Master coding with our dynamic platform. Start your journey today!</p>
+      <div class="below_navbar_buttons">
+        <a href="#" id="below_navbar_button_sign">Sign up</a>
+        <a href="#" id="below_navbar_button_request">Request demo</a>
       </div>
-
-      <div class="links">
-        <img src="https://cdn.pixabay.com/photo/2017/01/28/13/23/color-circle-articles-2015356_1280.png" width="30px">
-        <p>Continue with Firefox</p>
+      <p id="navbar_below_info">CodeWithSachin Your Choice, Over 10% of Global Developers Can't Be Wrong!</p>
+      <div class="below_navbar_img">
+        <img src="https://www.hackerrank.com/wp-content/uploads/2022/10/stripe_black.png" width="100px">
+        <img src="https://www.hackerrank.com/wp-content/uploads/2022/10/adobe_black.png" width="100px" id="img_2">
+        <img src="https://www.hackerrank.com/wp-content/uploads/2022/10/peloton_black.png" width="100px">
+        <img src="https://www.hackerrank.com/wp-content/uploads/2022/10/vmware_black.png" width="100px" id="img_1">
+        <img src="https://www.hackerrank.com/wp-content/uploads/2022/10/goldmansachs_black.png" width="100px">
+        <img src="https://www.hackerrank.com/wp-content/uploads/2022/10/atlassian_black.png" width="100px">
+        <img src="https://www.hackerrank.com/wp-content/uploads/2022/10/bloomberg_black.png" width="100px">
+        <img src="https://www.hackerrank.com/wp-content/uploads/2022/10/linkedin_black.png" width="100px">
       </div>
-
-      <div class="links">
-        <img src="https://cdn.pixabay.com/photo/2016/01/26/17/15/gmail-1162901_1280.png" width="30px">
-        <p>Continue with Gmail</p>
+    </div>
+    <div class="footer">
+      <div class="footer_div">
+        <h3 class="footer_title">Products</h3>
+        <p class="footer_para">Resouces</p>
+        <p class="footer_para">Real World Questions</p>
+      </div>
+      <div class="footer_div">
+        <h3 class="footer_title">SOLUTIONS</h3>
+        <p class="footer_para">Embrance AI</p>
+        <p class="footer_para">Set Up a Skills Strategy</p>
+      </div>
+      <div class="footer_div">
+        <h3 class="footer_title">Resources</h3>
+        <p class="footer_para">Blog</p>
+        <p class="footer_para">Customers Stories</p>
+      </div>
+      <div class="footer_div">
+        <h3 class="footer_title">About US</h3>
+        <p class="footer_para">Careers</p>
+        <p class="footer_para">Our Team</p>
+      </div>
+    </div>
+    <hr id="social_links_upper_hr">
+    <div class="footer_links">
+      <div class="social_links">
+        <a href="#"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-1024.png" width="40px"></a>
+        <a href="#"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_twitter-1024.png" width="40px"></a>
+        <a href="#"><img src="https://cdn2.iconfinder.com/data/icons/oneui/24/google_youtube-1024.png" width="40px"></a>
+        <a href="#"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_instagram-1024.png" width="40px"></a>
+        <a href="#"><img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_linkedin-1024.png" id="linkedin_links" width="40px"></a>
+      </div>
+      <div class="social_links_info">
+        <p id="copyright">Copyright &#169; 2024 SachinBhujel</p>
+        <p id="privacy">Privacy Policy</p>
       </div>
     </div>
   </div>
+</div>
+
+
+<!-- POP UP PAGE -->
+<div id="offer-popup" class="popup">
+  <div class="popup-content">
+    <h2>CodeWithSachin</h2>
+    <p>This website is for beginners where you can learn HTML, CSS, and JavaScript concepts.</p>
+    <img src="https://i.imgur.com/I2mTXDM.jpeg" alt="Best Offer">
+    <button id="cancel-btn">Cancel</button>
   </div>
-</div>-->
-<!--</body>
-</html>-->
+</div>
+
+  <script>
+    function showMenu(){
+  let menu_icon = document.getElementById("menu_icon");
+  //let cross_icon = document.getElementById("cross_icon");
+  menu_icon.style.display = "block";
+  let sidenavBar = document.getElementById("sidenavBar");
+  document.getElementById("sidenavBar").style.display = "flex";
+  //document.getElementById("sidenavBar").style.width = "100%";
+  document.getElementById("open").style.display = "none";
+}
+
+function hideCross(){
+  let menu_icon = document.getElementById("menu_icon");
+  let cross_icon = document.getElementById("cross_icon");
+  menu_icon.style.display = "block";
+  cross_icon.style.display = "none";
+}
+
+function closeSideNav(){
+  document.getElementById("sidenavBar").style.display = "none";
+  document.getElementById("open").style.display = "flex";
+  document.body.style.backgroundColor = "white";
+}
+
+function lightMode(){
+  document.getElementById("privacy").style.color = "silver";
+  document.getElementById("copyright").style.color = "#F1F2F6";
+  let lightMode = document.getElementById("lightMode");
+  let darkMode = document.getElementById("darkMode");
+  lightMode.style.display = "none";
+  darkMode.style.display = "flex";
+  document.body.style.background = "#4A5759";
+  let footer_title = document.getElementsByClassName("footer_title");
+  footer_title[0].style.color = "white";
+  footer_title[1].style.color = "white";
+  footer_title[2].style.color = "white";
+  footer_title[3].style.color = "white";
+  let footer_para = document.getElementsByClassName("footer_para");
+  for(i=0; i<footer_para.length; i++){
+    footer_para[i].style.color = "silver";
+  }
+  let navBarTitle1 = document.getElementById("navBarTitle1");
+  navBarTitle1.style.color = "white";
+  //let lightMode = document.getElementByClassName("lightMode");
+  //lightMode.style.display = "none";
+
+  document.getElementById("below_navbar").style.opacity = "0.9";  document.getElementById("below_navbar").style.backgroundColor = "white"
+  document.getElementById("navbar_title_name").style.color = "black";
+}
+
+function darkMode(){
+  document.getElementById("privacy").style.color = "rgb(87, 104, 113)";
+  document.getElementById("copyright").style.color = "rgb(87, 104, 113)";
+  let lightMode = document.getElementById("lightMode");
+  let darkMode = document.getElementById("darkMode");
+  let menu_icon = document.getElementById("menu_icon");
+  menu_icon.style.color = "#8D99AE";
+  darkMode.style.color = "white";
+  lightMode.style.display = "flex";
+  darkMode.style.display = "none";
+  document.body.style.background = "white";
+  let footer_title = document.getElementsByClassName("footer_title");
+  footer_title[0].style.color = "rgb(99, 118, 129)";
+  footer_title[1].style.color = "rgb(99, 118, 129)";
+  footer_title[2].style.color = "rgb(99, 118, 129)";
+  footer_title[3].style.color = "rgb(99, 118, 129)";
+  let footer_para = document.getElementsByClassName("footer_para");
+  for(i=0; i<footer_para.length; i++){
+    footer_para[i].style.color = "rgb(87, 104, 113)";
+  }
+  let navBarTitle1 = document.getElementById("navBarTitle1");
+  navBarTitle1.style.color = "black";
+  document.getElementById("below_navbar").style.backgroundColor = "#F8F9FA"
+  document.getElementById("navbar_title_name").style.color = "rgb(31, 31, 32)";
+}
+
+
+/* JS FOR POP UP PAGE */
+document.addEventListener("DOMContentLoaded", function() {
+  setTimeout(function() {
+    document.getElementById("main").style.display = "none";
+    document.getElementById("offer-popup").style.display = "block";
+  }, 5000);
+
+  document.getElementById("cancel-btn").addEventListener("click", function() {
+        document.getElementById("main").style.display = "block";
+    document.getElementById("offer-popup").style.display = "none";
+  });
+});
+  </script>
+</body>
+</html>
