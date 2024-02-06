@@ -40,6 +40,10 @@
   cursor: pointer;
 }*/
 
+.footer_div a{
+  text-decoration: none;
+}
+
 #cross_icon{
   display: none;
   margin-top: -4px;
