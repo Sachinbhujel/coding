@@ -280,12 +280,13 @@ document.addEventListener("DOMContentLoaded", function() {
   setTimeout(function() {
     document.getElementById("main").style.display = "none";
     document.getElementById("offer-popup").style.display = "block";
-    document.getElementById("popup_navbar").style.display = "block";
+    document.getElementById("popup_navbar").style.display = "flex";
   }, 5000);
 
   document.getElementById("cancel-btn").addEventListener("click", function() {
         document.getElementById("main").style.display = "block";
     document.getElementById("offer-popup").style.display = "none";
+    document.getElementById("popup_navbar").style.display = "none";
   });
 });
   </script>
