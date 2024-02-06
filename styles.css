@@ -4,6 +4,10 @@
   font-family: sans-serif;
 }
 
+#popup_navbar{
+  display: none;
+}
+
 .navBar {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding-top: 20px;
