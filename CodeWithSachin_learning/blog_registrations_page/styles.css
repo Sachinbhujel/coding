@@ -1,0 +1,146 @@
+body {
+  background: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 6px;
+}
+
+.main_img {
+  margin-top: 20px;
+}
+
+.login_menu {
+  display: flex;
+  align-items: center;
+}
+
+.main h3 {
+  font-size: 21px;
+}
+
+.main_img {
+  display: flex;
+  justify-content: center;
+}
+
+.web_details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.web_details h2 {
+  font-size: 40px;
+  font-family: cursive;
+}
+
+.web_details p {
+  font-size: 19px;
+  margin-top: -10px;
+}
+
+.web_image {
+  width: 100%;
+}
+
+#html_format {
+  font-size: 28px;
+}
+
+@media (width<400px) {
+  .html_img {
+    height: 34vh;
+  }
+}
+
+@media (width<340px) {
+  .html_img {
+    height: 30vh;
+  }
+}
+
+.live_demo {
+  color: green;
+}
+
+.css_div {
+  display: flex;
+}
+
+#ending_detail {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.ending_detail2{
+  margin-top: 32px; 
+  margin-bottom: 32px;
+}
+
+#hire {
+  color: #3a86ff;
+}
+
+.hr_line {
+  margin: auto;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.authorName {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.author_img img {
+  width: 84px;
+  height: 84px;
+  border-radius: 90px;
+}
+
+.author_detail h4 {
+  font-weight: 200;
+  font-size: 14px;
+}
+
+.author_detail h2 {
+  margin-top: -10px;
+}
+
+.author_detail p {
+  margin-top: -10px;
+}
+
+#naruto {
+  margin-bottom: 40px;
+}
+
+.hr_line2 {
+  margin-top: 30px;
+}
+
+#footer {
+  margin-top: 50px;
+  background: black;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: -22px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+#step_explain{
+  font-size: 18px;
+}
