@@ -234,6 +234,10 @@ body {
   font-weight: 300;
 }
 
+.projects_box img{
+  object-fit: cover;
+}
+
 @media (width<850px) {
   .main_body_right {
     display: none;
