@@ -17,9 +17,9 @@
         </span>
         <h2>SachinBhujel</h2>
       </div>
-      <button class="contact_btn" id="btn2">Contact Me</button>
+      <button class="contact_btn" id="btn2" onclick="contactBtn1()">Contact Me</button>
       <div class="navbar_icons">
-        <button class="contact_btn">Contact Me</button>
+        <button class="contact_btn" id="btn1" onclick="contactBtn2()">Contact Me</button>
         <span class="material-symbols-outlined menu" id="menubtn" onclick="menuClick()">
           menu
         </span>
@@ -153,7 +153,6 @@
   </div>
 </div>
 
-
   <script>
     function menuClick(){
   document.getElementById("closebtn").style.display = "block";
@@ -195,6 +194,14 @@ function homeHover2(){
     document.getElementById("main_div_home2").style.border = " 1px solid white";
   document.getElementById("homeIcon2").style.color = "black";
     document.getElementById("homeTitle2").style.color = "black";
+}
+
+function contactBtn1(){
+  window.location.href = '/sachinBhujel_portfolio/conatct_me';
+}
+
+function contactBtn2(){
+  window.location.href = '/sachinBhujel_portfolio/conatct_me';
 }
   </script>
 </body>
