@@ -193,6 +193,12 @@ body {
   display: none;
 }
 
+#btn2:hover{
+  background: black;
+  border: 1px solid white;
+  color: white;
+}
+
 .main_body {
   gap: 10px;
   display: flex;
