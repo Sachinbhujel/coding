@@ -43,6 +43,10 @@ body {
   border-radius: 8px;
 }
 
+#cont_btn{
+  border: none;
+}
+
 #cont_btn:hover{
   background: black;
   color: white;
