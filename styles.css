@@ -708,3 +708,8 @@ footer{
     padding-right: 26px;
   }
 }
+
+.more_projects_box:hover{
+  background: #353535;
+  color: black;
+}
