@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Masonry Image Gallery</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+  <h1>Masonry Image Gallery with Lightbox</h1>
+
+<div class="gallery">
+  <img src="https://images.pexels.com/photos/5244928/pexels-photo-5244928.jpeg?auto=compress&cs=tinysrgb&w=800" alt="img" onclick="imgs(this.src)">
+  <img src="https://images.pexels.com/photos/750854/pexels-photo-750854.jpeg?auto=compress&cs=tinysrgb&w=800" alt="img" onclick="imgs(this.src)">
+  <img src="https://images.pexels.com/photos/2215647/pexels-photo-2215647.jpeg?auto=compress&cs=tinysrgb&w=800" alt="img" onclick="imgs(this.src)">
+  <img src="https://images.pexels.com/photos/2674066/pexels-photo-2674066.jpeg?auto=compress&cs=tinysrgb&w=800" alt="img" onclick="imgs(this.src)">
+  <img src="https://images.pexels.com/photos/4825726/pexels-photo-4825726.jpeg?auto=compress&cs=tinysrgb&w=800" alt="img" onclick="imgs(this.src)">
+  <img src="https://images.pexels.com/photos/2479194/pexels-photo-2479194.jpeg?auto=compress&cs=tinysrgb&w=800" alt="img" onclick="imgs(this.src)">
+  <img src="https://images.pexels.com/photos/6081975/pexels-photo-6081975.jpeg?auto=compress&cs=tinysrgb&w=800" alt="img" onclick="imgs(this.src)">
+  <img src="https://images.pexels.com/photos/8630107/pexels-photo-8630107.jpeg?auto=compress&cs=tinysrgb&w=800" alt="img" onclick="imgs(this.src)">
+
+  <img src="https://images.pexels.com/photos/799445/pexels-photo-799445.jpeg?auto=compress&cs=tinysrgb&w=800" alt="img" onclick="imgs(this.src)">
+  <img src="https://images.pexels.com/photos/3525998/pexels-photo-3525998.jpeg?auto=compress&cs=tinysrgb&w=800" alt="img" onclick="imgs(this.src)">
+  <img src="https://images.pexels.com/photos/5876379/pexels-photo-5876379.jpeg?auto=compress&cs=tinysrgb&w=800" alt="img" onclick="imgs(this.src)">
+  <img src="https://images.pexels.com/photos/5603964/pexels-photo-5603964.jpeg?auto=compress&cs=tinysrgb&w=800" alt="img" onclick="imgs(this.src)">
+
+</div>
+
+<div class="img_show_here">
+  <div class="img_show_div" id="img_show_div">
+    <header>
+      <div class="img_detail">
+        <i class="uil uil-camera"></i>
+        <h2>Images here</h2>
+      </div>
+      <div class="img_button">
+        <i class="close-icon uil uil-times" onclick="close_img()">
+        </i>
+      </div>
+    </header>
+    <div class="img_preview">
+      <div class="img">
+        <img src="" alt="not shown" id="img">
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="index.js"></script>
+</body>
+</html>
