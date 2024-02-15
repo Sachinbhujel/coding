@@ -110,6 +110,7 @@ body {
   display: flex;
   padding: 12px;
   gap: 10px;
+  color: black;
   align-items: center;
   background: white;
   cursor: pointer;
