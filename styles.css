@@ -506,6 +506,10 @@ a {
   height: 160vh;
 }
 
+.author_username{
+  color: silver;
+}
+
 /* CSS FOR FOOTER */
 footer{
   margin-top: 80px;
