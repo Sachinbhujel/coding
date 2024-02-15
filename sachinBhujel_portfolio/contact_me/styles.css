@@ -362,3 +362,15 @@ footer{
   height: 100%;
   width: 180px;
 }
+
+#btn2:hover{
+  background: black;
+  color: white;
+  border: 1px white solid;
+}
+
+#btn1:hover{
+  background: black;
+  color: white;
+  border: 1px white solid;
+}
