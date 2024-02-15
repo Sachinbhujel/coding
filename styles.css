@@ -5,7 +5,7 @@
 }
 
 body {
-  background: black;  
+
 }
 
 .navBar {
@@ -256,8 +256,13 @@ a {
 
 .main_body_left {
   margin-top: 20px;
+  width: 100%;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.author_detail{
+  width: 100%;
 }
 
 .author_detail img {
@@ -503,7 +508,8 @@ a {
 
 .menu_div2 {
   width: 180px;
-  height: 160vh;
+  height: 174.4vh;
+  overflow: hidden;
 }
 
 #author_username{
@@ -647,6 +653,9 @@ footer{
 
 @media (width<481px) {
   .projects_box2 {
+    margin-top: 20px;
+  }
+  .projects_box3{
     margin-top: 20px;
   }
   .projects_div_box {
