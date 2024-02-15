@@ -249,7 +249,7 @@
         <h2 id="projects_title">More Projects</h2>
         <div class="more_projects_hr"></div>
         <div class="more_projects_box_div">
-          <div class="more_projects_box">
+          <div class="more_projects_box" onclick="paintWebsite()">
           <img src="https://cdn3.iconfinder.com/data/icons/education-science-vol-2-1/512/painting_paint_palette_color-128.png" width="40px">
           <div class="more_projects_box_title">
             <h3>Paint Website</h3>
@@ -259,21 +259,21 @@
             arrow_forward
           </span>
         </div>
-          <div class="more_projects_box">
-          <img src="https://cdn3.iconfinder.com/data/icons/education-science-vol-2-1/512/painting_paint_palette_color-128.png" width="40px">
+          <div class="more_projects_box" onclick="imgGallery()">
+          <img src="https://cdn0.iconfinder.com/data/icons/flat-ui-5/64/img-jpg-bmp-picture-gallery-128.png" width="40px">
           <div class="more_projects_box_title">
-            <h3>Paint Website</h3>
-            <p>Html, Css</p>
+            <h3>Image gallery</h3>
+            <p>Html, Css, Js</p>
           </div>
           <span class="material-symbols-outlined arrow">
             arrow_forward
           </span>
         </div>
-          <div class="more_projects_box">
+          <div class="more_projects_box" onclick="randomQuote()">
           <img src="https://cdn3.iconfinder.com/data/icons/education-science-vol-2-1/512/painting_paint_palette_color-128.png" width="40px">
           <div class="more_projects_box_title">
-            <h3>Paint Website</h3>
-            <p>Html, Css</p>
+            <h3>Random Quote</h3>
+            <p>Html, Css, Js</p>
           </div>
           <span class="material-symbols-outlined arrow">
             arrow_forward
@@ -347,6 +347,18 @@ function homeHover2() {
   document.getElementById("main_div_home2").style.border = " 1px solid white";
   document.getElementById("homeIcon2").style.color = "black";
   document.getElementById("homeTitle2").style.color = "black";
+}
+
+function paintWebsite(){
+  window.location.href = '/sachinBhujel_portfolio/paint_website';
+}
+
+function imgGallery(){
+  window.location.href = '/sachinBhujel_portfolio/masonary_imgGallery';
+}
+
+function randomQuote(){
+  window.location.href = '/sachinBhujel_portfolio/random_quote'; 
 }
       </script>        
 </body>
