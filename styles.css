@@ -40,11 +40,10 @@ body {
   padding: 8px;
   color: black;
   font-weight: 510;
-  border: none;
   border-radius: 8px;
 }
 
-.contact_btn{
+#cont_btn{
   background: black;
   color: white;
   border: 1px solid white;
