@@ -707,6 +707,9 @@ footer{
     padding-left: 26px;
     padding-right: 26px;
   }
+  #footer_code{
+    margin-top: -2px;
+  }
 }
 
 .more_projects_box:hover{
