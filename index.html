@@ -1,1 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CodeWithSachin</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+  <div class="container">
+  <div class="main">
+    <div class="navBar">
+      <div class="navBar_left">
+        <span class="material-symbols-outlined code">
+          code
+        </span>
+        <h2>SachinBhujel</h2>
+      </div>
+      <button class="contact_btn" id="btn2">Contact Me</button>
+      <div class="navbar_icons">
+        <button class="contact_btn">Contact Me</button>
+        <span class="material-symbols-outlined menu" id="menubtn" onclick="menuClick()">
+          menu
+        </span>
+        <span class="material-symbols-outlined close" id="closebtn" onclick="closeClick()">
+          close
+        </span>
+      </div>
+    </div>
+    <hr class="navbar_below_hr">
+    <div id="menu_click_content">
+      <div class="menu_div">
+        <h3 id="menu_div_title">Go to</h3>
+        <div id="menu_div_hr"></div>
+        <div class="main_div_info">
+          <div class="main_div_home" id="main_div_home" onclick="homeHover()">
+            <span class="material-symbols-outlined" id="homeIcon">
+              home
+            </span>
+            <h3 id="homeTitle">Home</h3>
+          </div>
+          <div class="main_div_trending" id="main_div_trending" onclick="trendingHover()">
+            <span class="material-symbols-outlined" id="trendingIcon">
+              trending_up
+            </span>
+            <h3 id="trendingTitle">Trending</h3>
+          </div>
+        </div>
+        <h3 id="menu_div_title2">Socials</h3>
+        <div id="menu_div_hr"></div>
+        <div class="social_icons">
+          <div class="social_icons_box">
+            <a href="https://www.instagram.com/imsachinbhujel/?hl=en"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/INSTAGRAM-1024.png" width="30px"></a>
+            <a href="https://www.instagram.com/imsachinbhujel/?hl=en">
+              <h3>Instagram</h3>
+            </a>
+          </div>
+          <div class="social_icons_box">
+            <a href="https://github.com/Sachinbhujel"><img src="https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Github-1024.png" width="30px"></a>
+            <a href="https://github.com/Sachinbhujel">
+              <h3>Github</h3>
+            </a>
+          </div>
+          <div class="social_icons_box">
+            <a href="http://www.youtube.com/@sachinbhujel909"><img src="https://cdn0.iconfinder.com/data/icons/brands-filled-3/196/youtube-social-network-brand-logo-1024.png" width="30px"></a>
+            <a href="http://www.youtube.com/@sachinbhujel909">
+              <h3>Youtube</h3>
+            </a>
+          </div>
+          <div class="social_icons_box">
+            <a href="https://twitter.com/sachinbhujel909"><img src="https://cdn0.iconfinder.com/data/icons/brands-filled-3/211/twiter-social-network-brand-logo-1024.png" width="30px"></a>
+            <a href="https://twitter.com/sachinbhujel909">
+              <h3>Twitter</h3>
+            </a>
+          </div>
+          <div class="social_icons_box social_icons_box5">
+            <a href="#"><img src="https://cdn0.iconfinder.com/data/icons/brands-filled-3/194/facebook-social-network-brand-logo-1024.png" width="30px"></a>
+            <a href="#">
+              <h3>Facebook</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="social_icons_below_hr"></div>
+    </div>
+  </div>
+  <div class="main_body" id="main_body">
+    <div class="main_body_right main_body_right2">
+      <div class="menu_div menu_div2">
+        <h3 id="menu_div_title">Go to</h3>
+        <div id="menu_div_hr"></div>
+        <div class="main_div_info">
+          <div class="main_div_home" id="main_div_home2" onclick="homeHover2()">
+            <span class="material-symbols-outlined" id="homeIcon2">
+              home
+            </span>
+            <h3 id="homeTitle2">Home</h3>
+          </div>
+          <div class="main_div_trending" id="main_div_trending" onclick="trendingHover2()">
+            <span class="material-symbols-outlined" id="trendingIcon2">
+              trending_up
+            </span>
+            <h3 id="trendingTitle2">Trending</h3>
+          </div>
+        </div>
+        <h3 id="menu_div_title2">Socials</h3>
+        <div id="menu_div_hr"></div>
+        <div class="social_icons">
+          <div class="social_icons_box">
+            <a href="https://www.instagram.com/imsachinbhujel/?hl=en"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/INSTAGRAM-1024.png" width="30px"></a>
+            <a href="https://www.instagram.com/imsachinbhujel/?hl=en">
+              <h3>Instagram</h3>
+            </a>
+          </div>
+          <div class="social_icons_box">
+            <a href="https://github.com/Sachinbhujel"><img src="https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Github-1024.png" width="30px"></a>
+            <a href="https://github.com/Sachinbhujel">
+              <h3>Github</h3>
+            </a>
+          </div>
+          <div class="social_icons_box">
+            <a href="http://www.youtube.com/@sachinbhujel909"><img src="https://cdn0.iconfinder.com/data/icons/brands-filled-3/196/youtube-social-network-brand-logo-1024.png" width="30px"></a>
+            <a href="http://www.youtube.com/@sachinbhujel909">
+              <h3>Youtube</h3>
+            </a>
+          </div>
+          <div class="social_icons_box">
+            <a href="https://twitter.com/sachinbhujel909"><img src="https://cdn0.iconfinder.com/data/icons/brands-filled-3/211/twiter-social-network-brand-logo-1024.png" width="30px"></a>
+            <a href="https://twitter.com/sachinbhujel909">
+              <h3>Twitter</h3>
+            </a>
+          </div>
+          <div class="social_icons_box social_icons_box5">
+            <a href="https://www.facebook.com/imsachinbhujel/"><img src="https://cdn0.iconfinder.com/data/icons/brands-filled-3/194/facebook-social-network-brand-logo-1024.png" width="30px"></a>
+            <a href="https://www.facebook.com/imsachinbhujel/">
+              <h3>Facebook</h3>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main_body_left">
+      <div class="author_detail">
+        <img src="https://images.pexels.com/photos/8537016/pexels-photo-8537016.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load">
+        <div class="author_pic_info">
+          <div class="author_img">
+            <img src="https://i.imgur.com/eZfNzFU.jpeg">
+          </div>
+          <div class="author_name">
+            <h2>Sachin Bhujel</h2>
+            <p>@sachinbhujel909</p>
+          </div>
+        </div>
+      </div>
+      <div class="language_known">
+        <h2 id="skills">Skills</h2>
+        <div class="skills_hr"></div>
+        <div class="language_known_div">
+          <div class="language_known_box">
+            <h3>Frontend</h3>
+            <div class="box_hr"></div>
+            <div class="language_name">
+              <p id="black_color">HTML</p>
+              <p id="black_color">CSS</p>
+              <p id="green_color">javaScript</p>
+            </div>
+          </div>
+          <div class="language_known_box language_known_box2">
+            <h3>Backend</h3>
+            <div class="box_hr"></div>
+            <div class="language_name">
+              <p id="blue_color">Learning in future</p>
+            </div>
+          </div>
+          <div class="language_known_box language_known_box3">
+            <h3>Database</h3>
+            <div class="box_hr"></div>
+            <div class="language_name">
+              <p id="blue_color">Learning In future</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projects_div">
+        <h2 id="projects_title">Projects</h2>
+        <div class="projects_hr"></div>
+        <div class="projects_div_box">
+          <div class="projects_box">
+            <img src="https://i.imgur.com/q712NPb.jpeg">
+            <h2>Registrations Form<h2>
+                <p id="projects_box_para">Introducing my registration website. Effortless sign-ups from any device.</p>
+                <p id="projects_box_para2">Join us now and experience simplicity in registration!</p>
+                <p id="projects_box_para3">HTML &nbsp;| &nbsp;CSS &nbsp;| &nbsp;JS</p>
+                <div class="projects_links_div">
+                  <div class="projects_links_box">
+                    <img src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Github_social_media_logo-1024.png">
+                    <a href="#">
+                      <p>Code &nbsp;</p>
+                    </a>
+                  </div>
+                  <div class="projects_links_box">
+                    <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-1024.png">
+                    <p>YouTube &nbsp;</p>
+                  </div>
+                </div>
+          </div>
+          <div class="projects_box projects_box2">
+            <img src="https://i.imgur.com/2NUCkVJ.jpeg">
+            <h2>Contact Form<h2>
+                <p id="projects_box_para">Build a working email contact form using Html, Css.</p>
+                <p id="projects_box_para2">Receive form data on email Wihout any backend language!</p>
+                <p id="projects_box_para3">HTML &nbsp;| &nbsp;CSS &nbsp;| &nbsp;JS</p>
+                <div class="projects_links_div projects_links_div2">
+                  <div class="projects_links_box">
+                    <img src="https://cdn4.iconfinder.com/data/icons/social-media-free-13/32/Github_social_media_logo-1024.png">
+                    <a href="#">
+                      <p>Code &nbsp;</p>
+                    </a>
+                  </div>
+                  <div class="projects_links_box">
+                    <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Youtube_glyph_svg-1024.png">
+                    <p>YouTube &nbsp;</p>
+                  </div>
+                </div>
+          </div>
+        </div>
+      </div>
+      <div class="more_projects_div">
+        <h2 id="projects_title">More Projects</h2>
+        <div class="more_projects_hr"></div>
+        <div class="more_projects_box_div">
+          <div class="more_projects_box">
+          <img src="https://cdn3.iconfinder.com/data/icons/education-science-vol-2-1/512/painting_paint_palette_color-128.png" width="40px">
+          <div class="more_projects_box_title">
+            <h3>Paint Website</h3>
+            <p>Html, Css</p>
+          </div>
+          <span class="material-symbols-outlined arrow">
+            arrow_forward
+          </span>
+        </div>
+          <div class="more_projects_box">
+          <img src="https://cdn3.iconfinder.com/data/icons/education-science-vol-2-1/512/painting_paint_palette_color-128.png" width="40px">
+          <div class="more_projects_box_title">
+            <h3>Paint Website</h3>
+            <p>Html, Css</p>
+          </div>
+          <span class="material-symbols-outlined arrow">
+            arrow_forward
+          </span>
+        </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer_left">
+          <div class="footer_author_name">
+            <span class="material-symbols-outlined code">
+            code
+            </span>
+            <h2>SachinBhujel</h2>
+          </div>
+          <hr class="footer_hr">
+          <p id="footer_p">copyright © 2024 sachinBhujel</p>
+        </div>
+        <div class="footer_right">
+          <a href="https://github.com/Sachinbhujel"><img src="https://cdn0.iconfinder.com/data/icons/shift-logotypes/32/Github-1024.png" width="30px"></a>
+          <a href="http://www.youtube.com/@sachinbhujel909"><img src="https://cdn0.iconfinder.com/data/icons/brands-filled-3/196/youtube-social-network-brand-logo-1024.png" width="30px"></a>
+          <a href="https://twitter.com/sachinbhujel909"><img src="https://cdn0.iconfinder.com/data/icons/brands-filled-3/211/twiter-social-network-brand-logo-1024.png" width="30px"></a>
+            <a href="https://www.instagram.com/imsachinbhujel/?hl=en"><img src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/INSTAGRAM-1024.png" width="30px"></a>
+          <a href="https://www.facebook.com/imsachinbhujel/"><img src="https://cdn0.iconfinder.com/data/icons/brands-filled-3/194/facebook-social-network-brand-logo-1024.png" width="30px"></a>
+        </div>
+      </footer> 
+    </div>
+  </div>
+</div>
 
+
+
+      <script>
+        function menuClick() {
+  document.getElementById("closebtn").style.display = "block";
+  document.getElementById("menubtn").style.display = "none";
+  document.getElementById("menu_click_content").style.display = "block";
+  document.getElementById("main_body").style.display = "none";
+}
+
+function closeClick() {
+  document.getElementById("closebtn").style.display = "none";
+  document.getElementById("menubtn").style.display = "flex";
+  document.getElementById("menu_click_content").style.display = "none";
+  document.getElementById("main_body").style.display = "block";
+}
+
+function trendingHover() {
+  document.getElementById("main_div_home").style.background = "black";
+  document.getElementById("main_div_home").style.border = " 1px solid white";
+  document.getElementById("homeIcon").style.color = "white";
+  document.getElementById("homeTitle").style.color = "white";
+}
+
+function homeHover() {
+  document.getElementById("main_div_home").style.background = "white";
+  document.getElementById("main_div_home").style.border = " 1px solid white";
+  document.getElementById("homeIcon").style.color = "black";
+  document.getElementById("homeTitle").style.color = "black";
+}
+
+function trendingHover2() {
+  document.getElementById("main_div_home2").style.background = "black";
+  document.getElementById("main_div_home2").style.border = " 1px solid white";
+  document.getElementById("homeIcon2").style.color = "white";
+  document.getElementById("homeTitle2").style.color = "white";
+}
+
+function homeHover2() {
+  document.getElementById("main_div_home2").style.background = "white";
+  document.getElementById("main_div_home2").style.border = " 1px solid white";
+  document.getElementById("homeIcon2").style.color = "black";
+  document.getElementById("homeTitle2").style.color = "black";
+}
+      </script>        
+</body>
+</html>
