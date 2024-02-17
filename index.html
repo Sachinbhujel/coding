@@ -105,7 +105,37 @@
 </div>
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
-  
+
+
+<script>
+  function menuBtn(){
+  //document.getElementById("side_navbar").style.display = "block";
+  if(document.getElementById("side_navbar").style.display == "block"){
+    document.getElementById("side_navbar").style.display = "none";
+  } else{
+    document.getElementById("side_navbar").style.display = "block";
+  }
+}
+
+function side_navbar_close(){
+  document.getElementById("side_navbar").style.display = "none";
+}
+
+//function arrowBtn(){}
+
+// function available_btn(){}
+
+gsap.to("#author_divs", {
+   backgroundColor: "#F8F9FA", 
+  scrollTrigger: {
+    trigger: "body",
+    scroller: "body",
+    start: "top -20%",
+    end: "top -21%",
+    scrub: 1
+  }
+});
+</script>
 </body>
 </html>
 
