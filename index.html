@@ -6,14 +6,13 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="" />
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+
 </head>
 <body>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
-
 <!--<div class="navbar_divs">
 </div>-->
 
@@ -89,7 +88,7 @@
     <a href="#"><h2>Email Contact Form</h2></a>
     <p>HTML | CSS</p>
   </div>
-  <div class="projects_box">
+  <div class="projects_box projects_box2">
     <div class="projects_box_img projects_box_img2">
       <img src="https://i.imgur.com/pM7Po8I.jpeg">        </div>
     <a href="#"><h2>Review Carousel</h2></a>
@@ -103,7 +102,51 @@
     <p>HTML | CSS | JS</p>
   </div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<div class="more_projects">
+  <h1>More Projects</h1>
+  <p>Check out these projects that highlight my skills in web development. Dive into a mix of work that showcases my dedication.</p>
+  <div clas="more_projects_box">
+    <div class="more_projects_box_name" onclick="registrationForm_href()">
+      <h2>Registration Form</h2>
+      <div class="more_projects_program">
+       <strong>JavaScript</strong>
+      <strong id="more_projects_year">2024</strong>
+      </div>
+    </div>
+    <div id="more_projects_hr"></div>
+    <div class="more_projects_box_name more_projects_box_name2" onclick="masonryImg_href()">
+      <h2>Masonry Img Gallery</h2>
+      <div class="more_projects_program">
+       <strong>JavaScript</strong>
+      <strong id="more_projects_year">2023</strong>
+      </div>
+    </div>
+    <div id="more_projects_hr"></div>
+    <div class="more_projects_box_name more_projects_box_name2" onclick="removeDuplicate_href()">
+      <h2>Remove Duplicate</h2>
+      <div class="more_projects_program">
+       <strong>JavaScript</strong>
+      <strong id="more_projects_year">2023</strong>
+      </div>
+    </div>
+    <div id="more_projects_hr"></div>
+    <div class="more_projects_box_name more_projects_box_name2" onclick="ageCalculator_href()">
+      <h2>Age Calculator</h2>
+      <div class="more_projects_program">
+       <strong>JavaScript</strong>
+      <strong id="more_projects_year">2023</strong>
+      </div>
+    </div>
+    <div id="more_projects_hr"></div>
+  </div>
+</div>
+  
+  
+
+  
+  
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
@@ -125,6 +168,11 @@ function side_navbar_close(){
 
 // function available_btn(){}
 
+// function registrationForm_href() {}
+// function masonryImg_href() {}
+// function removeDuplicate_href() {}
+// function ageCalculator_href() {}
+
 gsap.to("#author_divs", {
    backgroundColor: "#F8F9FA", 
   scrollTrigger: {
@@ -135,6 +183,7 @@ gsap.to("#author_divs", {
     scrub: 1
   }
 });
+
 </script>
 </body>
 </html>
