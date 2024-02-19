@@ -496,6 +496,9 @@ body {
   .projects_div {
     justify-content: center;
   }
+  .projects_box{
+    width: 100%;
+  }
 }
 
 .projects_box_img {
@@ -610,7 +613,7 @@ body {
 
 .more_projects {
   z-index: -1;
-  opacity: 0.3;
+  opacity: 0.4;
   padding-left: 15px;
   padding-right: 15px;
 }
