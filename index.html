@@ -161,7 +161,10 @@ function side_navbar_close(){
   document.getElementById("side_navbar").style.display = "none";
 }
 
-//function arrowBtn(){}
+function arrowBtn(){
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
 // function available_btn(){}
 
@@ -197,15 +200,15 @@ gsap.to("#author_divs", {
 });
 
 gsap.from("#social_links", {
-  y: 50,
+  y: 40,
   opacity: 0.2,
   duration: 0.3,
   stagger: 0.4,
   scrollTrigger: {
     trigger: "#social_links",
     scroller: "body",
-    start: "top 60%",
-    end: "top -10%",
+    start: "top 80%",
+    //end: "top -10%",
     scrub: 2, 
   }
 });
@@ -224,6 +227,7 @@ gsap.from("#social_links", {
   }
 });*/
 
+  
 </script>
 </body>
 </html>
