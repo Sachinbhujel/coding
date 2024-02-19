@@ -582,46 +582,6 @@ body {
   display: none;
 }
 
-@media (width>550px) {
-  .navbar_icons {
-    display: none;
-  }
-  .side_navbar {
-    display: none;
-  }
-  .author_divs {
-    padding-left: 30px;
-    padding-right: 130px;
-  }
-  #work_btn {
-    font-size: 17px;
-    padding: 9px;
-  }
-  #resume_btn {
-    font-size: 17px;
-    padding: 9px;
-  }
-}
-
-@media (width<680px) {
-  .projects_box_img img {
-    width: 100%;
-    height: 290px;
-  }
-  .projects_box2 {
-    margin-top: 23px;
-  }
-  .projects_box3 {
-    margin-top: 23px;
-  }
-}
-
-@media (width>682px) {
-  .projects_div {
-    justify-content: center;
-  }
-}
-
 @media (width<551px) {
   .top_navbar {
     padding-left: 20px;
@@ -689,6 +649,18 @@ body {
   .projects_box_img img {
     width: 100%;
     height: 290px;
+  }
+  .projects_box2 {
+    margin-top: 23px;
+  }
+  .projects_box3 {
+    margin-top: 23px;
+  }
+}
+
+@media (width>682px) {
+  .projects_div {
+    justify-content: center;
   }
 }
 
