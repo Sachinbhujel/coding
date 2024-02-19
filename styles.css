@@ -517,6 +517,13 @@ body {
   object-fit: cover;
 }
 
+@media (width<400px) {
+  .projects_box_img img {
+    width: 100% !important;
+    height: 200px !important;
+  }
+}
+
 .projects_box h2 {
   font-size: 22px;
   font-family: sans-serif;
@@ -585,13 +592,6 @@ body {
   }
   .projects_box3 {
     margin-top: 23px;
-  }
-}
-
-@media (width<400px) {
-  .projects_box_img img {
-    width: 100% !important;
-    height: 200px !important;
   }
 }
 
