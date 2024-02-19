@@ -128,14 +128,14 @@ body {
 
 .author_img_div {
   background: #ade8f4;
-  width: 102px;
-  height: 102px;
+  width: 93px !important;
+  height: 93px !important;
   border-radius: 99px;
 }
 
-.author_divs img {
-  width: 102px;
-  height: 102px;
+#author_img{
+  width: 93px !important;
+  height: 93px !important;
   border-radius: 99px;
 }
 
