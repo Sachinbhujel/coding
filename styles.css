@@ -241,7 +241,7 @@ body {
 .projects_div {
   display: flex;
   gap: 22px;
-  margin-top: 80px;
+  margin-top: 50px !important;
   padding-left: 20px;
   padding-right: 20px;
   flex-wrap: wrap;
