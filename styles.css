@@ -609,6 +609,8 @@ body {
 /* CSS FOR MORE PROJECTS */
 
 .more_projects {
+  z-index: -1;
+  opacity: 0.3;
   padding-left: 15px;
   padding-right: 15px;
 }
