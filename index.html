@@ -142,7 +142,47 @@
 </div>  
 
   
-  
+
+
+  <div class="more_projects" id="more_projects">
+  <h1>More Projects</h1>
+  <p>Check out these projects that highlight my skills in web development. Dive into a mix of work that showcases my dedication.</p>
+  <div clas="more_projects_box">
+    <div class="more_projects_box_name" onclick="registrationForm_href()">
+      <h2>Registration Form</h2>
+      <div class="more_projects_program">
+       <strong>JavaScript</strong>
+      <strong id="more_projects_year">2024</strong>
+      </div>
+    </div>
+    <div id="more_projects_hr"></div>
+    <div class="more_projects_box_name more_projects_box_name2" onclick="masonryImg_href()">
+      <h2>Masonry Img Gallery</h2>
+      <div class="more_projects_program">
+       <strong>JavaScript</strong>
+      <strong id="more_projects_year">2023</strong>
+      </div>
+    </div>
+    <div id="more_projects_hr"></div>
+    <div class="more_projects_box_name more_projects_box_name2" onclick="removeDuplicate_href()">
+      <h2>Remove Duplicate</h2>
+      <div class="more_projects_program">
+       <strong>JavaScript</strong>
+      <strong id="more_projects_year">2023</strong>
+      </div>
+    </div>
+    <div id="more_projects_hr"></div>
+    <div class="more_projects_box_name more_projects_box_name2" onclick="ageCalculator_href()">
+      <h2>Age Calculator</h2>
+      <div class="more_projects_program">
+       <strong>JavaScript</strong>
+      <strong id="more_projects_year">2023</strong>
+      </div>
+    </div>
+    <div id="more_projects_hr"></div>
+  </div>
+</div> 
+
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -166,10 +206,25 @@ function side_navbar_close(){
 
 // function available_btn(){}
 
-// function registrationForm_href() {}
-// function masonryImg_href() {}
-// function removeDuplicate_href() {}
-// function ageCalculator_href() {}
+function registrationForm_href() {
+  location.href = "https://github.com/Sachinbhujel/coding/tree/main/sachin.io/registrations_form";
+}
+
+function masonryImg_href() {
+  location.href = "https://github.com/Sachinbhujel/coding/tree/main/sachin.io/masonry_img"; 
+}
+
+function removeDuplicate_href() {
+  location.href = "https://github.com/Sachinbhujel/coding/tree/main/sachin.io/remove_duplicate"; 
+}
+
+function ageCalculator_href(){
+ location.href = "https://github.com/Sachinbhujel/coding/tree/main/sachin.io/age_calculator"; 
+}
+
+function sachin_io(){
+  location.href = "https://sachinbhujel.netlify.app"; 
+}
 
 gsap.to("#author_divs", {
    backgroundColor: "#F8F9FA", 
@@ -185,18 +240,31 @@ gsap.to("#author_divs", {
 gsap.from("#social_links", {
   y: 50,
   opacity: 0.2,
-  duration: 1,
+  duration: 0.3,
   stagger: 0.4,
   scrollTrigger: {
     trigger: "#social_links",
     scroller: "body",
     start: "top 60%",
     end: "top -10%",
-    scrub: 2,
+    scrub: 2, 
   }
-  
 });
 
+
+gsap.from("#more_projects", {
+  y: 40,
+  opacity: 0,
+  duration: .3,
+  stagger: 0.4,
+  scrollTrigger: {
+    trigger: "#more_projects",
+    scroller: "body",
+    start: "top 96%",
+    end: "top -10%",
+    scrub: 2, 
+  }
+});
 
 </script>
 </body>
