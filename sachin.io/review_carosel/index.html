@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Review Carosel</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+  <div class="main">
+    <h2>Our Reviews</h2>
+    <div class="box" id="box1">
+      <h3>Susan Diane</h3>
+      <p>This coconut beverage is absolutely delicious! I can't get enough of it.</p>
+      <div class="stars">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+      </div>
+      <button onclick="backOrNext(-1)" id="back">Back</button>
+      <button onclick="backOrNext(1)">Next</button>
+      <!--<button id="surprise" onclick="surprise()">Surprise</button>-->
+    </div>
+    <div class="box" id="box2">
+      <h3>M.s dhoni</h3>
+      <p>The coconut was too thick.</p>
+      <div class="stars">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+      </div>
+      <button onclick="backOrNext(-1)" id="back">Back</button>
+      <button onclick="backOrNext(1)">Next</button>
+      <!--<button id="surprise" onclick="surprise()">Surprise</button>-->
+    </div>
+    <div class="box" id="box3">
+      <h3>Virat kohli</h3>
+      <p>Even though I am allergic to coconut, I loved it.</p>
+      <div class="stars">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+      </div>
+      <button onclick="backOrNext(-1)" id="back">Back</button>
+      <button onclick="backOrNext(1)">Next</button>
+      <!--<button id="surprise" onclick="surprise()">Surprise</button>-->
+    </div>
+    <div class="box" id="box3">
+      <h3>Sally Nost</h3>
+      <p>I forgot what I ordered.</p>
+      <div class="stars">
+        <i class='bx bxs-star'></i>
+        <i class='bx bxs-star'></i>
+      </div>
+      <button onclick="backOrNext(-1)" id="back">Back</button>
+      <button onclick="backOrNext(1)">Next</button>
+      <!--<button id="surprise" onclick="surprise()">Surprise</button>-->
+    </div>
+  </div>
+</div>
+
+  <script>
+    var next = 1;
+showSlide(next);
+
+function backOrNext(n) {
+  showSlide(next += n); // next = next + n
+}
+
+function showSlide(n) {
+  var box = document.getElementsByClassName("box");
+
+  if (n > box.length) {
+    next = 1;
+  }
+  if (n < 1) {
+    next = box.length;
+  }
+
+  for (let i = 0; i < box.length; i++) {
+    box[i].style.display = "none";
+  }
+  box[next - 1].style.display = "block";
+}
+
+/*function surprise() {
+  let box = document.getElementsByClassName("box");
+  //let box1 = document.getElementById("box1");
+  //let box2 = document.getElementById("box2");
+  //let box3 = document.getElementById("box3");
+  for (let i = 0; i < box.length; i++) {
+    box[i].style.display = "none";
+  }
+}
+*/
+  </script>
+</body>
+</html>
