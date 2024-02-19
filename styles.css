@@ -470,6 +470,12 @@ body {
   border-radius: 99px;
 }
 
+#arrow:hover{
+  background: white;
+  color: black;
+  border: 1px solid black;
+}
+
 /*.navbar_divs{
   position: sticky;
   top: 0;
@@ -594,6 +600,70 @@ body {
   display: none;
 }
 
+@media (width<680px) {
+  .projects_box_img img {
+    width: 100%;
+    height: 290px;
+  }
+  .projects_box2 {
+    margin-top: 23px;
+  }
+  .projects_box3 {
+    margin-top: 23px;
+  }
+}
+
+@media (width<551px) {
+  .top_navbar {
+    padding-left: 20px;
+    padding-right: 12px;
+  }
+  .top_navbar_right {
+    display: none;
+  }
+  .menu {
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 36px !important;
+    padding-top: 6px;
+  }
+  .side_navbar {
+    transition: 0.3s;
+    width: 100%;
+    display: none;
+  }
+  .author_divs {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+  .projects_div {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+  .projects_box_img img {
+    width: 100%;
+    height: 250px;
+  }
+  .projects_box2 {
+    margin-top: 23px;
+  }
+  .projects_box3 {
+    margin-top: 23px;
+  }
+  .more_projects {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+}
+
+@media (width<400px) {
+  .projects_box_img img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+
 @media (width>881px) {
   .top_navbar {
     padding-left: 90px;
@@ -609,8 +679,8 @@ body {
     gap: 40px;
   }
   .author_divs {
-    padding-left: 80px;
-    padding-right: 390px;
+    padding-left: 80px !important;
+    padding-right: 390px !important;
   }
   .author_div_title {
     font-weight: 500;
@@ -690,68 +760,5 @@ body {
   #resume_btn {
     font-size: 17px;
     padding: 9px;
-  }
-}
-
-@media (width<680px) {
-  .projects_box_img img {
-    width: 100%;
-    height: 290px;
-  }
-  .projects_box2 {
-    margin-top: 23px;
-  }
-  .projects_box3 {
-    margin-top: 23px;
-  }
-}
-
-@media (width<551px) {
-  .top_navbar {
-    padding-left: 20px;
-    padding-right: 12px;
-  }
-  .top_navbar_right {
-    display: none;
-  }
-  .menu {
-    cursor: pointer;
-    transition: 0.3s;
-    font-size: 36px !important;
-    padding-top: 6px;
-  }
-  .side_navbar {
-    transition: 0.3s;
-    width: 100%;
-    display: none;
-  }
-  .author_divs {
-    padding-left: 27px;
-    padding-right: 27px;
-  }
-  .projects_div {
-    padding-left: 27px;
-    padding-right: 27px;
-  }
-  .projects_box_img img {
-    width: 100%;
-    height: 250px;
-  }
-  .projects_box2 {
-    margin-top: 23px;
-  }
-  .projects_box3 {
-    margin-top: 23px;
-  }
-  .more_projects {
-    padding-left: 27px;
-    padding-right: 27px;
-  }
-}
-
-@media (width<400px) {
-  .projects_box_img img {
-    width: 100%;
-    height: 200px;
   }
 }
