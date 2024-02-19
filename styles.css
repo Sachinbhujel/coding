@@ -494,6 +494,7 @@ body {
 
 @media (width<682px) {
   .projects_div {
+    width: 100%;
     justify-content: center;
   }
 }
