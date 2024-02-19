@@ -252,7 +252,7 @@ gsap.from("#social_links", {
 });
 
 
-gsap.from("#more_projects", {
+gsap.to("#more_projects", {
   y: 40,
   opacity: 0,
   duration: .3,
@@ -260,8 +260,7 @@ gsap.from("#more_projects", {
   scrollTrigger: {
     trigger: "#more_projects",
     scroller: "body",
-    start: "top 96%",
-    end: "top -10%",
+    start: "top 10%",
     scrub: 2, 
   }
 });
