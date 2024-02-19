@@ -240,6 +240,7 @@ body {
 /* CSS FOR PROJECTS DIV */
 .projects_div {
   display: flex;
+  justify-content: center;
   gap: 22px;
   margin-top: 80px;
   padding-left: 20px;
@@ -491,7 +492,7 @@ body {
   flex-wrap: wrap;
 }
 
-@media (width>682px) {
+@media (width<682px) {
   .projects_div {
     justify-content: center;
   }
