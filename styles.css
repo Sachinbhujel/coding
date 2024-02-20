@@ -876,6 +876,13 @@ body::-webkit-scrollbar{
   }
 }
 
+@media(width>550px){
+  .language_known{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
 @media (width>881px) {
   .language_known {
     padding-left: 70px;
@@ -939,6 +946,14 @@ body::-webkit-scrollbar{
 @media(width<400px){
   #footer_div3{
     display: block;
+  }
+}
+
+
+@media (width>550px) {
+  .footer{
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
