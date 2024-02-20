@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-body::-webkit-scrollbar{
+/*body::-webkit-scrollbar{
   display: block;
   width: 200px;
   background: blue;
-}
+}*/
 
 /* CSS FOR NAVBAR */
 
@@ -869,6 +869,10 @@ body::-webkit-scrollbar{
   }
   .language_known_box {
     width: 100%;
+  } 
+  .language_known_box2{
+    margin-top: 13px;
+    margin-bottom: 13px;
   }
 }
 
@@ -876,5 +880,79 @@ body::-webkit-scrollbar{
   .language_known {
     padding-left: 70px;
     padding-right: 70px;
+  }
+}
+
+/* CSS FOR FOOTER */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 14px;
+  padding-right: 20px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.footer_div {
+  padding: 11px;
+}
+
+.footer_div h3 {
+  margin-top: 1px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3.4px;
+  font-size: 1.46em;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.footer_div p {
+  color: rgb(87, 104, 113);
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.footer_div a{
+  text-decoration: none;
+}
+
+.footer_div p:hover {
+  color: #3A86FF;
+}
+
+#footer_div3{
+  display: none;
+}
+
+#footer_div4{
+  display: none;
+}
+
+@media (width<551px) {
+  .footer {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+}
+
+@media(width<400px){
+  #footer_div3{
+    display: block;
+  }
+}
+
+@media (width>881px) {
+  .footer {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  #footer_div4{
+    display: block;
+  }
+  #footer_div3{
+    display: block;
   }
 }
