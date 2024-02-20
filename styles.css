@@ -4,7 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
+body::-webkit-scrollbar{
+  display: block;
+  width: 200px;
+  background: blue;
 }
 
 /* CSS FOR NAVBAR */
