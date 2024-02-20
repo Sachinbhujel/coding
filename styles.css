@@ -128,14 +128,14 @@ body {
 
 .author_img_div {
   background: #ade8f4;
-  width: 93px !important;
-  height: 93px !important;
+  width: 97px !important;
+  height: 97px !important;
   border-radius: 99px;
 }
 
 #author_img{
-  width: 93px !important;
-  height: 93px !important;
+  width: 97px !important;
+  height: 97px !important;
   border-radius: 99px;
 }
 
@@ -771,5 +771,107 @@ body {
   }
   .more_projects_box_name strong {
     font-size: 17px;
+  }
+}
+
+/* CSS FOR LANGUAGE KNOWN */
+.language_known {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 60px;
+}
+
+#skills_title {
+  font-size: 32px;
+  font-family: sans-serif;
+  margin-top: 70px;
+}
+
+.skills_hr {
+  border: 1px solid white;
+  margin-top: 4px;
+  width: 62px;
+}
+
+.language_known_div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 26px;
+  gap: 20px;
+}
+
+.language_known_box {
+  border-radius: 8px;
+  padding: 20px;
+  background: white;box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.language_known_box h3 {
+  font-weight: 600;
+  color: rgb(87, 87, 87);
+}
+
+.box_hr {
+  border: 1px solid grey;
+  margin-top: 10px;
+}
+
+.language_name {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+#blue_color {
+  background: #3a86ff;
+  font-family: sans-serif;
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+#red_color {
+  font-size: 14px;
+    font-family: sans-serif;
+  border-radius: 8px;
+  padding: 10px;
+  background: #ef233c;
+  color: white;
+}
+
+#black_color {
+  font-size: 14px;
+    font-family: sans-serif;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  background: black;
+}
+
+#green_color {
+  font-size: 14px;
+  border-radius: 8px;
+    font-family: sans-serif;
+  padding: 10px;
+  color: white;
+  background: #29bf12;
+}
+
+@media (width<551px) {
+  .language_known {
+    padding-left: 27px;
+    padding-right: 27px;
+  }
+  .language_known_box {
+    width: 100%;
+  }
+}
+
+@media (width>881px) {
+  .language_known {
+    padding-left: 70px;
+    padding-right: 70px;
   }
 }
