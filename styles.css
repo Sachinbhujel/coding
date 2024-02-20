@@ -623,6 +623,7 @@
 
 .more_projects h1 {
   font-size: 32px;
+  font-weight: 400;
   font-family: sans-serif;
   margin-top: 70px;
 }
@@ -785,6 +786,7 @@
 }
 
 #skills_title {
+  font-weight: 400;
   font-size: 32px;
   font-family: sans-serif;
   margin-top: 70px;
@@ -806,7 +808,7 @@
 .language_known_box {
   border-radius: 8px;
   padding: 20px;
-  background: white;box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
 .language_known_box h3 {
@@ -948,7 +950,6 @@
     display: block;
   }
 }
-
 
 @media (width>550px) {
   .footer{
