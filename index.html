@@ -17,7 +17,8 @@
 </div>-->
 
 
-<nav class="top_navbar" id="top_navbar">
+<div id="container">
+  <nav class="top_navbar" id="top_navbar">
     <h1 onclick="sachin_io()">sachin.io</h1>
     <div class="top_navbar_right">
       <a href="#">
@@ -223,6 +224,12 @@
         <a href=""><p class="footer_para">Our Team</p></a>
       </div>
     </div>
+  </div>
+  
+  <div class="loader_div" id="loader_div">
+    <div class="loader"></div>
+  </div>
+
 
   
   
@@ -309,6 +316,14 @@ gsap.from("#social_links", {
     scrub: 2, 
   }
 });*/
+
+  document.addEventListener("DOMContentLoaded", function() {
+  setTimeout(function() {
+    document.getElementById("loader_div").style.display = "none";
+    document.getElementById("container").style.display = "block";
+  }, 3000);
+});
+
 
   
 </script>
