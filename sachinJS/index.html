@@ -5,8 +5,85 @@
   <title>sachinJS</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
-  
+  <!-- HTML CODE FOR NAVBAR -->
+<div class="navbar">
+  <h1 onclick="mainWebsite()">sachin<span id="js_title">JS</span></h1>
+  <div class="navbar_right">
+    <a href="/sachinjs_home/">Home</a>
+    <a href="/sachinjs_news/">News</a>
+    <a href="/sachinjs_about/">About</a>
+    <a href="/sachinjs_contact/">Contact</a>
+  </div>
+  <span class="material-symbols-outlined" id="menu" onclick="openNav()">
+    menu
+  </span>
+</div>
+
+
+<!-- HTML CODE FOR SIDE NAVBAR -->
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="/sachinjs_home/">Home</a>
+    <a href="/sachinjs_news/">News</a>
+    <a href="/sachinjs_about/">About</a>
+    <a href="/sachinjs_contact/">Contact</a>
+    <a href="/sachinjs_services/">Services</a>
+  </div>
+</div>
+
+
+<!--HTML CODE FOR PROJECTS DIV -->
+<div class="projects_div">
+  <div class="projects_box" onclick="tip_calculator()">
+    <img src="https://i.imgur.com/3ibJ3bR.jpeg">
+    <h2>Tip Calculator Project</h2>
+    <p>In this project, we're creating a modern tip calculator with a simple yet stylish interface...</p>
+    <a href="#"><p id="projects_details">Project Details</p></a>
+  </div>
+  <div class="projects_box" onclick="age_calculator()">
+    <img src="https://i.imgur.com/ZWgHJX1.jpeg">
+    <h2>Age Calculator Project</h2>
+    <p>In this project, our objective is to craft an age calculator. As evident from the final version...</p>
+    <a href="#"><p id="projects_details">Project Details</p></a>
+  </div>
+  <div class="projects_box" onclick="dice_roll()">
+    <img src="https://i.imgur.com/6o6qOAB.jpeg">
+    <h2>Dice Roll Simulator</h2>
+    <p>Welcome to the Dice Roll Simulator project. The final iteration showcases a...</p>
+    <a href="#"><p id="projects_details">Project Details</p></a>
+  </div>
+  <div class="projects_box" onclick="pomodoro_timer()">
+    <img src="https://i.imgur.com/BTOuVe0.jpeg">
+    <h2>Pomodoro Timer</h2>
+    <p>In this project, we're creating a modern pomodoro timer with a simple yet stylish interface.</p>
+    <a href="#"><p id="projects_details">Project Details</p></a>
+  </div>
+</div>
+
+  <script>
+    //function tip_calculator(){}
+
+//function age_calculator(){}
+
+//function dice_roll(){}
+
+//function pomodoro_timer(){}
+
+function mainWebsite(){
+  window.location.href = 'https://sachinjs.netlify.app';
+}
+
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+  </script>
 </body>
 </html>
