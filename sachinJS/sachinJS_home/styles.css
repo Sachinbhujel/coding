@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+}
+
+/* CSS FOR NAVBAR */
+.navbar{
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  padding: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar h1{
+  cursor: pointer;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+#js_title{
+  font-weight: 500;
+  font-size: 34px;
+  color: yellow;
+}
+
+.navbar_right{
+  display: flex;
+  gap: 25px;
+}
+
+.navbar_right a{
+  cursor: pointer;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  transition: .3s ease-in-out;
+  text-decoration: none;
+}
+
+.navbar_right a:hover{
+  color: yellow;
+}
+
+#menu{
+  font-size: 37px;
+  display: none;
+  color: white;
+}
+
+@media(width<600px){
+  .navbar_right{
+    display: none;
+  }
+  #menu{
+    display: block;
+  }
+}
+
+/* CSS FOR SIDE NAVBAR */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 16%;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 28px;
+  margin-top: 12px;
+  color: #818181;
+  display: block;
+  font-family: sans-serif;
+  transition: 0.3s;
+}
+
+.overlay a:hover{
+  color: yellow;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -21px;
+  right: 16px;
+  font-size: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+
+
+/* CSS FOR HOME TITLE */
+.home_title{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 45px;
+  padding: 40px;
+  background-color: rgb(31 41 55);
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+.home_title h1{
+  font-size: 31px;
+  color: white;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.home_title p{
+  color: rgb(209, 213, 219);
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+@media(width<650px){
+  .home_title{
+    flex-direction: column;
+    gap: 20px;
+    padding: 26px;
+  }
+}
+
+
+
+/*footer{
+  background: black;
+  padding: 20px;
+  text-align: center;
+  margin-top: 180px;
+}
+
+footer p{
+  color: white;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+#js_footer{
+  color: yellow;
+}
+
+#html_css{
+  font-weight: 600;
+  color: rgb(5, 71, 163);
+}
+
+.social_icons{
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+  padding-left: 20px;
+}*/
