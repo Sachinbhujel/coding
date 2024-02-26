@@ -480,6 +480,7 @@ button{
 
 /* FOOTER */
 footer{
+  display: none;
   background: black;
   padding: 20px;
   text-align: center;
