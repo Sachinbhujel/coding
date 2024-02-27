@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+#author_img{
+  object-fit: cover;
+}
+
 /*body::-webkit-scrollbar{
   display: block;
   width: 200px;
