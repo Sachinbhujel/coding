@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="UTF-8" />
+  <title>Tip Calculator Demo</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  
+  <div class="main">
+  <div class="container">
+    <h1>Tip Calculator</h1>
+    <p>Enter the bill amount and tip percentage to calculate the total.</p>
+    <div class="input_div">
+      <label>Bill amount:</label>
+          <input type="number" id="bill">
+    </div>
+    <div class="input_div">
+      <label>Tip percentage: <span id="warning">Don't use (%)</span></label>
+          <input type="number" id="percent">
+    </div>
+    <button onclick="calculate()">CALCULATE</button>
+    <p id="total">Total: <span id="answer"></span></p>
+  </div>
+</div>
+
+<script>
+  function calculate(){
+  let bill = document.getElementById("bill").value;
+  let percent = document.getElementById("percent").value;
+  let answer = document.getElementById("answer");
+    
+  let totalValue = bill * (1 + percent / 100);
+  answer.innerText = totalValue.toFixed(2);
+}
+</script>  
+</body>
+</html>
