@@ -1,0 +1,229 @@
+*{
+  margin: 0;
+}
+
+/* CSS FOR NAVBAR */
+.navbar{
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  padding: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar h1{
+  cursor: pointer;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+#js_title{
+  font-weight: 500;
+  font-size: 34px;
+  color: yellow;
+}
+
+.navbar_right{
+  display: flex;
+  gap: 25px;
+}
+
+.navbar_right a{
+  cursor: pointer;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+  transition: .3s ease-in-out;
+  text-decoration: none;
+}
+
+.navbar_right a:hover{
+  color: yellow;
+}
+
+#menu{
+  font-size: 37px;
+  display: none;
+  color: white;
+}
+
+@media(width<600px){
+  .navbar_right{
+    display: none;
+  }
+  #menu{
+    display: block;
+  }
+}
+
+/* CSS FOR SIDE NAVBAR */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 16%;
+  width: 100%;
+  text-align: center;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 28px;
+  margin-top: 12px;
+  color: #818181;
+  display: block;
+  font-family: sans-serif;
+  transition: 0.3s;
+}
+
+.overlay a:hover{
+  color: yellow;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -21px;
+  right: 16px;
+  font-size: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+
+
+/* DETAILS */
+
+.details{
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 10px;
+  margin-top: 38px;
+}
+
+.details h1{
+  font-family: sans-serif;
+  font-size: 26px;
+  text-align: center;
+}
+
+.details img{
+  width: 400px;
+  object-fit: cover;
+  margin-top: 30px;
+  height: 280px;
+  background: silver;
+  padding: 3px;
+}
+
+@media(width<414px){ 
+  .details img{
+   width: 310px;
+  }
+}
+
+@media(width<330px){ 
+  .details img{
+   width: 280px;
+  }
+}
+
+.details_info{
+ padding-left: 10px;
+  padding-right: 10px;
+}
+
+.details_info h3{
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  margin-top: 27px;
+  font-size: 18px;
+}
+
+.details_info p{
+  font-family: sans-serif;
+  color: rgb(87, 87, 87);
+  font-size: 18px;
+}
+
+.demo_source{
+  margin-top: 25px;
+}
+
+.demo_source h3{
+  font-family: sans-serif;
+  margin-bottom: 10;
+  font-size: 18px;
+}
+
+button{
+  font-family: sans-serif;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+#live_demo{
+  background-color: rgb(42, 87, 0);
+  margin-bottom: 20px;
+}
+
+#source_code{
+  background-color: rgb(36, 36, 255);
+  margin-bottom: 20px;
+}
+
+
+
+footer{
+  background: black;
+  padding: 20px;
+  text-align: center;
+  margin-top: 130px;
+}
+
+footer p{
+  color: white;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+#js_footer{
+  color: yellow;
+}
+
+@media(width>500px){
+  footer{
+    display: none;
+  }
+}
