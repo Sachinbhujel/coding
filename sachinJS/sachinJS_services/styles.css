@@ -132,7 +132,7 @@ img{
 .container__box{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
-  gap: 21px;
+  gap: 24px;
   padding-bottom: 10px;
 }
 
