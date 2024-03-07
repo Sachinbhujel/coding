@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Age Calculator</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="navbar">
+  <h1 onclick="mainWebsite()">sachin<span id="js_title">JS</span></h1>
+  <div class="navbar_right">
+  <a href="/sachinjs_home/">Home</a>
+  <a href="/sachinjs_news/">News</a>
+  <a href="/sachinjs_about/">About</a>
+  <a href="/sachinjs_contact/">Contact</a>
+  </div>
+  <span class="material-symbols-outlined" id="menu" onclick="openNav()">
+    menu
+  </span>
+</div>
+
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="/sachinjs_home/">Home</a>
+    <a href="/sachinjs_news/">News</a>
+    <a href="/sachinjs_about/">About</a>
+    <a href="/sachinjs_contact/">Contact</a>
+    <a href="/sachinjs_services/">Services</a>
+  </div>
+</div>
+
+
+<div class="details">
+  <h1>Age Calculator - A Simple Project with HTML, CSS, and JavaScript</h1>
+  <img src="https://i.imgur.com/ZWgHJX1.jpeg">
+</div>
+
+
+<div class="details_info">
+  <h3>Project description</h3>
+<p>I've created an age calculator with three input fields for entering the date, month, and year. Following that, I've included a button that, upon tapping, will provide your age. CSS was utilized for styling, while JavaScript handles the functionality.</p>
+  <div class="demo_source">
+    <h3>Age Calculator Project Live Demo</h3>
+    <button id="live_demo" onclick="live_demo">Live Demo</button>
+    
+    <h3>Age Calculator Project Source Code</h3>
+    <button id="source_code" onclick="source_code()">Source Code</button>
+  </div>
+</div>
+
+
+<footer>
+  <p>© 2023 sachin<span id="js_footer">JS</span>. All rights reserved.</p>
+</footer>
+
+  <script>
+    function mainWebsite(){
+  window.location.href = 'https://sachinjs.netlify.app';
+}
+
+function live_demo(){
+  window.location.href = '/';
+}
+
+function source_code(){
+  window.location.href = "";
+}
+
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+  </script>
+</body>
+</html>
