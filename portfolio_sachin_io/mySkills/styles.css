@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: none;
+  box-sizing: border-box;
+}
+
+/* CSS FOR NAVBAR */
+
+#green {
+  color: #80ed99;
+}
+
+.top_navbar {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+  position: sticky;
+  top: 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 0.3s ease;
+}
+
+.top_navbar h1 {
+  font-family: "Protest Revolution", sans-serif;
+  font-weight: 500;
+  font-size: 34px;
+  color: white;
+}
+
+.top_navbar img {
+}
+
+.top_navbar_right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.top_navbar_right a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.top_navbar_right h4 {
+  margin-top: 6px;
+  font-family: sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+  display: inline-block; /* Display inline block */
+  position: relative; /* Set position relative */
+}
+
+.top_navbar_right h4:hover {
+  color: #80ed99;
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+
+.top_navbar_right h4:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0; 
+  background-color: #80ed99;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.top_navbar_right h4:hover:after {
+  transform: scaleX(1);
+  opacity: 0.8;
+  transform-origin: bottom left;
+}
+
+.navbar_icons {
+  display: flex;
+  align-items: center;
+}
+
+#skills {
+  display: none;
+}
+
+/* CSS FOR SIDE NAVBAR */
+
+.side_navbar {
+  width: 100%;
+  height: 100vh;
+  transition: 0.3s ease;
+  background: black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  margin-top: -80px;
+}
+
+.side_navbar_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+#side_navbar_close {
+  transition: 0.3s;
+  font-size: 36px;
+  color: white;
+}
+
+.side_navbar_middle {
+  transition: 0.3s;
+  margin-top: 30px;
+}
+
+.side_navbar_middle a {
+  color: white;
+  text-decoration: none;
+}
+
+.side_navbar_middle h1 {
+  font-weight: 200;
+  font-family: sans-serif;
+  font-size: 21px;
+  transition: 0.3s;
+  padding: 2px;
+}
+
+.side_navbar_middle h1:hover {
+  color: black;
+  padding-left: 10px;
+  transform: scaleY(1);
+  box-shadow: inset 100px 0 0 0 white;
+}
+
+.side_navbar_hr {
+  border: 0.6px solid white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+@media (width<551px) {
+  .top_navbar_right {
+    display: none;
+  }
+  .menu {
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 36px !important;
+    padding-top: 6px;
+  }
+  .side_navbar {
+    transition: 0.3s;
+    display: none;
+  }
+}
+
+@media (width>550px) {
+  .navbar_icons {
+    display: none;
+  }
+  .side_navbar {
+    display: none;
+  }
+}
+
+@media (width>881px) {
+  .top_navbar {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .top_navbar h1 {
+    font-size: 40px;
+  }
+  #skills {
+    display: block;
+  }
+  .top_navbar_right {
+    gap: 40px;
+  }
+}
+
+.page2{
+  width: 100%;
+  height: 76vh;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.container__box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+  gap: 24px;
+  padding-bottom: 10px;
+}
+
+.page2 .container__box .box{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 6px;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.container__heading{
+  margin-bottom: 15px;
+  text-align: center;
+  padding-bottom: 15px;
+  color: black;
+  font-size: 37px;
+  font-family: cursive;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.container__box .box h3{
+  color: black;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.container__box .box p{
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+  font-family: sans-serif;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+.page2 .container__box .box a{
+  border-radius: 4px;
+  background:#444;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 8px;
+  font-size: 18px;
+  color: white;
+}
+.page2 .container__box .box a:hover{
+  background: #908080;
+}
+.box img{
+  width: 60px;
+  height: 60px;
+}
+
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+  position: fixed;
+  bottom: 0;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+}
