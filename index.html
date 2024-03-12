@@ -12,8 +12,8 @@
 </head>
 <body>
   <!-- Navbar-->
-<nav class="top_navbar">
-  <h1>sachin.<span id="green">io</span></h1>
+<nav class="top_navbar" id="top_navbar">
+  <h1 id="logo">sachin.<span id="green">io</span></h1>
   <div class="top_navbar_right">
     <a href="#">
       <h4>Home</h4>
@@ -133,9 +133,23 @@ HTML is easy to learn - You will enjoy it!</p>
 
 
 
+<div class="page3">
+    
+</div>
+
+
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
 <script>
-  function menuBtn(){
+  var typed = new Typed('#element', {
+    strings: ['Web developer.', 'Learner.', 'Coder.', 'Web designer.'],
+    typeSpeed: 70,
+  });
+</script>
+
+  <script>
+function menuBtn(){
   //document.getElementById("side_navbar").style.display = "block";
   if(document.getElementById("side_navbar").style.display == "block"){
     document.getElementById("side_navbar").style.display = "none";
@@ -153,8 +167,10 @@ function side_navbar_close(){
 
 
 
-
-window.onscroll = function() {myFunction()};
+window.onscroll = function() {
+  myFunction();
+  scrollFunction();
+};
 
 function myFunction() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
@@ -162,17 +178,21 @@ function myFunction() {
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
-</script>
 
 
-  
-<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
-<script>
-  var typed = new Typed('#element', {
-    strings: ['Web developer.', 'Learner.', 'Coder.', 'Web designer.'],
-    typeSpeed: 70,
-  });
-</script>
+
+
+
+
+function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    document.getElementById("top_navbar").style.padding = "11px";
+  } else {
+    document.getElementById("top_navbar").style.padding = "17px";
+  }
+}
+  </script>
+
 </body>
 </html>
