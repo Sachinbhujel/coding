@@ -139,6 +139,36 @@ HTML is easy to learn - You will enjoy it!</p>
 
 
 
+
+<script>
+  function menuBtn(){
+  //document.getElementById("side_navbar").style.display = "block";
+  if(document.getElementById("side_navbar").style.display == "block"){
+    document.getElementById("side_navbar").style.display = "none";
+  } else{
+    document.getElementById("side_navbar").style.display = "block";
+  }
+}
+
+function side_navbar_close(){
+  document.getElementById("side_navbar").style.display = "none";
+}
+
+
+
+
+
+
+
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+</script>
 <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 
 <script>
