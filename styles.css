@@ -8,7 +8,7 @@
 /* CSS FOR NAVBAR */
 
 #green {
-  color: #80ed99;
+  color: #CED4DA;
 }
 
 .top_navbar {
@@ -57,20 +57,20 @@
 }
 
 .top_navbar_right h4:hover {
-  color: #80ed99;
+  color: #DEE2E6;
   transition: 0.3s;
   transform: scale(1.1);
 }
 
 .top_navbar_right h4:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
   height: 2px;
   bottom: 0;
-  left: 0; 
-  background-color: #80ed99;
+  left: 0;
+  background-color: #CED4DA;
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -173,8 +173,8 @@
 
 @media (width>881px) {
   .top_navbar {
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .top_navbar h1 {
     font-size: 40px;
@@ -188,7 +188,7 @@
 }
 
 .page1 {
-  width: 100%;
+ /* width: 100%;*/
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -206,13 +206,15 @@
 .left p {
   font-family: sans-serif;
   font-size: 20px;
-  color: #495057;
+  color: white;
+  font-weight: 200;
   text-align: center;
 }
 
 .left h1 {
   text-align: center;
   font-weight: 700;
+  color: white;
   font-size: 53px;
   font-family: "Freehand", cursive;
 }
@@ -226,12 +228,12 @@
   }
 }
 
-  .right {
-    display: flex;
-    gap: 10px;
-  }
+.right {
+  display: flex;
+  gap: 10px;
+}
 
-.right img{
+.right img {
   width: 34px;
 }
 
@@ -239,6 +241,9 @@
   opacity: 0.6;
 }
 
+#element {
+  color: #dee2e6;
+}
 
 /*.page2{
   width: 100%;
@@ -299,46 +304,54 @@
   width: 0%;
 }*/
 
-.page2{
-  width: 100%;
-  height: 76vh;
+.page2 {
+ /* width: 100%;
+  height: 100vh;*/
   padding-left: 10px;
   padding-right: 10px;
+  padding-top: 80px;
 }
 
-.container__box{
+/*@media (width>900px) {
+  .page2 {
+    padding-top: 100px;
+  }
+}*/
+
+.container__box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
   gap: 24px;
   padding-bottom: 10px;
 }
 
-.page2 .container__box .box{
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+.page2 .container__box .box {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   border-radius: 6px;
   text-align: center;
   padding: 20px 30px;
 }
 
-.container__heading{
+.container__heading {
   margin-bottom: 15px;
   text-align: center;
   padding-bottom: 15px;
   color: black;
-  font-size: 37px;
+  font-size: 40px;
   font-family: cursive;
   font-weight: 600;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-.container__box .box h3{
+.container__box .box h3 {
   color: black;
   font-family: sans-serif;
   font-size: 18px;
   font-weight: 600;
 }
 
-.container__box .box p{
+.container__box .box p {
   font-size: 14px;
   font-weight: 400;
   color: #555;
@@ -346,23 +359,22 @@
   margin-top: 10px;
   margin-bottom: 24px;
 }
-.page2 .container__box .box a{
+.page2 .container__box .box a {
   border-radius: 4px;
-  background:#444;
+  background: #444;
   text-decoration: none;
   font-family: sans-serif;
   padding: 8px;
   font-size: 18px;
   color: white;
 }
-.page2 .container__box .box a:hover{
+.page2 .container__box .box a:hover {
   background: #908080;
 }
-.box img{
+.box img {
   width: 60px;
   height: 60px;
 }
-
 
 .progress-container {
   width: 100%;
@@ -374,8 +386,113 @@
 
 .progress-bar {
   height: 8px;
-  background: #04AA6D;
+  background: #495057;
   width: 0%;
 }
 
+.page1 {
+  overflow: auto;
+  background: linear-gradient(black 38%, #373f51 68%, #0a0908 98%);
+  animation: gradient 8s ease infinite;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+}
 
+.github {
+  width: 38px !important;
+  margin-top: -1px;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+
+.page3{
+  width: 100%;
+  overflow: auto;
+  background: linear-gradient(black 38%, #373f51 68%, #0a0908 98%);
+  animation: gradient 8s ease infinite;
+  padding-left: 10px; 
+  padding-right: 10px;
+  background-size: 400% 400%;
+  background-attachment: fixed;
+  margin-top: 110px;
+}
+
+
+.page3 h1{
+  margin-bottom: 15px;
+  text-align: center;
+  padding-bottom: 15px;
+  color: white;
+  font-size: 40px;
+  font-family: cursive;
+  font-weight: 600;
+  padding-top: 100px;
+}
+
+.page3_box_div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 24px;
+  padding-bottom: 10px;
+}
+
+.page3 .page3_box_div .page3_box {
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background: #F8F9FA;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.page3_box_div .page3_box h3 {
+  color: black;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.page3_box p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #555;
+  font-family: sans-serif;
+  margin-top: 10px;
+  margin-bottom: 24px;
+}
+
+.page3_box_buttons{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.page3_box a {
+  border-radius: 4px;
+  background: #444;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 8px;
+  font-size: 14px;
+  color: white;
+}
+ .page3_box a:hover {
+  background: #908080;
+}
+.page3_box img {
+  width: 60px;
+  height: 60px;
+}
+
+.page3_box3{
+  margin-bottom: 110px;
+}
